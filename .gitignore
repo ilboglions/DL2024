@@ -164,3 +164,6 @@ cython_debug/
 # Datasets & Model weights
 datasets/*
 models/*
+
+# USELESS
+.DS_Store
