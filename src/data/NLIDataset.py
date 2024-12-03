@@ -19,7 +19,7 @@ class NLIDataset(Dataset):
         self.dataset = self.dataset.map(self.tokenize_function, batched=True) 
         self.dataset = self.dataset.map(self.change_labels, batched=True)
         self.dataset = self.dataset.rename_column('label', 'labels') 
-        self.dataset = self.dataset.select_columns(['input_ids', 'attention_mask', 'labels'])
+        #self.dataset = self.dataset.select_columns(['input_ids', 'attention_mask', 'labels'])
 
     def __len__(self):
         return len(self.dataset)
