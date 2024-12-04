@@ -1,4 +1,4 @@
-from datasets import load_dataset
+from datasets import load_dataset, ClassLabel
 from torch.utils.data import Dataset
 import numpy as np
 
@@ -14,12 +14,12 @@ class NLIDataset(Dataset):
     
     def change_labels(self, samples):
         raise NotImplementedError('Subclasses should implement this method.')
-
+    
     def preprocess(self):
         self.dataset = self.dataset.map(self.tokenize_function, batched=True) 
         self.dataset = self.dataset.map(self.change_labels, batched=True)
         self.dataset = self.dataset.rename_column('label', 'labels') 
-        #self.dataset = self.dataset.select_columns(['input_ids', 'attention_mask', 'labels'])
+        self.dataset = self.dataset.select_columns(['input_ids', 'attention_mask', 'labels'])
 
     def __len__(self):
         return len(self.dataset)
@@ -44,17 +44,24 @@ class SNLIDataset(NLIDataset):
     def preprocess(self):
         print(f'Processing SNLI-style Hugging Face dataset')
         self.dataset = self.dataset.filter(lambda example: example['label'] != -1 and example['label'] != 1)
+        new_features = self.dataset.features.copy()
+        new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
+        self.dataset = self.dataset.cast(new_features)
         super().preprocess()
         
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 2] = 1  
+        labels[labels == 2] = self.tokenizer.encode(" No")  
+        labels[labels == 0] = self.tokenizer.encode(" Yes")
         batch['label'] = labels.tolist() 
         return batch
      
     def tokenize_function(self,batch):
+        premise = np.array(batch['premise'])
+        hypothesis = np.array(batch['hypothesis'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['premise'], batch['hypothesis'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )        
 
 class SciTailDataset(NLIDataset):
@@ -70,14 +77,17 @@ class SciTailDataset(NLIDataset):
         
     def change_labels(self,batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[batch['label'] == 'entails'] = 0 
-        values[batch['label'] == 'contradiction'] = 1
+        values[np.where(np.array(batch['label']) == 'entails')] = self.tokenizer.encode(" Yes")
+        values[np.where(np.array(batch['label']) == 'contradiction')] = self.tokenizer.encode(" No")  
         batch['label'] = values
         return batch
 
     def tokenize_function(self,batch):
+        premise = np.array(batch['premise'])
+        hypothesis = np.array(batch['hypothesis'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['premise'], batch['hypothesis'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )
 
 class GLUEDataset(NLIDataset):
@@ -88,14 +98,24 @@ class GLUEDataset(NLIDataset):
 
     def preprocess(self):
         print(f'Processing GLUE-style Hugging Face dataset')
+        new_features = self.dataset.features.copy()
+        new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
+        self.dataset = self.dataset.cast(new_features)
         super().preprocess()
 
     def change_labels(self,batch):
-        return batch  
+        labels = np.array(batch['label'])  
+        labels[labels == 1] = self.tokenizer.encode(" No")  
+        labels[labels == 0] = self.tokenizer.encode(" Yes")
+        batch['label'] = labels.tolist() 
+        return batch
 
     def tokenize_function(self,batch):
+        premise = np.array(batch['sentence1'])
+        hypothesis = np.array(batch['sentence2'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['sentence1'], batch['sentence2'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )
     
 class RTEDataset(GLUEDataset):
@@ -112,8 +132,8 @@ class WNLIDataset(GLUEDataset):
     
     def change_labels(self, batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[np.where(np.array(batch['label']) == 0)[0]] = 1 
-        values[np.where(np.array(batch['label']) == 1)[0]] = 0
+        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(" No") 
+        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(" Yes") 
         batch['label'] = values
         return batch
 
@@ -129,19 +149,24 @@ class PAWSDataset(NLIDataset):
 
     def preprocess(self):
         print(f'Processing PAWS-style Hugging Face dataset')
+        new_features = self.dataset.features.copy()
+        new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
+        self.dataset = self.dataset.cast(new_features)
         super().preprocess()
 
     def change_labels(self,batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[np.where(np.array(batch['label']) == 0)[0]] = 1 
-        values[np.where(np.array(batch['label']) == 1)[0]] = 0
+        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(" No") 
+        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(" Yes") 
         batch['label'] = values
-        print(batch['label'])
         return batch
         
     def tokenize_function(self,batch):
+        premise = np.array(batch['sentence1'])
+        hypothesis = np.array(batch['sentence2'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['sentence1'], batch['sentence2'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )
 
 class HANSDataset(NLIDataset):
@@ -151,14 +176,24 @@ class HANSDataset(NLIDataset):
 
     def preprocess(self):
         print(f'Processing Hans-style Hugging Face dataset')
+        new_features = self.dataset.features.copy()
+        new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
+        self.dataset = self.dataset.cast(new_features)
         super().preprocess()
         
     def change_labels(self,batch):
+        labels = np.array(batch['label'])  
+        labels[labels == 1] = self.tokenizer.encode(" No")  
+        labels[labels == 0] = self.tokenizer.encode(" Yes")
+        batch['label'] = labels.tolist() 
         return batch
      
     def tokenize_function(self,batch):
+        premise = np.array(batch['premise'])
+        hypothesis = np.array(batch['hypothesis'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['premise'], batch['hypothesis'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )
 
 class ANLIDataset(NLIDataset):
@@ -169,17 +204,22 @@ class ANLIDataset(NLIDataset):
     def preprocess(self):
         print(f'Processing anli-style Hugging Face dataset')
         self.dataset = self.dataset.filter(lambda example: example['label'] != 1)
+        new_features = self.dataset.features.copy()
+        new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
+        self.dataset = self.dataset.cast(new_features)
         super().preprocess()
         
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 2] = 1  
+        labels[labels == 2] = self.tokenizer.encode(" No")
+        labels[labels == 0] = self.tokenizer.encode(" Yes") 
         batch['label'] = labels.tolist() 
         return batch
      
     def tokenize_function(self,batch):
+        premise = np.array(batch['premise'])
+        hypothesis = np.array(batch['hypothesis'])
+        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
         return self.tokenizer(
-        batch['premise'], batch['hypothesis'], truncation=True, padding='max_length', max_length=128
+        combined, truncation=True, padding='max_length', max_length=128
         )
-
-
