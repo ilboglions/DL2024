@@ -23,8 +23,8 @@ def main(config):
         model=model,
         args=TrainingArguments(**config['model']['training']),
         train_dataset=train_dataset,
-        #eval_dataset=eval_datasets,
-        #compute_metrics=lambda eval_predictions: eval_metrics(eval_predictions, model.get_mapping())
+        eval_dataset=eval_datasets,
+        compute_metrics=lambda eval_predictions: eval_metrics(eval_predictions, model.get_mapping())
     )
     trainer.train()
 
