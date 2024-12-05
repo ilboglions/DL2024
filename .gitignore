@@ -167,3 +167,5 @@ models/*
 
 # USELESS
 .DS_Store
+wandb/*
+*.out
