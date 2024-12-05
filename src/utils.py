@@ -33,8 +33,8 @@ def get_model(model_name, *args, **kwargs):
     return MODEL_DICT[model_name](*args, **kwargs)
 
 def eval_metrics(eval_predictions, mapping):
-    pred = eval_predictions.predictions.logits
-    labels = eval_predictions.labels_ids
+    pred = eval_predictions.predictions
+    labels = eval_predictions.label_ids
     bin_labels = np.zeros(labels.shape)
     bin_labels[labels == mapping[1]] = 1
     pred_labels = np.argmax(pred, axis=1)

@@ -31,7 +31,9 @@ class NLIDataset(Dataset):
         input_ids = tokenized_data['input_ids']
         attention_mask = tokenized_data['attention_mask']
         labels = tokenized_data['labels']
-        return torch.tensor(input_ids), torch.tensor(attention_mask), torch.tensor(labels)
+        return {"input_ids" : torch.tensor(input_ids), 
+                "attention_mask" : torch.tensor(attention_mask), 
+                "labels" : torch.tensor(labels)}
     
 class SNLIDataset(NLIDataset):
 
