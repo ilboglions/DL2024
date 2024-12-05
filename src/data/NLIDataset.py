@@ -1,12 +1,14 @@
 from datasets import load_dataset, ClassLabel
 from torch.utils.data import Dataset
 import numpy as np
+import torch
 
 class NLIDataset(Dataset):
 
-    def __init__(self, tokenizer, dataset):
+    def __init__(self, tokenizer, answer_tokens, dataset):
         self.tokenizer = tokenizer
         self.dataset = dataset
+        self.answer_tokens = answer_tokens
         self.preprocess()
 
     def tokenize_function(self, samples):
@@ -29,17 +31,13 @@ class NLIDataset(Dataset):
         input_ids = tokenized_data['input_ids']
         attention_mask = tokenized_data['attention_mask']
         labels = tokenized_data['labels']
-        return {
-            'input_ids': input_ids,
-            'attention_mask': attention_mask,
-            'labels': labels
-        }
+        return torch.tensor(input_ids), torch.tensor(attention_mask), torch.tensor(labels)
     
 class SNLIDataset(NLIDataset):
 
-    def __init__(self, tokenizer, dataset_name='stanfordnlp/snli', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='stanfordnlp/snli', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing SNLI-style Hugging Face dataset')
@@ -51,8 +49,8 @@ class SNLIDataset(NLIDataset):
         
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 2] = self.tokenizer.encode(" No")  
-        labels[labels == 0] = self.tokenizer.encode(" Yes")
+        labels[labels == 2] = self.tokenizer.encode(self.answer_tokens[1])[-1]
+        labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1]
         batch['label'] = labels.tolist() 
         return batch
      
@@ -66,9 +64,9 @@ class SNLIDataset(NLIDataset):
 
 class SciTailDataset(NLIDataset):
 
-    def __init__(self, tokenizer, dataset_name='allenai/scitail', format= 'dgem_format', split='train', cache_dir = 'datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='allenai/scitail', format= 'dgem_format', split='train', cache_dir = 'datasets'):
         dataset = load_dataset(dataset_name, format,cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing SciTail-style Hugging Face dataset')
@@ -77,8 +75,8 @@ class SciTailDataset(NLIDataset):
         
     def change_labels(self,batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[np.where(np.array(batch['label']) == 'entails')] = self.tokenizer.encode(" Yes")
-        values[np.where(np.array(batch['label']) == 'contradiction')] = self.tokenizer.encode(" No")  
+        values[np.where(np.array(batch['label']) == 'entails')] = self.tokenizer.encode(self.answer_tokens[0])[-1]
+        values[np.where(np.array(batch['label']) == 'contradiction')] = self.tokenizer.encode(self.answer_tokens[1])[-1]  
         batch['label'] = values
         return batch
 
@@ -92,9 +90,9 @@ class SciTailDataset(NLIDataset):
 
 class GLUEDataset(NLIDataset):
 
-    def __init__(self, tokenizer, dataset_name='nyu-mll/glue', subset= 'wnli', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='nyu-mll/glue', subset= 'wnli', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing GLUE-style Hugging Face dataset')
@@ -105,8 +103,8 @@ class GLUEDataset(NLIDataset):
 
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 1] = self.tokenizer.encode(" No")  
-        labels[labels == 0] = self.tokenizer.encode(" Yes")
+        labels[labels == 1] = self.tokenizer.encode(self.answer_tokens[1])[-1]  
+        labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1]
         batch['label'] = labels.tolist() 
         return batch
 
@@ -120,32 +118,32 @@ class GLUEDataset(NLIDataset):
     
 class RTEDataset(GLUEDataset):
 
-    def __init__(self, tokenizer, dataset_name='nyu-mll/glue', subset= 'rte', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='nyu-mll/glue', subset= 'rte', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super(GLUEDataset, self).__init__(tokenizer, dataset)
+        super(GLUEDataset, self).__init__(tokenizer, answer_tokens, dataset)
 
 class WNLIDataset(GLUEDataset):
 
-    def __init__(self, tokenizer, dataset_name='nyu-mll/glue', subset= 'wnli', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='nyu-mll/glue', subset= 'wnli', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super(GLUEDataset, self).__init__(tokenizer, dataset)
+        super(GLUEDataset, self).__init__(tokenizer, answer_tokens, dataset)
     
     def change_labels(self, batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(" No") 
-        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(" Yes") 
+        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(self.answer_tokens[1])[-1] 
+        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(self.answer_tokens[0])[-1] 
         batch['label'] = values
         return batch
 
 class MNLIDataset(SNLIDataset):
-    def __init__(self, tokenizer, dataset_name='nyu-mll/glue', subset= 'mnli',split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='nyu-mll/glue', subset= 'mnli',split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, subset,cache_dir=cache_dir, split=split)
-        super(SNLIDataset, self).__init__(tokenizer, dataset)
+        super(SNLIDataset, self).__init__(tokenizer, answer_tokens, dataset)
 
 class PAWSDataset(NLIDataset):
-    def __init__(self, tokenizer, dataset_name='google-research-datasets/paws', subset= 'labeled_final', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='google-research-datasets/paws', subset= 'labeled_final', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing PAWS-style Hugging Face dataset')
@@ -156,8 +154,8 @@ class PAWSDataset(NLIDataset):
 
     def change_labels(self,batch):
         values = np.zeros(len(batch['label']), dtype=int)
-        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(" No") 
-        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(" Yes") 
+        values[np.where(np.array(batch['label']) == 0)[0]] = self.tokenizer.encode(self.answer_tokens[1])[-1] 
+        values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(self.answer_tokens[0])[-1] 
         batch['label'] = values
         return batch
         
@@ -170,9 +168,9 @@ class PAWSDataset(NLIDataset):
         )
 
 class HANSDataset(NLIDataset):
-    def __init__(self, tokenizer, dataset_name='jhu-cogsci/hans', split='train', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='jhu-cogsci/hans', split='train', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, split=split, trust_remote_code=True, cache_dir=cache_dir)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing Hans-style Hugging Face dataset')
@@ -183,8 +181,8 @@ class HANSDataset(NLIDataset):
         
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 1] = self.tokenizer.encode(" No")  
-        labels[labels == 0] = self.tokenizer.encode(" Yes")
+        labels[labels == 1] = self.tokenizer.encode(self.answer_tokens[1])[-1]  
+        labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1]
         batch['label'] = labels.tolist() 
         return batch
      
@@ -197,9 +195,9 @@ class HANSDataset(NLIDataset):
         )
 
 class ANLIDataset(NLIDataset):
-    def __init__(self, tokenizer, dataset_name='facebook/anli', split='train_r3', cache_dir='datasets'):
+    def __init__(self, tokenizer, answer_tokens, dataset_name='facebook/anli', split='train_r3', cache_dir='datasets'):
         dataset = load_dataset(dataset_name, split=split, cache_dir=cache_dir)
-        super().__init__(tokenizer, dataset)
+        super().__init__(tokenizer, answer_tokens, dataset)
 
     def preprocess(self):
         print(f'Processing anli-style Hugging Face dataset')
@@ -211,8 +209,8 @@ class ANLIDataset(NLIDataset):
         
     def change_labels(self,batch):
         labels = np.array(batch['label'])  
-        labels[labels == 2] = self.tokenizer.encode(" No")
-        labels[labels == 0] = self.tokenizer.encode(" Yes") 
+        labels[labels == 2] = self.tokenizer.encode(self.answer_tokens[1])[-1]
+        labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1] 
         batch['label'] = labels.tolist() 
         return batch
      
