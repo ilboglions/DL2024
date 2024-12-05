@@ -2,13 +2,13 @@ import torch
 import torch.nn as nn
 from transformers import AutoModel, AutoTokenizer, AutoModelForCausalLM
 from peft import get_peft_model
+from transformers.modeling_outputs import CausalLMOutput
 
 
 class MambaModel(torch.nn.Module):
     def __init__(self, answer_tokens, model_size = '130m', cache_dir='models', LoRAConfig = None):
         super().__init__()
-        self.tokenizer = AutoTokenizer.from_pretrained('EleutherAI/gpt-neox-20b', cache_dir = cache_dir)
-        self.tokenizer.pad_token = "<|padding|>"
+        self.tokenizer = AutoTokenizer.from_pretrained(f'state-spaces/mamba-{model_size}-hf', cache_dir = cache_dir)
         self.model = AutoModelForCausalLM.from_pretrained(f'state-spaces/mamba-{model_size}-hf', cache_dir=cache_dir)
         self.criterion = torch.nn.CrossEntropyLoss()
         self.tokenIndexes = [self.tokenizer.encode(x)[-1] for x in answer_tokens]
@@ -19,11 +19,12 @@ class MambaModel(torch.nn.Module):
     
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.model(input_ids,attention_mask)
-        output.logits = output.logits[:,-1,:]
+        logits = output.logits[:,-1,:]
+        loss = None
         if labels is not None:
-            output.loss = self.criterion(output.logits, labels)
-        output.logits = output.logits[:, self.tokenIndexes]
-        return output
+            loss = self.criterion(logits, labels)
+        logits = logits[:, self.tokenIndexes]
+        return CausalLMOutput(loss=loss, logits=logits)
 
     def get_tokenizer(self):
         return self.tokenizer

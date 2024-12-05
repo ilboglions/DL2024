@@ -19,18 +19,12 @@ class OPTModel(torch.nn.Module):
 
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.model(input_ids,attention_mask)
-
-        output = CausalLMOutput(
-            loss=output.loss,
-            logits=output.logits,
-            hidden_states=output.hidden_states,
-            attentions=output.attentions,
-        )
-        output.logits = output.logits[:,-1,:]
+        logits = output.logits[:,-1,:]
+        loss = None
         if labels is not None:
-            output.loss = self.criterion(output.logits, labels)
-        output.logits = output.logits[:, self.tokenIndexes]  
-        return output
+            loss = self.criterion(logits, labels)
+        logits = logits[:, self.tokenIndexes]
+        return CausalLMOutput(loss=loss, logits=logits)
 
     def get_tokenizer(self):
         return self.tokenizer
