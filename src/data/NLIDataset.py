@@ -14,6 +14,14 @@ class NLIDataset(Dataset):
     def tokenize_function(self, samples):
         raise NotImplementedError('Subclasses should implement this method.')
     
+    def get_combined_string(self, premise, hypothesis):
+        premise = np.array(premise)
+        hypothesis = np.array(hypothesis)
+        combined = np.char.add(premise, 'Question: ')
+        combined = np.char.add(combined, hypothesis)
+        combined = np.char.add(combined, ' Yes or No?').tolist()
+        return combined
+
     def change_labels(self, samples):
         raise NotImplementedError('Subclasses should implement this method.')
     
@@ -57,9 +65,7 @@ class SNLIDataset(NLIDataset):
         return batch
      
     def tokenize_function(self,batch):
-        premise = np.array(batch['premise'])
-        hypothesis = np.array(batch['hypothesis'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['premise'], batch['hypothesis'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
         )        
@@ -83,12 +89,10 @@ class SciTailDataset(NLIDataset):
         return batch
 
     def tokenize_function(self,batch):
-        premise = np.array(batch['premise'])
-        hypothesis = np.array(batch['hypothesis'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['premise'], batch['hypothesis'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
-        )
+        )  
 
 class GLUEDataset(NLIDataset):
 
@@ -111,12 +115,10 @@ class GLUEDataset(NLIDataset):
         return batch
 
     def tokenize_function(self,batch):
-        premise = np.array(batch['sentence1'])
-        hypothesis = np.array(batch['sentence2'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['sentence1'], batch['sentence2'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
-        )
+        )  
     
 class RTEDataset(GLUEDataset):
 
@@ -162,12 +164,10 @@ class PAWSDataset(NLIDataset):
         return batch
         
     def tokenize_function(self,batch):
-        premise = np.array(batch['sentence1'])
-        hypothesis = np.array(batch['sentence2'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['sentence1'], batch['sentence2'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
-        )
+        )  
 
 class HANSDataset(NLIDataset):
     def __init__(self, tokenizer, answer_tokens, dataset_name='jhu-cogsci/hans', split='train', cache_dir='datasets'):
@@ -189,12 +189,10 @@ class HANSDataset(NLIDataset):
         return batch
      
     def tokenize_function(self,batch):
-        premise = np.array(batch['premise'])
-        hypothesis = np.array(batch['hypothesis'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['premise'], batch['hypothesis'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
-        )
+        ) 
 
 class ANLIDataset(NLIDataset):
     def __init__(self, tokenizer, answer_tokens, dataset_name='facebook/anli', split='train_r3', cache_dir='datasets'):
@@ -217,9 +215,7 @@ class ANLIDataset(NLIDataset):
         return batch
      
     def tokenize_function(self,batch):
-        premise = np.array(batch['premise'])
-        hypothesis = np.array(batch['hypothesis'])
-        combined = (premise + " Question: " + hypothesis + " Yes or No?").tolist()
+        combined = self.get_combined_string(batch['premise'], batch['hypothesis'])
         return self.tokenizer(
         combined, truncation=True, padding='max_length', max_length=128
-        )
+        ) 
