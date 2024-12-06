@@ -12,7 +12,6 @@ class MambaModel(torch.nn.Module):
         self.model = AutoModelForCausalLM.from_pretrained(f'state-spaces/mamba-{model_size}-hf', cache_dir=cache_dir)
         self.criterion = torch.nn.CrossEntropyLoss()
         self.tokenIndexes = [self.tokenizer.encode(x)[-1] for x in answer_tokens]
-        print(self.tokenIndexes)
 
         if LoRAConfig is not None:
             self.model = get_peft_model(self.model, LoRAConfig)

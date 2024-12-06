@@ -7,14 +7,15 @@ answer_tokens = [' Yes', ' No']
 [model.training]
 output_dir='./results'
 num_train_epochs=40
-learning_rate=1e-5
+learning_rate=3e-3
 per_device_train_batch_size=32
 per_device_eval_batch_size=32
 warmup_ratio=0.1 
 eval_strategy='steps'
 logging_strategy='steps'
-logging_steps=500
+logging_steps=1000
 save_strategy='epoch'
+save_safetensors=false
 weight_decay=0.01
 logging_dir='./logs'
 seed=42
