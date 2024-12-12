@@ -1,6 +1,6 @@
 [model]
 model_name='opt'
-model_size='125m'
+model_size='2.7b'
 cache_dir='models'
 answer_tokens = [' Yes', ' No']
 
@@ -8,18 +8,25 @@ answer_tokens = [' Yes', ' No']
 output_dir='./results'
 num_train_epochs=40
 learning_rate=1e-5
-per_device_train_batch_size=32
+per_device_train_batch_size=16
 per_device_eval_batch_size=32
 warmup_ratio=0.1 
+fp16=true
 eval_strategy='steps'
 logging_strategy='steps'
-logging_steps=1000
+logging_steps=2000
 save_strategy='epoch'
 save_safetensors=false
 weight_decay=0.01
 logging_dir='./logs'
 seed=42
 report_to='wandb'
+
+[model.training.deepspeed.zero_optimization]
+stage=1
+[model.training.deepspeed]
+train_batch_size=64
+mixed_precision='fp16'
 
 [model.LoRA]
 inference_mode=false   
