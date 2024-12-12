@@ -18,7 +18,7 @@ class OPTModel(torch.nn.Module):
             self.model = get_peft_model(self.model, LoRAConfig)
 
     def forward(self, input_ids, attention_mask, labels=None):
-        output = self.model(input_ids,attention_mask)
+        output = self.model(input_ids=input_ids,attention_mask=attention_mask)
         logits = output.logits[:,-1,:]
         loss = None
         if labels is not None:
