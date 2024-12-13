@@ -78,13 +78,12 @@ class SciTailDataset(NLIDataset):
 
     def preprocess(self):
         print(f'Processing SciTail-style Hugging Face dataset')
-        self.dataset = self.dataset.filter(lambda example: example['label'] != 'neutral')
         super().preprocess()
         
     def change_labels(self,batch):
         values = np.zeros(len(batch['label']), dtype=int)
         values[np.where(np.array(batch['label']) == 'entails')] = self.tokenizer.encode(self.answer_tokens[0])[-1]
-        values[np.where(np.array(batch['label']) == 'contradiction')] = self.tokenizer.encode(self.answer_tokens[1])[-1]  
+        values[np.where(np.array(batch['label']) == 'neutral')] = self.tokenizer.encode(self.answer_tokens[1])[-1]  
         batch['label'] = values
         return batch
 
