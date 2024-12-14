@@ -20,9 +20,10 @@ def main(config, local_rank):
             name=f"{config['model']['model_name']}_{config['model']['model_size']}_{config['dataset']['train']['dataset_name']}_{config['model']['training']['seed']}_{timestamp}"
         )
         
+
     model = get_model(config['model']['model_name'], config['model']['answer_tokens'], model_size=config['model']['model_size'],cache_dir=config['model']['cache_dir'] ,LoRAConfig=LoRAConfig)
-    train_dataset = get_dataset(config['dataset']['train']['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=config['dataset']['train']['dataset_split'], cache_dir=config['dataset']['cache_dir'])
-    eval_datasets = {dataset['dataset_name'] : get_dataset(dataset['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=dataset['dataset_split'], cache_dir=config['dataset']['cache_dir']) for dataset in config['dataset']['test']}
+    train_dataset = get_dataset(config['dataset']['train']['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=config['dataset']['train']['dataset_split'])
+    eval_datasets = {dataset['dataset_name'] : get_dataset(dataset['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=dataset['dataset_split']) for dataset in config['dataset']['test']}
 
     trainer = Trainer(
         model=model,
@@ -38,7 +39,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--local_rank', type=int, default=-1,
                     help='local rank passed from distributed launcher')
-    
+    # Include DeepSpeed configuration arguments
     parser = deepspeed.add_config_arguments(parser)
     parser.add_argument('--config', metavar='FILE')
     args = parser.parse_args()
