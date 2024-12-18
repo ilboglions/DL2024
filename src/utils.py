@@ -2,6 +2,7 @@ import tomli
 from data.NLIDataset import *
 from models.MambaModel import *
 from models.OPTModel import *
+from models.OLMOModel import *
 from sklearn.metrics import accuracy_score, f1_score
 DATASET_DICT = {
     'snli' : SNLIDataset,
@@ -16,7 +17,8 @@ DATASET_DICT = {
 
 MODEL_DICT = {
     'opt' : OPTModel,
-    'mamba': MambaModel
+    'mamba': MambaModel,
+    'olmo': OLMOModel
 }
 
 
