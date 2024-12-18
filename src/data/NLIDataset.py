@@ -8,6 +8,7 @@ class NLIDataset(Dataset):
     def __init__(self, tokenizer, answer_tokens, prompt, dataset):
         self.tokenizer = tokenizer
         self.dataset = dataset
+        print(self.dataset.info)
         self.answer_tokens = answer_tokens
         self.prompt = prompt
         self.preprocess()
@@ -19,7 +20,13 @@ class NLIDataset(Dataset):
         premise = np.array(premise)
         hypothesis = np.array(hypothesis)
         label = np.array(labels).astype(str)
-        placeholders = {"premise": premise, "hypothesis": hypothesis, "label": label}
+        placeholders = {
+            "premise": premise, 
+            "hypothesis": hypothesis, 
+            "label": label,
+            "dataset": self.dataset.info.dataset_name,
+            "split": self.dataset.split,
+        }
     
         combined = np.full(premise.shape, self.prompt)
         for placeholder, values in placeholders.items():
