@@ -22,9 +22,10 @@ def main(config, local_rank):
         
 
     model = get_model(config['model']['model_name'], config['model']['answer_tokens'], model_size=config['model']['model_size'],cache_dir=config['model']['cache_dir'] ,LoRAConfig=LoRAConfig)
-    train_dataset = get_dataset(config['dataset']['train']['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=config['dataset']['train']['dataset_split'])
-    eval_datasets = {dataset['dataset_name'] : get_dataset(dataset['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], split=dataset['dataset_split']) for dataset in config['dataset']['test']}
-
+    train_dataset = get_dataset(config['dataset']['train']['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], config['model']['prompt'], split=config['dataset']['train']['dataset_split'])
+    eval_datasets = {dataset['dataset_name'] : get_dataset(dataset['dataset_name'], model.get_tokenizer(), config['model']['answer_tokens'], config['model']['prompt'], split=dataset['dataset_split']) for dataset in config['dataset']['test']}
+    print(train_dataset[0])
+    exit()
     trainer = Trainer(
         model=model,
         args=TrainingArguments(**config['model']['training']),
