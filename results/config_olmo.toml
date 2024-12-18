@@ -1,11 +1,11 @@
 [model]
-model_name='opt'
-model_size='350m'
+model_name='olmo'
+model_size='7B'
 cache_dir='models'
 answer_tokens = [' Yes', ' No']
 
 [model.training]
-output_dir='./results/opt350m'
+output_dir='./results/OLMo-7B'
 num_train_epochs=40
 learning_rate=1e-5
 per_device_train_batch_size=32
@@ -35,14 +35,14 @@ inference_mode=false
 r=8            
 lora_alpha=32    
 lora_dropout=0.1  
-target_modules = ['k_proj', 'v_proj', 'q_proj', 'out_proj'] 
+target_modules = ['q_proj', 'k_proj', 'v_proj', 'o_proj'] 
 bias="none"
 
 [dataset]
 cache_dir='datasets'
 
 [dataset.train]
-dataset_name='mnli'
+dataset_name='snli'
 dataset_split='train'
 
 [[dataset.test]]
