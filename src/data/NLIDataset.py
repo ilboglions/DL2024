@@ -8,7 +8,6 @@ class NLIDataset(Dataset):
     def __init__(self, tokenizer, answer_tokens, prompt, dataset):
         self.tokenizer = tokenizer
         self.dataset = dataset
-        print(self.dataset.info)
         self.answer_tokens = answer_tokens
         self.prompt = prompt
         self.preprocess()
@@ -25,7 +24,7 @@ class NLIDataset(Dataset):
             "hypothesis": hypothesis, 
             "label": label,
             "dataset": self.dataset.info.dataset_name,
-            "split": self.dataset.split,
+            "split": str(self.dataset.split),
         }
     
         combined = np.full(premise.shape, self.prompt)
@@ -38,7 +37,8 @@ class NLIDataset(Dataset):
     
     def preprocess(self):
         self.dataset = self.dataset.map(self.tokenize_function, batched=True) 
-        self.dataset = self.dataset.map(self.change_labels, batched=True)
+        if self.answer_tokens is not None:
+            self.dataset = self.dataset.map(self.change_labels, batched=True)
         self.dataset = self.dataset.rename_column('label', 'labels') 
         self.dataset = self.dataset.select_columns(['input_ids', 'attention_mask', 'labels'])
 
@@ -49,10 +49,15 @@ class NLIDataset(Dataset):
         tokenized_data = self.dataset[idx]
         input_ids = tokenized_data['input_ids']
         attention_mask = tokenized_data['attention_mask']
-        labels = tokenized_data['labels']
-        return {"input_ids" : torch.tensor(input_ids), 
-                "attention_mask" : torch.tensor(attention_mask), 
-                "labels" : torch.tensor(labels)}
+
+        if self.answer_tokens is not None:
+            labels = tokenized_data['labels']
+            return {"input_ids" : torch.tensor(input_ids), 
+                    "attention_mask" : torch.tensor(attention_mask), 
+                    "labels" : torch.tensor(labels)}
+        else:
+            return {"input_ids" : torch.tensor(input_ids), 
+                    "attention_mask" : torch.tensor(attention_mask)}
     
 class SNLIDataset(NLIDataset):
 
