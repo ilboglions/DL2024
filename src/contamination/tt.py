@@ -79,7 +79,7 @@ def evaluate_tt(model, tokenizer, config, device):
     for dataset_name in general_datasets.keys():
         print(f"Preprocessing dataset {dataset_name} ...")
         ds = general_datasets[dataset_name]
-        completions = ds.dataset[ds.column_names[1]][:10] # get the hypothesis
+        completions = ds.dataset[ds.column_names[1]] # get the hypothesis
 
         general_datasets[dataset_name].preprocess()
         guided_datasets[dataset_name].preprocess()
