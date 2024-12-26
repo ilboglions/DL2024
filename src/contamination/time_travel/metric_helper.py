@@ -1,35 +1,7 @@
 """
-Code from: https://github.com/shahriargolchin/time-travel-in-llms
+Code from: https://github.com/shahriargolchin/time-travel-in-llms/blob/main/src/helpers/metric_helper.py
 """
-
-import os
-import sys
-
 import evaluate
-
-
-class BleurtLoader:
-    def __init__(self, checkpoint="BLEURT-20", bleurt_folder="bleurt_scorer"):
-        self.base_dir = os.path.dirname(__file__)
-        self.dependencies_path = self.get_dependencies_path()
-        self.bleurt_path = self.get_bleurt_path(bleurt_folder)
-        self.checkpoint = checkpoint
-        self.model_path = os.path.join(self.bleurt_path, self.checkpoint)
-
-    def get_dependencies_path(self):
-        return os.path.join(self.base_dir, "../../dependencies")
-
-    def get_bleurt_path(self, bleurt_folder):
-        return os.path.join(self.dependencies_path, bleurt_folder)
-
-    @staticmethod
-    def add_path_to_sys(path):
-        if path not in sys.path:
-            sys.path.insert(0, path)
-
-    def prepare_module(self):
-        self.add_path_to_sys(self.dependencies_path)
-        self.add_path_to_sys(self.bleurt_path)
 
 
 class Bleurt:
@@ -39,6 +11,8 @@ class Bleurt:
 
     def _load_bleurt(self, checkpoint: str):
         try:
+            from contamination.time_travel.bleurt_loader import BleurtLoader
+
             loader = BleurtLoader(checkpoint=checkpoint)
             loader.prepare_module()
             from bleurt_scorer.bleurt import score as bleurt_scorer

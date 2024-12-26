@@ -3,7 +3,8 @@ from utils import *
 import wandb
 from datetime import datetime
 
-from contamination.time_travel import PROMPTS, eval_tt
+from contamination.tt import evaluate_tt
+
 
 def main(config):
     timestamp = datetime.now().strftime("%d_%m_%Y_%H:%M:%S")
@@ -24,29 +25,8 @@ def main(config):
         trust_remote_code=True
     ).to(device)
 
-    general_datasets = {
-        dataset['dataset_name'] : get_dataset(
-            name=dataset['dataset_name'],
-            tokenizer=tokenizer,
-            padding='do_not_pad',
-            answer_tokens=None,
-            prompt=PROMPTS['general'],
-            split=dataset['dataset_split'],
-            cache_dir=config['dataset']['cache_dir']
-        ) for dataset in config['dataset']['test'][:1]}
-
-    guided_datasets = {
-        dataset['dataset_name'] : get_dataset(
-            name=dataset['dataset_name'],
-            tokenizer=tokenizer,
-            padding='do_not_pad',
-            answer_tokens=None,
-            prompt=PROMPTS['guided'],
-            split=dataset['dataset_split'],
-            cache_dir=config['dataset']['cache_dir'],
-        ) for dataset in config['dataset']['test'][:1]}
-
-    eval_tt(model, tokenizer, general_datasets, guided_datasets, device)
+    if config['checker'] == 'time_travel':
+        evaluate_tt(model, tokenizer, config, device)
 
 
 if __name__ == "__main__":

@@ -3,22 +3,22 @@ from torch.utils.data import Dataset
 import numpy as np
 import torch
 
+
 class NLIDataset(Dataset):
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset):
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset, preprocess=True):
         self.tokenizer = tokenizer
         self.padding = padding
         self.dataset = dataset
         self.answer_tokens = answer_tokens
         self.prompt = prompt
-        self.preprocess()
 
-    def split_batch_data(self, batch):
-        raise NotImplementedError('Subclasses should implement this method.')
+        if preprocess:
+            self.preprocess()
 
-    def tokenize_function(self,batch):
-        premise, hypothesis, label = self.split_batch_data(batch)
-        combined = self.get_combined_string(premise, hypothesis, label)
+    def tokenize_function(self, batch):
+        premise, hypothesis, label = self.column_names
+        combined = self.get_combined_string(batch[premise], batch[hypothesis], batch[label])
         return self.tokenizer(
             combined, truncation=True, padding=self.padding, max_length=128)   
     
@@ -65,12 +65,15 @@ class NLIDataset(Dataset):
         else:
             return {"input_ids" : torch.tensor(input_ids), 
                     "attention_mask" : torch.tensor(attention_mask)}
-    
-class SNLIDataset(NLIDataset):
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='stanfordnlp/snli', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+
+class SNLIDataset(NLIDataset):
+    dataset_name = 'stanfordnlp/snli'
+    column_names = ('premise', 'hypothesis', 'label')
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, cache_dir=cache_dir, split=split)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing SNLI-style Hugging Face dataset')
@@ -87,14 +90,15 @@ class SNLIDataset(NLIDataset):
         batch['label'] = labels.tolist() 
         return batch
     
-    def split_batch_data(self, batch):
-        return batch['premise'], batch['hypothesis'], batch['label']      
 
 class SciTailDataset(NLIDataset):
+    dataset_name = 'allenai/scitail'
+    fmt = 'dgem_format'
+    column_names = ('premise', 'hypothesis', 'label')
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='allenai/scitail', fmt='dgem_format', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, fmt, cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.fmt, cache_dir=cache_dir, split=split)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing SciTail-style Hugging Face dataset')
@@ -107,14 +111,15 @@ class SciTailDataset(NLIDataset):
         batch['label'] = values
         return batch
 
-    def split_batch_data(self, batch):
-        return batch['premise'], batch['hypothesis'], batch['label']
 
 class GLUEDataset(NLIDataset):
+    dataset_name = 'nyu-mll/glue'
+    subset = 'wnli'
+    column_names = ('sentence1', 'sentence2', 'label')
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='nyu-mll/glue', subset='wnli', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing GLUE-style Hugging Face dataset')
@@ -129,21 +134,23 @@ class GLUEDataset(NLIDataset):
         labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1]
         batch['label'] = labels.tolist() 
         return batch
-    
-    def split_batch_data(self, batch):
-        return batch['sentence1'], batch['sentence2'], batch['label']
-    
-class RTEDataset(GLUEDataset):
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='nyu-mll/glue', subset='rte', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super(GLUEDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+
+class RTEDataset(GLUEDataset):
+    dataset_name = 'nyu-mll/glue'
+    subset = 'rte'
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
+        super(GLUEDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
 class WNLIDataset(GLUEDataset):
+    dataset_name = 'nyu-mll/glue'
+    subset = 'wnli'
 
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='nyu-mll/glue', subset='wnli', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super(GLUEDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
+        super(GLUEDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
     
     def change_labels(self, batch):
         values = np.zeros(len(batch['label']), dtype=int)
@@ -153,14 +160,21 @@ class WNLIDataset(GLUEDataset):
         return batch
 
 class MNLIDataset(SNLIDataset):
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='nyu-mll/glue', subset= 'mnli',split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, subset,cache_dir=cache_dir, split=split)
-        super(SNLIDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    dataset_name='nyu-mll/glue'
+    subset = 'mnli'
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
+        super(SNLIDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
 class PAWSDataset(NLIDataset):
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='google-research-datasets/paws', subset= 'labeled_final', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, subset ,cache_dir=cache_dir, split=split)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    dataset_name = 'google-research-datasets/paws'
+    subset = 'labeled_final'
+    column_names = ('sentence1', 'sentence2', 'label')
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing PAWS-style Hugging Face dataset')
@@ -175,14 +189,15 @@ class PAWSDataset(NLIDataset):
         values[np.where(np.array(batch['label']) == 1)[0]] = self.tokenizer.encode(self.answer_tokens[0])[-1] 
         batch['label'] = values
         return batch
-    
-    def split_batch_data(self, batch):
-        return batch['sentence1'], batch['sentence2'], batch['label']
+
 
 class HANSDataset(NLIDataset):
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='jhu-cogsci/hans', split='train', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, split=split, trust_remote_code=True, cache_dir=cache_dir)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    dataset_name = 'jhu-cogsci/hans'
+    column_names = ('premise', 'hypothesis', 'label')
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, split=split, trust_remote_code=True, cache_dir=cache_dir)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing Hans-style Hugging Face dataset')
@@ -197,14 +212,15 @@ class HANSDataset(NLIDataset):
         labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1]
         batch['label'] = labels.tolist() 
         return batch
-    
-    def split_batch_data(self, batch):
-        return batch['premise'], batch['hypothesis'], batch['label']
+
 
 class ANLIDataset(NLIDataset):
-    def __init__(self, tokenizer, padding, answer_tokens, prompt, dataset_name='facebook/anli', split='train_r3', cache_dir='datasets'):
-        dataset = load_dataset(dataset_name, split=split, cache_dir=cache_dir)
-        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset)
+    dataset_name='facebook/anli'
+    column_names = ('premise', 'hypothesis', 'label')
+
+    def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train_r3', cache_dir='datasets', preprocess=True):
+        dataset = load_dataset(self.dataset_name, split=split, cache_dir=cache_dir)
+        super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing anli-style Hugging Face dataset')
@@ -220,6 +236,3 @@ class ANLIDataset(NLIDataset):
         labels[labels == 0] = self.tokenizer.encode(self.answer_tokens[0])[-1] 
         batch['label'] = labels.tolist() 
         return batch
-    
-    def split_batch_data(self, batch):
-        return batch['premise'], batch['hypothesis'], batch['label']
