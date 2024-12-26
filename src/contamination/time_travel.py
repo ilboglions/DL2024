@@ -32,7 +32,13 @@ def generate(model, tokenizer, dataset, device):
 
     for sample in tqdm(dataset):
         input_ids = sample['input_ids'].unsqueeze(0).to(device)
-        outputs = model.generate(input_ids, do_sample=False, max_new_tokens=128)
+        print(f"Input shape:{input_ids.shape}")
+        outputs = model.generate(
+            input_ids,
+            do_sample=False,
+            max_new_tokens=50,
+            eos_token_id=tokenizer.eos_token_id)
+        print(f"Output shape: {outputs.shape}")
         text_outputs = tokenizer.batch_decode(outputs, skip_special_tokens=True)
         print(text_outputs)
         completions.append(text_outputs)
@@ -41,9 +47,9 @@ def eval_tt(model, tokenizer, general_datasets, guided_datasets, device):
     general_completions = {}
     guided_completions = {}
 
-    # for dataset_name, dataset in general_datasets.items():
-    #     print(f"Generating general completions for {dataset_name} ...")
-    #     general_completions[dataset_name] = generate(model, tokenizer, dataset, device)
+    for dataset_name, dataset in general_datasets.items():
+        print(f"Generating general completions for {dataset_name} ...")
+        general_completions[dataset_name] = generate(model, tokenizer, dataset, device)
 
     for dataset_name, dataset in guided_datasets.items():
         print(f"Generating guided completions for {dataset_name} ...")

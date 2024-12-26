@@ -28,15 +28,18 @@ def main(config):
         dataset['dataset_name'] : get_dataset(
             name=dataset['dataset_name'],
             tokenizer=tokenizer,
+            padding='do_not_pad',
             answer_tokens=None,
             prompt=PROMPTS['general'],
             split=dataset['dataset_split'],
             cache_dir=config['dataset']['cache_dir']
         ) for dataset in config['dataset']['test'][:1]}
+
     guided_datasets = {
         dataset['dataset_name'] : get_dataset(
             name=dataset['dataset_name'],
             tokenizer=tokenizer,
+            padding='do_not_pad',
             answer_tokens=None,
             prompt=PROMPTS['guided'],
             split=dataset['dataset_split'],

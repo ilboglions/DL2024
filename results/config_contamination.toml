@@ -1,9 +1,6 @@
 [model]
-repo='allenai/OLMo-1B'
-model_name='OLMo'
-model_size='1b'
+repo='AntonV/mamba2-2.7b-hf' # AntonV/mamba2-{model_size}-hf, allenai/OLMo-{model_size}, facebook/opt-{model_size}
 cache_dir='models'
-
 
 [dataset]
 cache_dir='datasets'
