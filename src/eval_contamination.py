@@ -1,14 +1,13 @@
 import argparse
-from utils import *
-import wandb
-from datetime import datetime
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 from contamination.tt import evaluate_tt
 from contamination.minkpp import evaluate_minkpp
+from utils import load_config
 
 
 def main(config):
-    timestamp = datetime.now().strftime("%d_%m_%Y_%H:%M:%S")
     if torch.backends.mps.is_available():
         device = torch.device("mps")
     elif torch.cuda.is_available():
@@ -17,11 +16,6 @@ def main(config):
         device = torch.device("cpu")
     print(f"Using device: {device}")
 
-    # wandb.init(
-    #     project='DeepLearning',  
-    #     name=f"{config['model']['model_name']}_{config['model']['model_size']}_contam_{timestamp}"
-    # )
-    
     tokenizer = AutoTokenizer.from_pretrained(
         config['model']['repo'],
         cache_dir=config['model']['cache_dir'],

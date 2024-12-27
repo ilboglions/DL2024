@@ -73,11 +73,11 @@ class SNLIDataset(NLIDataset):
 
     def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
         dataset = load_dataset(self.dataset_name, cache_dir=cache_dir, split=split)
+        dataset = dataset.filter(lambda example: example['label'] != -1 and example['label'] != 1)
         super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing SNLI-style Hugging Face dataset')
-        self.dataset = self.dataset.filter(lambda example: example['label'] != -1 and example['label'] != 1)
         new_features = self.dataset.features.copy()
         new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
         self.dataset = self.dataset.cast(new_features)
@@ -144,6 +144,7 @@ class RTEDataset(GLUEDataset):
         dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
         super(GLUEDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
+
 class WNLIDataset(GLUEDataset):
     dataset_name = 'nyu-mll/glue'
     subset = 'wnli'
@@ -159,6 +160,7 @@ class WNLIDataset(GLUEDataset):
         batch['label'] = values
         return batch
 
+
 class MNLIDataset(SNLIDataset):
     dataset_name='nyu-mll/glue'
     subset = 'mnli'
@@ -166,6 +168,7 @@ class MNLIDataset(SNLIDataset):
     def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train', cache_dir='datasets', preprocess=True):
         dataset = load_dataset(self.dataset_name, self.subset, cache_dir=cache_dir, split=split)
         super(SNLIDataset, self).__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
+
 
 class PAWSDataset(NLIDataset):
     dataset_name = 'google-research-datasets/paws'
@@ -220,11 +223,11 @@ class ANLIDataset(NLIDataset):
 
     def __init__(self, tokenizer, padding, answer_tokens, prompt, split='train_r3', cache_dir='datasets', preprocess=True):
         dataset = load_dataset(self.dataset_name, split=split, cache_dir=cache_dir)
+        dataset = dataset.filter(lambda example: example['label'] != 1)
         super().__init__(tokenizer, padding, answer_tokens, prompt, dataset, preprocess=preprocess)
 
     def preprocess(self):
         print(f'Processing anli-style Hugging Face dataset')
-        self.dataset = self.dataset.filter(lambda example: example['label'] != 1)
         new_features = self.dataset.features.copy()
         new_features["label"] = ClassLabel(num_classes=self.tokenizer.vocab_size)
         self.dataset = self.dataset.cast(new_features)

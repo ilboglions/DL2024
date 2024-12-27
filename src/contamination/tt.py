@@ -1,6 +1,7 @@
 import argparse
+import os
+from pathlib import Path
 
-import wandb
 import pandas as pd
 from tqdm import tqdm
 
@@ -77,34 +78,49 @@ def evaluate_tt(model, tokenizer, config, device):
 
     # For each dataset, we generate general/guided completions and then eval Bleurt/Rouge
     for dataset_name in general_datasets.keys():
-        print(f"Preprocessing dataset {dataset_name} ...")
-        ds = general_datasets[dataset_name]
-        completions = ds.dataset[ds.column_names[1]] # get the hypothesis
+        base_path = os.path.join(
+            'results',
+            'time_travel',
+            f"{config['model']['model_name']}_{config['model']['model_size']}",
+            f'{dataset_name}')
+        df_path = os.path.join(base_path, 'df.csv')
 
-        general_datasets[dataset_name].preprocess()
-        guided_datasets[dataset_name].preprocess()
+        if Path(df_path).exists():
+            # Generations are already cached
+            print(f"[+] Loading cached completions for {dataset_name} from {df_path} ...")
+            df = pd.read_csv(df_path)
+        else:
+            # Generate completions
+            general = general_datasets[dataset_name]
+            guided = guided_datasets[dataset_name]
+            completions = general.dataset[general.column_names[1]] # get the hypothesis column
 
-        print(f"Generating general completions for {dataset_name} ...")
-        general_completions = generate(model, tokenizer, general_datasets[dataset_name], device)
-    
-        print(f"Generating guided completions for {dataset_name} ...")
-        guided_completions = generate(model, tokenizer, guided_datasets[dataset_name], device)
+            print(f"[+] Preprocessing dataset {dataset_name} ...")
+            general.preprocess()
+            guided.preprocess()
 
-        # Setup args/df expected by time_travel code
+            print(f"[+] Generating general completions for {dataset_name} ...")
+            general_completions = generate(model, tokenizer, general, device)
+        
+            print(f"[+] Generating guided completions for {dataset_name} ...")
+            guided_completions = generate(model, tokenizer, guided, device)
+
+            df = pd.DataFrame({
+                'completion': completions,
+                'generated_general_completion': general_completions,
+                'generated_guided_completion': guided_completions
+            })
+
+        # Setup args expected by time_travel code
         # DF has 3 columns: completion, generated_general_completion, generated_guided_completion
         args = argparse.Namespace(
-            experiment=f'results/time_travel/{dataset_name}',
-            filepath=f'results/time_travel/{dataset_name}/df.csv',
+            experiment=base_path,
+            filepath=os.path.join(base_path, 'df.csv'),
             task='nli', 
             text_column=('', 'completion') # nli just uses the second element.
         )
-        df = pd.DataFrame({
-            'completion': completions,
-            'generated_general_completion': general_completions,
-            'generated_guided_completion': guided_completions
-        })
 
-        print(f"Evaluating Rouge for {dataset_name} ...")
+        print(f"[+] Evaluating Rouge for {dataset_name} ...")
         df = Alg1EvalPhase(
             df=df,
             args=args,
@@ -112,7 +128,7 @@ def evaluate_tt(model, tokenizer, config, device):
             save_intermediate_results=True,
         ).evaluate()
 
-        print(f"Evaluating Bleurt for {dataset_name} ...")
+        print(f"[+] Evaluating Bleurt for {dataset_name} ...")
         df = Alg1EvalPhase(
             df=df,
             args=args,

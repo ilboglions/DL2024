@@ -2,6 +2,8 @@ checker='time_travel'
 
 [model]
 repo='facebook/opt-125m' # AntonV/mamba2-{model_size}-hf, allenai/OLMo-{model_size}, facebook/opt-{model_size}
+model_name='opt'
+model_size='125m'
 cache_dir='models'
 
 [dataset]
