@@ -4,11 +4,18 @@ import wandb
 from datetime import datetime
 
 from contamination.tt import evaluate_tt
+from contamination.minkpp import evaluate_minkpp
 
 
 def main(config):
     timestamp = datetime.now().strftime("%d_%m_%Y_%H:%M:%S")
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    if torch.backends.mps.is_available():
+        device = torch.device("mps")
+    elif torch.cuda.is_available():
+        device = torch.device("cuda")
+    else:
+        device = torch.device("cpu")
+    print(f"Using device: {device}")
 
     # wandb.init(
     #     project='DeepLearning',  
@@ -27,6 +34,8 @@ def main(config):
 
     if config['checker'] == 'time_travel':
         evaluate_tt(model, tokenizer, config, device)
+    elif config['checker'] == 'minkpp':
+        evaluate_minkpp(model, tokenizer, config, device)
 
 
 if __name__ == "__main__":
