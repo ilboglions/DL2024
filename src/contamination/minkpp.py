@@ -1,9 +1,9 @@
 import argparse
 
 import os
+from pathlib import Path
 import numpy as np
 import pandas as pd
-from sklearn.metrics import roc_curve, auc
 from tqdm import tqdm
 import zlib
 from collections import defaultdict
@@ -74,20 +74,35 @@ def compute_scores(model, tokenizer, dataset, device):
 
 def evaluate_minkpp(model, tokenizer, config, device):
     general_datasets = fetch_datasets(tokenizer, PROMPTS['general'], config)
-
-    # For each dataset, we generate general/guided completions and then eval Bleurt/Rouge
+    
     for dataset_name in general_datasets.keys():
-        print(f"Preprocessing dataset {dataset_name} ...")
-        general_datasets[dataset_name].preprocess()
+        base_path = os.path.join(
+            'results',
+            'minkpp',
+            f"{config['model']['model_name']}_{config['model']['model_size']}",
+            f'{dataset_name}')
+        df_path = os.path.join(base_path, 'df.csv')
 
-        print(f"Compute scores for {dataset_name} ...")
-        scores = compute_scores(model, tokenizer, general_datasets[dataset_name], device)
+        if Path(df_path).exists():
+            # Scores are already cached
+            print(f"[+] Loading cached scores for {dataset_name} from {df_path} ...")
+            df = pd.read_csv(df_path)
+        else:
+            print(f"[+] Preprocessing dataset {dataset_name} ...")
+            general_datasets[dataset_name].preprocess()
 
-        print(f"Compute labels from scores {dataset_name} ...")
-        df = pd.DataFrame()
-        for key, values in scores.items():
-            df[key] = values
-            df[f"L_{key}"] = [1 if value >= 0.5 else 0 for value in values]
+            print(f"[+] Compute scores for {dataset_name} ...")
+            scores = compute_scores(model, tokenizer, general_datasets[dataset_name], device)
+
+            print(f"[+] Compute labels from scores {dataset_name} ...")
+            df = pd.DataFrame()
+            for key, values in scores.items():
+                df[key] = values
+                # df[f"L_{key}"] = [1 if value >= 0.5 else 0 for value in values]
+            
+            if not os.path.exists(base_path):
+                os.makedirs(base_path)
+            df.to_csv(df_path, index=False)
 
         summary = pd.DataFrame({
             'avg': df.mean(),
@@ -95,11 +110,4 @@ def evaluate_minkpp(model, tokenizer, config, device):
             'max': df.max()
         })
         print(summary)
-
-        save_root = f"results/{dataset_name}"
-        if not os.path.exists(save_root):
-            os.makedirs(save_root)
-
-        model_id = config['model']['repo'].split('/')[-1]
-        df.to_csv(os.path.join(save_root, f"{model_id}.csv"), index=False)
         
