@@ -1,0 +1,5666 @@
+completion,generated_general_completion,generated_guided_completion,rouge_score_for_general_completion,rouge_score_for_guided_completion,bleurt_score_for_general_completion,bleurt_score_for_guided_completion
+The carrot had a hole.,"I stuck a pin through a carrot. When I pulled the pin out, it had a hole.
+
+LABEL: 2
+
+SENTENCE 1","I stuck a pin through a carrot. When I pulled the pin out, it had a hole.
+
+LABEL: 2
+
+SENTENCE 1",0.31,0.31,0.35,0.35
+John is so short.,"John couldn't see the stage with Billy in front of him because he is so short.
+
+LABEL: 2
+
+SENTENCE 3:
+","John couldn't see the stage with Billy in front of him because he is so short.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.32,0.32,0.3,0.3
+The police were trying to stop the drug trade in the neighborhood.,"The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood.
+
+LABEL: 2
+
+SENTENCE","The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood.
+
+LABEL: 2
+
+SENTENCE",0.71,0.71,0.46,0.46
+Steve influences him hugely.,"Fred's example is a good one.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred's example is a good one.
+
+","Fred's example is to be a good example.
+
+LABEL: 1
+
+SENTENCE 1:
+Steve follows Fred's example in everything.",0.0,0.08,0.49,0.45
+"mother was careful not to disturb her, undressing and climbing back into her berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 1","Tatyana was a young girl, who had just turned 14. She was a beautiful girl, with long, dark hair and a pale complexion. She",0.8,0.11,0.63,0.2
+George was particularly eager to see it.,"Eric got free tickets to the play, but he gave them to George, because he was particularly eager to see it.
+
+LABEL: 1
+
+","George got free tickets to the play, but he gave them to Eric, because he was particularly eager to see it.
+
+LABEL: 1
+
+",0.47,0.47,0.41,0.42
+John was very impressive.,"John was jogginging through the park when he saw a man juggling watermelons. He was very impressive.
+
+LABEL: 1
+
+","John was jogginging through the park when he saw a man juggling watermelons. He was very impressive.
+
+LABEL: 1
+
+",0.35,0.35,0.31,0.31
+The pot was too tall.,"I couldn't put the pot on the shelf because it was too tall.
+
+LABEL: 2
+
+SENTENCE 3:
+I couldn't","I couldn't put the pot on the shelf because it was too tall.
+
+LABEL: 2
+
+SENTENCE 1:
+I couldn't",0.38,0.38,0.34,0.34
+There were simply not enough copies of the newsletter.,"We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of them.
+
+LABEL:","We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of them.
+
+LABEL:",0.35,0.35,0.37,0.37
+The judges were so advanced.,"The judges couldn't figure out which respondents were the chatbots because they were so advanced.
+
+LABEL: 1
+
+SENTENCE 3:","The judges couldn't figure out which respondents were the chatbots because they were so advanced.
+
+LABEL: 1
+
+SENTENCE 1:",0.4,0.4,0.26,0.24
+I took the water bottle out of the backpack so that the backpack would be lighter.,"I took the water bottle out of the backpack so that it would be lighter.
+
+LABEL: 2
+
+SENTENCE 3:
+I took","I took the water bottle out of the backpack so that it would be lighter.
+
+LABEL: 2
+
+SENTENCE 1:
+I took",0.76,0.76,0.43,0.43
+The table is too narrow.,"The table is too narrow to fit through the doorway.
+
+LABEL: 1
+
+SENTENCE 3:
+The table is too narrow to fit","The table won't fit through the doorway because it is too narrow.
+
+LABEL: 1
+
+SENTENCE 1:
+The table won't",0.38,0.38,0.46,0.33
+I took the water bottle out of the backpack so that the backpack would be handy.,"I took the water bottle out of the backpack so that it would be handy.
+
+LABEL: 1
+
+SENTENCE 3:
+I took","I took the water bottle out of the backpack so that it would be handy.
+
+LABEL: 1
+
+SENTENCE 3:
+I took",0.76,0.76,0.43,0.43
+The police were coming from so far away.,"The firemen arrived after the police because they were coming from so far away.
+
+LABEL: 1
+
+SENTENCE 3:
+The fire","The firemen arrived after the police because they were coming from so far away.
+
+LABEL: 1
+
+SENTENCE 1:
+The fire",0.57,0.57,0.36,0.36
+Dad could not help him now.,"Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but","Larry was a good boy. He always did what his father told him to do.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.34,0.08,0.34,0.17
+The cup was empty.,"I poured water from the bottle into the cup until it was empty.
+
+LABEL: 1
+
+SENTENCE 3:
+I poured water from","I poured water from the bottle into the cup until it was empty.
+
+LABEL: 1
+
+SENTENCE 3:
+I poured water from",0.32,0.32,0.34,0.34
+The cake has a lot of butter in it.,"I put the cake away in the refrigerator. It has a lot of butter in it.
+
+LABEL: 2
+
+SENTENCE 3:
+","I put the cake away in the refrigerator. It has a lot of butter in it.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.62,0.62,0.44,0.46
+Lionel plans to use it on Geoffrey and send Lionel to steal nuclear material from an army vault.,"Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey","Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey",0.33,0.33,0.4,0.4
+The foxes have gotten very bold.,"The foxes are getting in at night and attacking the chickens. They have gotten very bold.
+
+LABEL: 2
+
+SENTENCE 3:","The foxes are getting in at night and attacking the chickens. They have gotten very bold.
+
+LABEL: 2
+
+SENTENCE 1:",0.46,0.46,0.42,0.41
+"The piano was broken, so he had to stand instead.","Sam pulled up a chair to the piano, but it was broken, so he had to stand instead.
+
+LABEL: 1
+
+SENTENCE","Sam pulled up a chair to the piano, but it was broken, so he had to stand instead.
+
+LABEL: 1
+
+SENTENCE",0.65,0.65,0.47,0.47
+Susan did not get an answer.,"Jane knocked on Susan's door but she did not get an answer.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane knocked on Susan","Susan opened the door and said, ""Hello, Jane.""
+
+LABEL: 1
+
+SENTENCE 3:
+""Hello, Susan,""",0.44,0.1,0.52,0.28
+Adam would have won.,"Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have won.
+
+LABEL","Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have won.
+
+LABEL",0.27,0.27,0.26,0.26
+The table broke.,"I put the butterfly wing on the table and it broke.
+
+LABEL: 1
+
+SENTENCE 3:
+I put the butterfly wing on","I put the butterfly wing on the table and it broke.
+
+LABEL: 1
+
+SENTENCE 3:
+I put the butterfly wing on",0.25,0.25,0.43,0.43
+Paul wasn't successful.,"Paul tried to call George on the phone, but he wasn't successful.
+
+LABEL: 2
+
+SENTENCE 3:
+Paul tried to","George was not at home.
+
+LABEL: 2
+
+SENTENCE 1:
+Paul tried to call George on the phone, but he wasn",0.33,0.17,0.31,0.27
+The shark had better get away to safety fast!,"The duck is swimming away from the shark.
+
+LABEL: 1
+
+SENTENCE 2:
+The duck is swimming away from the shark.","The duck is swimming right below the shark.
+
+SENTENCE 1:
+Look! There is a shark swimming right below that duck! It had better",0.21,0.25,0.57,0.34
+The suitcase is too large.,"The trophy fits into the brown suitcase because it is too small.
+
+LABEL: 1
+
+SENTENCE 3:
+The trophy fits into the","The trophy doesn't fit into the brown suitcase because it is too large.
+
+LABEL: 1
+
+SENTENCE 1:
+The trophy doesn",0.31,0.38,0.33,0.3
+Joe is 30 years older.,"Joe's uncle can still beat him at tennis, even though he is 30 years older.
+
+LABEL: 1
+
+SENTENCE 3:
+","Joe's uncle can still beat him at tennis, even though he is 30 years older.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.4,0.4,0.25,0.25
+The large ball was made of steel.,"The large ball crashed right through the table because it was made of steel.
+
+LABEL: 2
+
+SENTENCE 3:
+The large ball","The large ball crashed right through the table because it was made of steel.
+
+LABEL: 2
+
+SENTENCE 1:
+The large ball",0.5,0.5,0.37,0.37
+The crutches should be better.,"Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be better.
+
+LABEL: 1","Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be better.
+
+LABEL: 1",0.28,0.28,0.37,0.37
+His friend Henry let him stack Grant and his family in his barn where they would dry.,"Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they","Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they",0.46,0.46,0.43,0.43
+Jane invited her to come out.,"Jane knocked on the door, and Susan answered it. She invited her to come out.
+
+LABEL: 2
+
+SENTENCE 1:
+","Jane knocked on the door, and Susan answered it. She invited her to come out.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.48,0.48,0.38,0.38
+Bill is very cruel.,"Dan had to stop Bill from toying with the injured bird. He is very cruel.
+
+LABEL: 2
+
+SENTENCE 3:
+","Bill is a bird.
+
+LABEL: 2
+
+SENTENCE 1:
+Dan had to stop Bill from toying with the injured bird.",0.35,0.17,0.29,0.24
+"Tom said ""Check"" to Ralph as he took Ralph's bishop.","Ralph said ""Check"" to Tom as he took his knight.
+
+LABEL: 2
+
+SENTENCE 3:
+Ralph said ""","Ralph said ""Check"" to Tom as he took his bishop.
+
+LABEL: 2
+
+SENTENCE 1:
+Tom said ""Check",0.52,0.5,0.43,0.51
+"I sallied out for a bit of food, more to pass the time than because I wanted food.","I sallied out for a bit of food, more to pass the time than because I wanted it.
+
+LABEL: 2
+
+SENT","I sallied out for a bit of food, more to pass the time than because I wanted it.
+
+LABEL: 2
+
+SENT",0.87,0.87,0.65,0.65
+Joe received the final report on the case.,"The detective was paid after he received the final report on the case.
+
+LABEL: 2
+
+SENTENCE 3:
+The detective was paid","The detective was paid after he received the final report on the case.
+
+LABEL: 2
+
+SENTENCE 1:
+The detective was paid",0.48,0.48,0.57,0.57
+There were simply too many copies of the newsletter.,"We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them.
+
+LABEL:","We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them.
+
+LABEL:",0.35,0.35,0.35,0.35
+He will be moving into The new house on Thursday.,"Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday.
+
+SENTENCE 3:
+","Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday.
+
+LABEL: 2
+
+",0.41,0.41,0.5,0.43
+He could not help Dad now.,"Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but","Larry was a good boy. He always did what his father told him to do.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.29,0.08,0.35,0.19
+"Beside the table there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.",0.68,0.68,0.76,0.76
+Kevin was so upset.,"Jim comforted Kevin because he was so upset.
+
+LABEL: 2
+
+SENTENCE 3:
+Jim comforted Kevin because he was so","Jim comforted Kevin because he was so upset.
+
+LABEL: 2
+
+SENTENCE 1:
+Jim comforted Kevin because he was so",0.35,0.35,0.52,0.52
+Arnold lived two centuries earlier.,"Arnold was a great composer, but he was not greatly influenced by Jackson.
+
+LABEL: 2
+
+SENTENCE 3:
+Jackson was","Arnold was a great composer, but he was not a great musician.
+
+LABEL: 2
+
+SENTENCE 1:
+The first time",0.08,0.08,0.18,0.21
+I can't see around the stage.,"I can't see around the pillar.
+
+LABEL: 1
+
+SENTENCE 3:
+I can't see around the pillar.
+
+","I can't see around it.
+
+LABEL: 1
+
+SENTENCE 3:
+I can't see around it.
+
+LABEL",0.48,0.42,0.63,0.55
+Prehistoric humans hunted for deer on the river banks.,"The Laputa were a race of flying people who lived in the sky. They were the first to discover the secret of flying.
+
+LABEL: 2","The river banks were covered with trees.
+
+LABEL: 2
+
+SENTENCE 3:
+The river banks were covered with trees.
+
+",0.06,0.22,0.21,0.49
+Amy's parents are snobs.,"Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are snobs.
+
+LABEL: 2
+
+","Amy's parents are unhappy about it, because they are snobs.
+
+LABEL: 2
+
+SENTENCE 1:
+Sam and Amy",0.38,0.43,0.4,0.5
+John was hungry.,"John passed the half-empty plate to Bill because he was hungry.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill was hungry because","John passed the half-empty plate to Bill because he was hungry.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill and John were",0.26,0.26,0.36,0.22
+She writes the book when she gets home from work.,"Sara borrowed the book from the library because she needs it for an article she is working on. She writes it when she gets home from work.
+
+","The book is a novel.
+
+LABEL: 1
+
+SENTENCE 1:
+Sara borrowed the book from the library because she needs it",0.43,0.2,0.67,0.39
+Bill left.,"John promised Bill to leave, so an hour later he left.
+
+LABEL: 1
+
+SENTENCE 3:
+John promised Bill to leave","John promised Bill to leave, so an hour later he left.
+
+LABEL: 1
+
+SENTENCE 3:
+John promised Bill to leave",0.18,0.18,0.51,0.51
+She reads the article when she gets home from work.,"Sara borrowed the book from the library because she needs it for an article she is working on. She reads it when she gets home from work.
+
+","The book is a good read.
+
+LABEL: 1
+
+SENTENCE 3:
+The book is a good read.
+
+LABEL",0.43,0.07,0.67,0.41
+The door of the shop closed after Steve.,"Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.
+
+LABEL:","Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.
+
+LABEL:",0.42,0.42,0.37,0.37
+"When Fred first saw my father, My father was twelve years old.","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve years old.
+
+LABEL","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve years old.
+
+LABEL",0.53,0.53,0.55,0.55
+"Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled Grandma to the table.","
+
+SENTENCE 2:
+Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as",", ""Now, Tatyana, you must eat.""
+
+SENTENCE 2:
+Tatyana knew that Grandma always enjoyed serving an abundance",0.16,0.12,0.3,0.26
+George got back.,"Fred and George went out to buy groceries.
+
+LABEL: 2
+
+SENTENCE 3:
+Fred and George went out to buy grocer","George went out to buy groceries. After an hour he got back.
+
+LABEL: 2
+
+SENTENCE 3:
+Fred watched TV",0.09,0.27,0.5,0.29
+"Lily spoke to Donna, breaking Donna's concentration.","Donna was angry.
+
+LABEL: 2
+
+SENTENCE 3:
+Lily was angry.
+
+LABEL: 3
+
+","Donna:
+I'm sorry, Lily.
+
+LABEL: 2
+
+SENTENCE 1:
+Donna, I'm sorry.
+",0.1,0.19,0.42,0.33
+Sue had such a bad start.,"SENTENCE 1:
+Although they ran at about the same speed, Sue beat Sally because she had such a bad start.
+
+LABEL: 1","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Sue and Sally were both running in the",0.43,0.08,0.42,0.23
+She couldn't stand Madonna's boyfriend.,"Madonna fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 1
+
+SENTENCE 3:
+Madonna fired her trainer","She fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 1
+
+SENTENCE 1:
+Madonna fired her trainer because",0.38,0.37,0.58,0.52
+The axe is too small.,"I can't cut that tree down with that axe; it is too small.
+
+LABEL: 2
+
+SENTENCE 3:
+I can","I can't cut that tree down with that axe; it is too small.
+
+LABEL: 2
+
+SENTENCE 1:
+I can",0.32,0.32,0.27,0.26
+She slept with Madonna's boyfriend.,"Madonna fired her trainer because she slept with her boyfriend.
+
+LABEL: 2
+
+SENTENCE 3:
+Madonna fired her trainer because","Madonna fired her trainer because she slept with her boyfriend.
+
+LABEL: 1
+
+SENTENCE 1:
+Madonna fired her trainer because",0.32,0.32,0.53,0.53
+"I don't know why the guy in uniform was, but he looked very unhappy.","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why he was, but he looked very unhappy.
+","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why he was, but he looked very unhappy.
+",0.51,0.51,0.67,0.67
+Alice's daughter was behaving so strangely.,"Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL: 1","Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL: 1",0.39,0.39,0.44,0.44
+Jane did not answer.,"Jane knocked on Susan's door but she did not answer.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane knocked on Susan's door","Susan's door was locked.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane knocked on Susan's door but she did not answer",0.32,0.33,0.61,0.5
+The politicians must make rules to regulate them.,"The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 2
+
+SENTENCE 3","The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 2
+
+SENTENCE 1",0.52,0.52,0.35,0.34
+Those occasions stood out as red-letter days for Henry.,The red-letter days for him were the days when his father had been present at interviews which his father had had with noted detectives who desired his aid in solving,"The detective was a man of medium height, with a thin, sharp face, and a pair of keen, penetrating eyes. He was dressed in a dark suit",0.2,0.0,0.46,0.31
+"The chair was broken, so he had to stand instead.","Sam pulled up a chair to the piano, but it was broken, so he had to stand instead.
+
+LABEL: 2
+
+SENTENCE","Sam pulled up a chair to the piano, but it was broken, so he had to stand instead.
+
+LABEL: 2
+
+SENTENCE",0.58,0.58,0.44,0.44
+I carried the newspaper over my backpack to keep the backpack dry.,"I carried the newspaper over my backpack to keep it dry.
+
+LABEL: 2
+
+SENTENCE 3:
+I carried the newspaper over my","I was carrying the newspaper over my backpack to keep it dry.
+
+LABEL: 2
+
+SENTENCE 1:
+I was carrying the newspaper",0.61,0.55,0.49,0.59
+They must make rules to regular the politicians.,"The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 1
+
+SENTENCE 3","The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 1
+
+SENTENCE 1",0.32,0.32,0.32,0.33
+Anna had studied so hard.,"Lucy did a lot better than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 2
+
+SENTENCE","Lucy did a lot better than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 2
+
+SENTENCE",0.37,0.37,0.33,0.33
+Mr. Singer heard him calling for the captain,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 1
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.14,0.14,0.11,0.31
+My great-grandfather was a remarkable man.,"Fred is the only man still alive who remembers my great-grandfather. He was a remarkable man.
+
+LABEL: 2
+
+SENTENCE","He was a remarkable man.
+
+LABEL: 2
+
+SENTENCE 1:
+Fred is the only man still alive who remembers my great-",0.52,0.3,0.42,0.33
+The shelf was too high.,"I couldn't put the pot on the shelf because it was too high.
+
+LABEL: 2
+
+SENTENCE 3:
+I couldn't","I couldn't put the pot on the shelf because it was too high.
+
+LABEL: 2
+
+SENTENCE 1:
+I couldn't",0.38,0.38,0.31,0.31
+That's exactly how the study makes us feel.,"Lincoln, George. ""Facebook and the Dark Side of Social Media."" Psychology Today. Psychology Today, n.d. Web.
+
+SENTENCE","The study, published in the journal Social Psychological and Personality Science, found that people who use Facebook to connect with friends and family are more likely to feel lonely",0.07,0.16,0.12,0.38
+Bob is very generous.,"Bob paid for Charlie's college education. He is very generous.
+
+LABEL: 2
+
+SENTENCE 3:
+Bob paid for Charlie's","Bob paid for Charlie's college education. He is very generous.
+
+LABEL: 2
+
+SENTENCE 1:
+Bob paid for Charlie's",0.33,0.33,0.48,0.48
+John left.,"John promised Bill to leave, so an hour later he left.
+
+LABEL: 2
+
+SENTENCE 3:
+John promised Bill to leave","John promised Bill to leave, so an hour later he left.
+
+LABEL: 2
+
+SENTENCE 1:
+John promised Bill to leave",0.18,0.18,0.51,0.51
+The toaster Frank had sold him didn't work.,"Tom was upset with Frank because the toaster he had sold him didn't work.
+
+LABEL: 1
+
+SENTENCE 3:
+Frank","Tom was upset with Frank because the toaster he had sold him didn't work.
+
+LABEL: 1
+
+SENTENCE 3:
+Frank",0.55,0.55,0.49,0.49
+"Equally swoon-worthy is C.K. Dexter Haven, a pallid young dandy holding a jade-handled walking stick, with a poodle asleep at Haven's feet.","The poodle is a poodle.
+
+SENTENCE 3:
+The poodle is a poodle.
+
+SENT","The poodle woke up and began to bark.
+
+LABEL: 2
+
+SENTENCE 1:
+The poodle woke up and",0.21,0.05,0.33,0.21
+He will be moving out of The old house on Thursday.,"Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday.
+
+SENTENCE 3:","Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday.
+
+LABEL: 2
+",0.44,0.44,0.48,0.47
+The door of the shop closed after Mark.,"Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.
+
+LABEL:","The door of the shop closed after him. He ran to look out the window.
+
+LABEL: 1
+
+SENTENCE 3:
+Mark",0.42,0.57,0.37,0.44
+Even one thread uncut will leave the right size too small.,"It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip","It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip",0.16,0.16,0.27,0.27
+Billy cried because Toby wouldn't accept Toby's toy.,"Toby didn't want to give Billy his toy.
+
+LABEL: 1
+
+SENTENCE 3:
+Billy cried because Toby wouldn","Toby didn't want Billy to have his toy.
+
+LABEL: 1
+
+SENTENCE 3:
+Billy cried because Toby wouldn",0.36,0.36,0.39,0.38
+Ollie's legs dangled.,"As Ollie carried Tommy up the long winding steps, his legs dangled.
+
+LABEL: 1
+
+SENTENCE 1:
+As","Tommy was a very small boy.
+
+LABEL: 1
+
+SENTENCE 1:
+As Ollie carried Tommy up the long winding",0.29,0.09,0.31,0.28
+"The chair was broken, so he had to sing instead.","Sam pulled up a chair to the piano, but it was broken, so he had to sing instead.
+
+LABEL: 1
+
+SENTENCE","Sam pulled up a chair to the piano, but it was broken, so he had to sing instead.
+
+LABEL: 1
+
+SENTENCE",0.58,0.58,0.45,0.45
+The worm was hungry.,"The fish ate the worm. It was hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+The fish ate the worm. It was","The fish ate the worm. It was hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+The fish ate the worm. It was",0.35,0.35,0.45,0.45
+"The journalists were very cooperative, so the interview lasted for a long time.","The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time.
+
+LABEL: 1
+
+","The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time.
+
+LABEL: 1
+
+",0.72,0.72,0.58,0.58
+The trophy is too small.,"The trophy fits into the brown suitcase because it is too small.
+
+LABEL: 1
+
+SENTENCE 3:
+The trophy fits into the","The trophy doesn't fit into the brown suitcase because it is too small.
+
+LABEL: 1
+
+SENTENCE 1:
+The trophy doesn",0.38,0.38,0.31,0.28
+Cooper had been travelling for five years.,"Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years.
+
+LABEL: 1
+
+SENTENCE","He was a man of great learning and of great benevolence.
+
+LABEL: 1
+
+SENTENCE 3:
+He was a man",0.52,0.0,0.27,0.21
+She put the album on a chair without even opening the living room.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.14,0.14,0.37,0.37
+Bill was full.,"John passed the half-empty plate to Bill because he was full.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the half","John passed the half-empty plate to Bill because he was full.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the half",0.26,0.26,0.29,0.29
+John was full.,"John passed the half-empty plate to Bill because he was full.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the half","John passed the half-empty plate to Bill because he was full.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the half",0.26,0.26,0.29,0.29
+I shall have to kill The foxes.,"The foxes are getting in at night and attacking the chickens. I shall have to kill them.
+
+LABEL: 2
+
+SENTENCE 3","The foxes are getting in at night and attacking the chickens. I shall have to kill them.
+
+LABEL: 2
+
+SENTENCE 1",0.36,0.36,0.42,0.43
+Joe is 30 years younger.,"Joe's uncle can still beat him at tennis, even though he is 30 years younger.
+
+SENTENCE 3:
+Joe's uncle can still beat","Joe's uncle can still beat him at tennis, even though he is 30 years younger.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.34,0.4,0.46,0.24
+She saw that Janie was open.,"Janie was not open.
+
+LABEL: 2
+
+SENTENCE 3:
+Emma did not pass the ball to Janie although she","Janie did not pass the ball to Emma although she was open.
+
+LABEL: 0
+
+SENTENCE 3:
+Emma did not",0.25,0.24,0.29,0.28
+Bill's turn was over.,"John passed the gameboy to Bill because his turn was over.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the gameboy","John passed the gameboy to Bill because his turn was over.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the gameboy",0.33,0.33,0.46,0.46
+Ann had forgotten.,"Mary said, ""I don't know. I'll have to ask the librarian.""
+
+LABEL: 2
+
+SENTENCE 3:
+","The library closes at 6:00.
+
+LABEL: 2
+
+SENTENCE 1:
+Mary asked Ann what time the library closes, because",0.0,0.09,0.13,0.41
+Pam's parents were furious about it.,"Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.
+
+SENTENCE 1:
+P","Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.
+
+LABEL: 2
+
+S",0.48,0.48,0.44,0.44
+This afternoon the tide knocked The flag down.,"This afternoon, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this morning the tide knocked it down.
+","This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked it down.
+",0.34,0.34,0.54,0.55
+The man was so weak.,"The man couldn't lift his son because he was so weak.
+
+LABEL: 2
+
+SENTENCE 3:
+The man couldn't lift","The man couldn't lift his son because he was so weak.
+
+LABEL: 2
+
+SENTENCE 1:
+The man couldn't lift",0.38,0.38,0.43,0.42
+The customer was immediately taken to the hospital.,"The customer was a bank robber.
+
+LABEL: 1
+
+SENTENCE 3:
+The customer was a bank robber.
+
+LABEL","The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the hospital.
+
+LABEL: 1
+
+SENT",0.32,0.53,0.54,0.35
+He couldn't very well marry without Chester's approval,"Chester was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 1
+
+SENTENCE 3:
+","He was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 1
+
+SENTENCE 1:
+Since",0.53,0.52,0.42,0.26
+Mama stroked her hair and let the child weep.,"Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep.
+
+LABEL: 2
+
+","""
+
+SENTENCE 1:
+Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep",0.62,0.62,0.56,0.65
+Emma saw that she was open.,"Janie did not pass the ball to Emma although she saw that she was open.
+
+LABEL: 2
+
+SENTENCE 3:
+Em","Janie did not pass the ball to Emma although she saw that she was open.
+
+LABEL: 0
+
+SENTENCE 3:
+Em",0.46,0.46,0.32,0.32
+Mark was afraid the stable boys at the Burlington Stables struck at him and bullied him.,"Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he","Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he",0.76,0.76,0.46,0.46
+Tatyana doubted if her mother slept.,"Tatyana was a little girl of about six years old. She was the only child of her parents, and her father was a merchant in a small town","The train was moving slowly, and the wheels were creaking. Tatyana could hear the sound of the wheels, and the creaking of the wheels,",0.12,0.07,0.38,0.4
+Robert was refused.,"Robert refused James’s request.
+
+LABEL: 1
+
+SENTENCE 3:
+James was angry.
+
+LABEL: 2
+","Robert refused James's request.
+
+LABEL: 1
+
+SENTENCE 1:
+James asked Robert for a favor but he was refused.
+",0.24,0.27,0.46,0.56
+The axe is too thick.,"I can't cut that tree down with that axe; it is too thick.
+
+LABEL: 1
+
+SENTENCE 3:
+I can","I can't cut that tree down with that axe; it is too thick.
+
+LABEL: 1
+
+SENTENCE 1:
+I can",0.32,0.32,0.27,0.27
+Bob was very ill.,"Carl:
+I'm a doctor. I'll help Bob.
+
+SENTENCE 3:
+Bob was very sick. He was in the hospital for","Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+",0.24,0.17,0.33,0.31
+Janie saw that she was open.,"Janie did not pass the ball to Emma although she saw that she was open.
+
+LABEL: 1
+
+SENTENCE 3:
+Em","Janie did not pass the ball to Emma although she saw that she was open.
+
+LABEL: 1
+
+SENTENCE 3:
+Em",0.46,0.46,0.37,0.37
+Tom wouldn't have to drive alone.,"Ralph was a good driver.
+
+LABEL: 2
+
+SENTENCE 3:
+Tom was a good driver.
+
+LABEL:","Ralph
+
+LABEL: 2
+
+SENTENCE 1:
+Tom gave Ralph a lift to school so he wouldn't have to drive alone.",0.09,0.52,0.34,0.4
+Sam's drawing did look much better with another one below it.,"Tina's drawing was hung just above Sam's and it did look much better with another one below it.
+
+LABEL: 2
+
+SENT","The train split of the glue dataset is provided in the following directory:
+
+/home/pytorch/glue/glue/train/",0.63,0.0,0.5,0.25
+Sue had such a good start.,"SENTENCE 1:
+Although they ran at about the same speed, Sue beat Sally because she had such a good start.
+
+LABEL: 2","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Sue and Sally were running in a race",0.43,0.15,0.44,0.29
+The sweater looks dowdy on her.,"Grace was happy to trade me her sweater for my jacket. She thinks it looks dowdy on her.
+
+LABEL: 2
+
+SENT","I'm not sure what to do with this one.
+
+LABEL: 2
+
+SENTENCE 1:
+I'm not sure what to do",0.37,0.0,0.42,0.34
+Charlie is very grateful.,"Bob paid for Charlie's college education. He is very grateful.
+
+LABEL: 2
+
+SENTENCE 3:
+Bob paid for Charlie's","Charlie is very grateful. He paid for Bob's college education.
+
+LABEL: 2
+
+SENTENCE 1:
+Bob paid for Charlie's",0.33,0.33,0.46,0.36
+The sweater looks great on her.,"I think it looks great on her.
+
+LABEL: 1
+
+SENTENCE 3:
+I think it looks great on her.
+
+","I'm not sure what to do with this one.
+
+LABEL: 1
+
+SENTENCE 1:
+I'm not sure what to do",0.33,0.0,0.6,0.4
+Mr. Schmidt's work was beautiful.,Mark was a very strict teacher. He would scold Mr. Schmidt for not finishing his work. He would tell him that he was lazy and that he was,Mark Schmidt was a very nice man. He was a very nice man. He was a very nice man. He was a very nice man. He was a,0.24,0.12,0.23,0.39
+The man lifted the boy onto the man's shoulders.,"The man lifted the boy onto his shoulders.
+
+LABEL: 2
+
+SENTENCE 3:
+The man lifted the boy onto his shoulders.","The man lifted the boy onto his shoulders.
+
+LABEL: 1
+
+SENTENCE 1:
+The man lifted the boy onto his shoulders.",0.6,0.6,0.7,0.72
+coats were not prepared for the cold in Alaska.,"Fred and Alice had very warm down coats, but they were not prepared for the cold in Alaska.
+
+LABEL: 1
+
+SENTENCE 3","They were not prepared for the cold in Alaska.
+
+LABEL: 1
+
+SENTENCE 3:
+The train split of the glue dataset is",0.58,0.53,0.42,0.19
+Yakutsk was defeated within weeks.,"In August, Yakutsk declared war on Kamtchatka. Since Kamtchatka's army was much better equipped and ten times larger, they","The war was over by the end of the year.
+
+LABEL: 1
+
+SENTENCE 1:
+In July, Kamtchatka",0.16,0.09,0.27,0.22
+Jackson lived two centuries earlier.,"Arnold was a great composer, but he was not a great musician.
+
+LABEL: 1
+
+SENTENCE 3:
+Jackson was a","Arnold was a great composer, but he was not a great musician.
+
+LABEL: 1
+
+SENTENCE 1:
+The first time",0.08,0.0,0.16,0.16
+We couldn't use the lake.,"We couldn't use the path to the lake.
+
+LABEL: 1
+
+SENTENCE 3:
+We couldn't use the path to the","The path to the lake was blocked, so we couldn't use it.
+
+LABEL: 1
+
+SENTENCE 1:
+The path to",0.44,0.38,0.5,0.28
+She reads the book when she gets home from work.,"Sara borrowed the book from the library because she needs it for an article she is working on. She reads it when she gets home from work.
+
+","The book is a good read.
+
+LABEL: 2
+
+SENTENCE 1:
+Sara borrowed the book from the library because she needs",0.43,0.2,0.7,0.36
+The teller was immediately taken to the police station.,"The customer was arrested for murder.
+
+LABEL: 1
+
+SENTENCE 3:
+The customer was charged with murder.
+
+LABEL","The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the police station.
+
+LABEL: 1
+
+S",0.23,0.5,0.47,0.39
+Bob would be here by this time.,"Bob is late for work.
+
+LABEL: 2
+
+SENTENCE 1:
+Adam can't leave work here until Bob arrives to replace him","Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is",0.14,0.07,0.39,0.36
+You thought tulip bulbs were onions?,I was a little girl and I was playing with my friends. We were playing with the tulip bulbs and we were cutting them up. We were cutting,"I was in the kitchen cutting up tulip bulbs in the hamburgers because I thought they were onions.
+
+LABEL: 2
+
+",0.18,0.31,0.39,0.33
+It was a major influence on Shakespeare's writing.,"This book introduced Shakespeare to Ovid; it was a major influence on his writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This","Shakespeare was a major influence on Ovid's writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This book introduced Shakespeare to O",0.5,0.5,0.38,0.47
+Cooper had been dead for five years.,"Thomson visited Cooper's grave in 1765. At that date he had been dead for five years.
+
+LABEL: 2
+
+SENTENCE","Thomson visited Cooper's grave in 1765. At that date he had been dead for five years.
+
+LABEL: 2
+
+SENTENCE",0.52,0.52,0.26,0.26
+He changed his mind and turned the TV on.,"Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,","Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,",0.11,0.11,0.45,0.45
+George wasn't available.,"Paul tried to call George on the phone, but he wasn't available.
+
+LABEL: 2
+
+SENTENCE 3:
+Paul tried to","George was not available.
+
+LABEL: 2
+
+SENTENCE 1:
+Paul tried to call George on the phone, but he wasn't",0.33,0.25,0.32,0.43
+"Tatyana was careful not to disturb her, undressing and climbing back into her berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 2","Tatyana was a young girl, who had just turned 14. She was a beautiful girl, with long, dark hair and a pale complexion. She",0.8,0.16,0.62,0.3
+Anyone who knew that he was 19 years old could take his claim away from the government official.,"Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything","The government official who had not told Bernard that he was less than 21 when he filed for a homestead claim could take his claim away from him.
+
+LAB",0.21,0.43,0.44,0.53
+My great-grandfather is a remarkable man.,"Fred is the only man still alive who remembers my great-grandfather. He is a remarkable man.
+
+LABEL: 1
+
+SENTENCE","He is a remarkable man.
+
+LABEL: 1
+
+SENTENCE 3:
+He is a remarkable man.
+
+LABEL: 0",0.52,0.35,0.44,0.54
+The cake has a lot of leftovers in it.,"I put the cake away in the refrigerator. It has a lot of leftovers in it.
+
+LABEL: 1
+
+SENTENCE 3:","I put the cake away in the refrigerator. It has a lot of leftovers in it.
+
+LABEL: 1
+
+SENTENCE 3:",0.62,0.62,0.48,0.48
+Jim signaled the barman and gestured toward The barman's bathroom key.,"The barman took the key and opened the door.
+
+LABEL: 2
+
+SENTENCE 3:
+Jim entered the bathroom and closed the","The barman took the key and opened the door.
+
+LABEL: 2
+
+SENTENCE 1:
+The barman took the key and",0.31,0.39,0.33,0.32
+Fred influences him hugely.,"Fred's example is a good one.
+
+LABEL: 2
+
+SENTENCE 3:
+Fred's example is a good one.
+
+","Fred's example is to be a good example.
+
+LABEL: 2
+
+SENTENCE 1:
+Fred's example is to be a good",0.09,0.08,0.58,0.41
+"She was careful not to disturb her mother , undressing and climbing back into her berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 2","Tatyana was a young girl, who had just turned 14. She was a very pretty girl, with long blonde hair and blue eyes. She was very",0.78,0.15,0.64,0.17
+Jane wasn't hungry.,"Jane gave Joan candy because she wasn't hungry.
+
+LABEL: 2
+
+SENTENCE 3:
+Jane gave Joan candy because she wasn't","Jane gave Joan candy because she wasn't hungry.
+
+LABEL: 1
+
+SENTENCE 1:
+Jane gave Joan candy because she wasn't",0.32,0.32,0.47,0.48
+Father gave Tommy a stern look.,"When Tommy dropped his ice cream, Timmy giggled, so father gave him a stern look.
+
+LABEL: 1
+
+SENTENCE 3","When Tommy dropped his ice cream, Timmy giggled, so father gave him a stern look.
+
+LABEL: 1
+
+SENTENCE 1",0.4,0.4,0.31,0.35
+The coffee got full of ink.,"I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full","I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full",0.17,0.17,0.44,0.44
+The son was so weak.,"The man couldn't lift his son because he was so weak.
+
+LABEL: 1
+
+SENTENCE 3:
+The man couldn't lift","The man couldn't lift his son because he was so weak.
+
+SENTENCE 1:
+The man couldn't lift his son because he was so",0.38,0.33,0.46,0.62
+The shepherds ended up looking more like golfers.,"Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.
+
+LABEL: 2
+
+S","Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.
+
+LABEL: 2
+
+S",0.48,0.48,0.41,0.41
+The pen got full of ink.,"I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full of ink.
+
+LABEL:","I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full",0.32,0.17,0.43,0.43
+John was very impressed.,"John was jogginging through the park when he saw a man juggling watermelons. He was very impressed.
+
+LABEL: 2
+
+","John was jogginging through the park when he saw a man juggling watermelons. He was very impressed.
+
+LABEL: 2
+
+",0.35,0.35,0.33,0.33
+He lowered his eyes when the wind stopped.,"The wind was blowing sand around.
+
+SENTENCE 1:
+Fred covered his eyes with his hands, because the wind was blowing sand around. He","Fred covered his eyes with his hands, because the wind was blowing sand around. He lowered them when the wind stopped.
+
+LABEL: 1
+
+",0.26,0.39,0.52,0.47
+The school bus was going so fast.,"The school bus was going so fast that the delivery truck zoomed by it.
+
+LABEL: 1
+
+SENTENCE 3:
+The delivery","The delivery truck zoomed by the school bus because it was going so fast.
+
+LABEL: 1
+
+SENTENCE 1:
+The delivery",0.52,0.52,0.27,0.27
+"Luke was ""it"".","Ethan chased Luke because he was ""it"".
+
+LABEL: 1
+
+SENTENCE 3:
+During a game of tag, Luke chased","Luke was ""it"" because he was the last one tagged.
+
+LABEL: 1
+
+SENTENCE 3:
+Luke was ""it""",0.29,0.3,0.3,0.51
+You can see the garden through the wall.,"There is a gap in the wall. You can see the garden behind it.
+
+LABEL: 2
+
+SENTENCE 3:
+There is","The garden is behind the wall.
+
+LABEL: 2
+
+SENTENCE 1:
+There is a gap in the wall. You can see",0.36,0.29,0.24,0.38
+I took the water bottle out of the backpack so that the water bottle would be lighter.,"I took the water bottle out of the backpack so that it would be lighter.
+
+LABEL: 1
+
+SENTENCE 3:
+I took","I took the water bottle out of the backpack so that it would be lighter.
+
+LABEL: 1
+
+SENTENCE 3:
+I took",0.74,0.74,0.42,0.42
+The sun was out.,"The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was out.
+
+LABEL: 2","The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was out.
+
+LABEL: 2",0.3,0.3,0.28,0.28
+Jim was so upset.,"Jim yelled at Kevin because he was so upset.
+
+LABEL: 2
+
+SENTENCE 3:
+Jim yelled at Kevin because he was so","Jim yelled at Kevin because he was so upset.
+
+LABEL: 2
+
+SENTENCE 3:
+Jim yelled at Kevin because he was so",0.32,0.32,0.54,0.54
+Dora asked what the sound was.,"They were in the middle of the cornfield, and they could hear a sound like corn popping. Dora asked what it was, and Dad said it was","They were in the middle of the street when they heard a loud noise.
+
+LABEL: 2
+
+SENTENCE 1:
+The noise was",0.24,0.15,0.42,0.23
+Bill's turn was next.,"John passed the gameboy to Bill because his turn was next.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the gameboy","John passed the gameboy to Bill because his turn was next.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the gameboy",0.33,0.33,0.49,0.49
+He changed his mind and turned the dishwasher on.,"Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,","Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,",0.11,0.11,0.48,0.48
+Tommy's legs ached.,"As Ollie carried Tommy up the long winding steps, his legs ached.
+
+LABEL: 1
+
+SENTENCE 3:
+As","Tommy was a very good boy.
+
+LABEL: 1
+
+SENTENCE 1:
+As Ollie carried Tommy up the long winding",0.29,0.09,0.25,0.22
+I shall have to kill The chickens.,"The foxes are getting in at night and attacking the chickens. I shall have to kill them.
+
+LABEL: 1
+
+SENTENCE 3","The foxes are getting in at night and attacking the chickens. I shall have to kill them.
+
+LABEL: 1
+
+SENTENCE 1",0.36,0.36,0.41,0.44
+It was bad enough that the faces had to be denied so many things because he couldn't afford them.,"Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn","""
+
+SENTENCE 2:
+Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had",0.61,0.29,0.48,0.32
+The bag of flour had to be moved first.,"The sack of potatoes had been placed above the bag of flour, so it had to be moved first.
+
+LABEL: 1
+
+SENTENCE","The sack of potatoes had been placed above the bag of flour, so it had to be moved first.
+
+LABEL: 1
+
+SENTENCE",0.58,0.58,0.33,0.33
+The dog waited at the top.,"The dog chased the cat, which ran up a tree. It waited at the top.
+
+LABEL: 1
+
+SENTENCE 3:
+","The dog chased the cat, which ran up a tree. It waited at the top.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.48,0.48,0.33,0.33
+Fred admires him hugely.,"Fred's example is a good one.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred is a good example.
+
+LABEL","Fred is a great example of a man. He is a very good man.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred is",0.1,0.08,0.48,0.32
+The woman held the girl against the woman's chest.,"The woman held the girl against her chest.
+
+LABEL: 2
+
+SENTENCE 3:
+The woman held the girl against her chest.","The woman held the girl against her chest.
+
+LABEL: 1
+
+SENTENCE 1:
+The woman held the girl against her chest.",0.6,0.6,0.64,0.66
+The dog waited at the bottom.,"The dog chased the cat, which ran up a tree. It waited at the bottom.
+
+LABEL: 2
+
+SENTENCE 3:
+","The dog chased the cat, which ran up a tree. It waited at the bottom.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.48,0.48,0.34,0.33
+Carl was very concerned.,"Carl:
+I'm sorry Bob. I didn't see you.
+
+SENTENCE 1:
+I'm sorry Carl. I didn't see you","Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+",0.08,0.17,0.63,0.36
+The crutches should be unnecessary.,"Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary.
+
+SENTENCE 1","Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary.
+
+LABEL: 2",0.28,0.28,0.42,0.39
+The carrot left a hole.,"I stuck a pin through a carrot. When I pulled the pin out, it left a hole.
+
+LABEL: 1
+
+SENTENCE 3","I stuck a pin through a carrot. When I pulled the pin out, it left a hole.
+
+LABEL: 1
+
+SENTENCE 3",0.31,0.31,0.38,0.38
+The sheep ended up looking more like dogs.,"Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like dogs.
+
+LABEL: 2
+
+SENT","Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like dogs.
+
+LABEL: 2
+
+SENT",0.48,0.48,0.36,0.36
+The concert continued until 10.,"The rain started falling, and it continued until 10.
+
+LABEL: 1
+
+SENTENCE 3:
+The rain stopped falling, and the","The rain started falling, and it continued until 10.
+
+LABEL: 1
+
+SENTENCE 1:
+In the middle of the outdoor concert",0.33,0.32,0.34,0.32
+The firemen were coming from so far away.,"The firemen arrived before the police because they were coming from so far away.
+
+LABEL: 1
+
+SENTENCE 3:
+The fire","The firemen arrived before the police because they were coming from so far away.
+
+LABEL: 1
+
+SENTENCE 1:
+The fire",0.57,0.57,0.39,0.39
+I couldn't get the key in.,"I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in.
+
+","I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in.
+
+",0.3,0.3,0.43,0.43
+Harry knew much less than Mark did.,"Mark was sure that Harry knew much less than he did.
+
+LABEL: 2
+
+SENTENCE 1:
+Of one thing Mark was sure","Harry knew much less than he did.
+
+LABEL: 2
+
+SENTENCE 1:
+Of one thing Mark was sure. Harry knew much",0.43,0.44,0.46,0.39
+It did not seem possible that the prairie had ever been swept by the winds and snows of that hard winter.,The Dakota prairie lay so warm and bright under the shining sun that it did not seem possible that it had ever been swept by the winds and snows of,The Dakota prairie lay so warm and bright under the shining sun that it did not seem possible that it had ever been swept by the winds and snows of,0.63,0.63,0.57,0.57
+The dog was hot.,"The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.","The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.",0.25,0.25,0.48,0.48
+Frank was the winner of the competition.,"Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition.
+
+LABEL: 2
+
+SENTENCE 3:","Bill is the winner of the competition.
+
+LABEL: 2
+
+SENTENCE 1:
+Frank felt vindicated when his longtime rival Bill revealed",0.5,0.37,0.32,0.42
+Joan made sure to thank Susan for all the help Susan had given.,"Joan made sure to thank Susan for all the help she had given.
+
+LABEL: 2
+
+SENTENCE 3:
+Joan made","Susan had been a great help to Joan.
+
+LABEL: 2
+
+SENTENCE 1:
+Joan made sure to thank Susan for",0.75,0.44,0.47,0.47
+I couldn't hear the announcement.,"I was listening to the radio and I heard a train coming into the station.
+
+LABEL: 1
+
+SENTENCE 3:
+I was","I was in the subway and I heard an announcement.
+
+LABEL: 1
+
+SENTENCE 1:
+I was in the subway and I",0.15,0.22,0.14,0.42
+John was very annoyed.,"John was doing research in the library when he heard a man humming and whistling. He was very annoyed.
+
+LABEL: 2
+
+S","John was doing research in the library when he heard a man humming and whistling. He was very annoyed.
+
+LABEL: 2
+
+S",0.31,0.31,0.34,0.34
+She has loved the piece since she was a child.,"Mary took out her flute and played one of her favorite pieces. She has loved it since she was a child.
+
+LABEL: 2
+
+","Mary took out her flute and played one of her favorite pieces. She has loved it since she was a child.
+
+LABEL: 2
+
+",0.48,0.48,0.5,0.5
+The map is very good.,"I'm sure that my map will show this building; it is very good.
+
+LABEL: 2
+
+SENTENCE 3:
+I'm","I'm sure that my map will show this building; it is very good.
+
+LABEL: 2
+
+SENTENCE 1:
+I'm",0.32,0.32,0.23,0.23
+Carol believed that Rebecca regretted that Rebecca had stolen the watch.,"Rebecca regretted that she had stolen the watch.
+
+LABEL: 2
+
+SENTENCE 3:
+Carol believed that Rebecca regretted that","Rebecca regretted that she had stolen the watch.
+
+LABEL: 2
+
+SENTENCE 1:
+Carol believed that Rebecca regretted that",0.48,0.48,0.46,0.46
+The doorway is too narrow.,"The table is too narrow to fit through the doorway.
+
+LABEL: 2
+
+SENTENCE 3:
+The table is too narrow to fit","The table won't fit through the doorway because it is too narrow.
+
+LABEL: 2
+
+SENTENCE 1:
+The table won't",0.38,0.38,0.52,0.35
+The con artist would have lost a lot of money.,"If the con artist has succeeded in fooling Sam, he would have lost a lot of money.
+
+LABEL: 1
+
+SENTENCE 3","Sam is a con artist.
+
+LABEL: 1
+
+SENTENCE 1:
+If the con artist has succeeded in fooling Sam, he",0.65,0.21,0.47,0.3
+"The piano was broken, so he had to sing instead.","Sam pulled up a chair to the piano, but it was broken, so he had to sing instead.
+
+LABEL: 2
+
+SENTENCE","Sam pulled up a chair to the piano, but it was broken, so he had to sing instead.
+
+LABEL: 2
+
+SENTENCE",0.65,0.65,0.48,0.48
+"When Fred first saw my father, Fred was twelve months old.","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve months old.
+
+LABEL","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve months old.
+
+LABEL",0.54,0.54,0.59,0.59
+Lucy had studied so hard.,"Lucy did a lot better than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 1
+
+SENTENCE","Lucy did a lot better than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 1
+
+SENTENCE",0.37,0.37,0.39,0.39
+Susan invited her to come out.,"Jane knocked on the door, and Susan answered it. She invited her to come out.
+
+LABEL: 1
+
+SENTENCE 3:
+","Jane knocked on the door, and Susan answered it. She invited her to come out.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.48,0.48,0.35,0.36
+We couldn't reach the lake.,"We couldn't reach the lake because the path was blocked.
+
+LABEL: 2
+
+SENTENCE 3:
+We couldn't reach the lake","The path to the lake was blocked, so we couldn't reach it.
+
+LABEL: 2
+
+SENTENCE 1:
+The path to",0.44,0.38,0.56,0.29
+The jacket looks dowdy on her.,"I think it looks dowdy on her.
+
+LABEL: 1
+
+SENTENCE 3:
+I think it looks dowdy on her.","I'm not sure what to do with this one.
+
+LABEL: 1
+
+SENTENCE 1:
+I'm not sure what to do",0.33,0.0,0.68,0.35
+Kirilov was more popular.,"SENTENCE 1:
+Kirilov ceded the presidency to Shatov because he was more popular.
+
+LABEL: 1
+
+","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Kirilov ceded the presidency to",0.42,0.1,0.4,0.25
+The lemon trees came out looking more like telephone poles.,"I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like telephone poles.
+
+LAB","I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like telephone poles.
+
+LAB",0.57,0.57,0.5,0.5
+Martin is very successful.,"Martin envies Pete because he is very successful.
+
+LABEL: 2
+
+SENTENCE 3:
+Pete envies Martin because he is","Martin is very successful.
+
+LABEL: 2
+
+SENTENCE 1:
+Pete envies Martin because he is very successful.
+
+",0.36,0.4,0.41,0.48
+I carried the newspaper in my backpack to keep the newspaper dry.,"I carried the newspaper in my backpack to keep it dry.
+
+LABEL: 2
+
+SENTENCE 3:
+I carried the newspaper in my","I was carrying the newspaper in my backpack to keep it dry.
+
+LABEL: 2
+
+SENTENCE 1:
+I was carrying the newspaper",0.67,0.61,0.49,0.57
+Pam and Paul were furious about it.,"Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.
+
+LABEL: 1
+
+S","Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.
+
+LABEL: 1
+
+S",0.48,0.48,0.41,0.41
+"He had to be the life and soul of a dinner party, with the dinner party there all the time.","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-",0.13,0.13,0.23,0.23
+Now I have to get The tree removed.,"I have to get it removed.
+
+LABEL: 2
+
+SENTENCE 3:
+I have to get it removed.
+
+LABEL","I have to get it removed.
+
+LABEL: 2
+
+SENTENCE 1:
+In the storm, the tree fell down and crashed through",0.4,0.43,0.48,0.41
+He changed his mind and turned the TV off.,"Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,","Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring,",0.11,0.11,0.49,0.49
+The rain continued until 10.,"The rain started falling, and it continued until 10.
+
+LABEL: 2
+
+SENTENCE 3:
+The rain stopped falling, and the","The rain started falling, and it continued until 10.
+
+LABEL: 2
+
+SENTENCE 1:
+In the middle of the outdoor concert",0.42,0.4,0.42,0.29
+Even one thread uncut will leave one thread too small.,"It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip","It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip",0.0,0.0,0.24,0.24
+Adam was known to speak it fluently.,"Sam took French classes from Adam, because he was known to speak it fluently.
+
+LABEL: 2
+
+SENTENCE 3:
+Sam","Sam took French classes from Adam, because he was known to speak it fluently.
+
+LABEL: 2
+
+SENTENCE 1:
+Sam",0.54,0.54,0.43,0.43
+Sid couldn't convince him.,"Mark:
+I don't think you can convince me.
+
+LABEL: 2
+
+SENTENCE 1:
+Sid explained his theory to","Mark:
+
+SENTENCE 1:
+Sid explained his theory to Mark but he couldn't convince him.
+
+LABEL: 1
+
+",0.17,0.45,0.29,0.46
+We should make more of the oatmeal cookies.,"The oatmeal cookies were really good.
+
+LABEL: 2
+
+SENTENCE 3:
+The chocolate chip cookies were really good.
+","The oatmeal cookies were really good. The chocolate chip cookies were not so good.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.24,0.23,0.46,0.28
+The bag of flour had to be moved first.,"The sack of potatoes had been placed below the bag of flour, so it had to be moved first.
+
+LABEL: 2
+
+SENTENCE","The sack of potatoes had been placed below the bag of flour, so it had to be moved first.
+
+LABEL: 2
+
+SENTENCE",0.58,0.58,0.32,0.32
+Tommy's legs dangled.,"As Ollie carried Tommy up the long winding steps, his legs dangled.
+
+LABEL: 2
+
+SENTENCE 1:
+As","Tommy was a very small boy.
+
+LABEL: 2
+
+SENTENCE 1:
+As Ollie carried Tommy up the long winding",0.29,0.09,0.29,0.21
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Goodman faced in his research.,"Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research.
+
+LABEL: 2","The Spartan general Xenophanes was a man of great courage and determination.
+
+LABEL: 2
+
+SENTENCE 1:
+Sam Goodman",0.91,0.36,0.76,0.37
+Blaze took upon himself the feeding and care of the animal.,"Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he","Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he",0.16,0.16,0.23,0.23
+Joe's uncle is 30 years older.,"Joe's uncle can still beat him at tennis, even though he is 30 years older.
+
+SENTENCE 3:
+Joe's uncle can still beat","Joe's uncle can still beat him at tennis, even though he is 30 years older.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.45,0.52,0.46,0.33
+Mama had to hunt for a button.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.17,0.17,0.39,0.39
+The cup was full.,"I poured water from the bottle into the cup until it was full.
+
+LABEL: 2
+
+SENTENCE 3:
+I poured water from","I poured water from the bottle into the cup until it was full.
+
+LABEL: 1
+
+SENTENCE 1:
+I poured water from",0.32,0.32,0.36,0.37
+"Ethan was ""it"".","Ethan chased Luke because he was ""it"".
+
+LABEL: 2
+
+SENTENCE 3:
+During a game of tag, Luke chased","Luke was ""it"" because he was the last one tagged.
+
+LABEL: 2
+
+SENTENCE 1:
+During a game of tag",0.29,0.18,0.33,0.31
+Joan was hungry.,"Jane gave Joan candy because she was hungry.
+
+LABEL: 2
+
+SENTENCE 3:
+Jane gave Joan candy because she was hungry.","Jane gave Joan candy because she was hungry.
+
+LABEL: 1
+
+SENTENCE 1:
+Jane gave Joan candy because she was hungry.",0.26,0.26,0.68,0.7
+Edward no longer requires his financial support.,"Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie","Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie",0.07,0.07,0.25,0.25
+Father gave Tommy a sympathetic look.,"When Tommy dropped his ice cream, Timmy giggled, so father gave him a sympathetic look.
+
+LABEL: 2
+
+SENTENCE 1","When Tommy dropped his ice cream, Timmy giggled, so father gave him a sympathetic look.
+
+LABEL: 2
+
+SENTENCE 1",0.4,0.4,0.32,0.32
+The man was very annoyed.,"John was doing research in the library when he heard a man humming and whistling. He was very annoyed.
+
+LABEL: 1
+
+S","John was doing research in the library when he heard a man humming and whistling. He was very annoyed.
+
+LABEL: 1
+
+S",0.37,0.37,0.34,0.34
+Even one thread uncut will leave the slip too small.,"It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip","It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip",0.11,0.11,0.32,0.32
+Ann is nosy.,"Ann is a nosy person.
+
+LABEL: 1
+
+SENTENCE 3:
+Susan is a nosy person.
+
+LAB","Susan knows all about Ann's personal problems because she is nosy.
+
+LABEL: 1
+
+SENTENCE 3:
+Susan knows",0.33,0.29,0.5,0.33
+Even one thread uncut will leave the scissors too small.,"It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip","It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip",0.05,0.05,0.24,0.24
+The cloud was out.,"The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was out.
+
+LABEL: 1","The picnic was held in the park.
+
+LABEL: 1
+
+SENTENCE 1:
+The sun was covered by a thick cloud all morning",0.3,0.16,0.26,0.33
+"The stars were very cooperative, so the interview lasted for a long time.","The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time.
+
+LABEL: 2
+
+","The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time.
+
+LABEL: 2
+
+",0.72,0.72,0.57,0.57
+The city councilmen feared violence.,"The city councilmen refused the demonstrators a permit because they feared violence.
+
+LABEL: 2
+
+SENTENCE 3:
+The city council","The city councilmen refused the demonstrators a permit because they feared violence.
+
+LABEL: 2
+
+SENTENCE 1:
+The city council",0.42,0.42,0.36,0.36
+Anne's daughter is a very charming woman.,"Anne gave birth to a daughter last month. She is a very charming woman.
+
+LABEL: 1
+
+SENTENCE 3:
+Anne gave","Anne gave birth to a daughter last month. She is a very charming woman.
+
+LABEL: 1
+
+SENTENCE 3:
+Anne gave",0.5,0.5,0.27,0.27
+Jackson lived two centuries later.,"Arnold was a great composer, but he was not greatly influenced by Jackson.
+
+LABEL: 2
+
+SENTENCE 3:
+Jackson was","Arnold was a great composer, but he was not a great musician.
+
+LABEL: 0
+
+SENTENCE 1:
+The first time",0.08,0.0,0.16,0.15
+It was a fine selection of Shakespeare's writing.,"This book introduced Shakespeare to Ovid; it was a fine selection of his writing.
+
+LABEL: 1
+
+SENTENCE 3:
+This","This book introduced Shakespeare to Ovid; it was a fine selection of his writing.
+
+LABEL: 1
+
+SENTENCE 1:
+This",0.5,0.5,0.35,0.37
+The father carried the sleeping boy in the father's bassinet.,"The boy was carried in his father's bassinet.
+
+LABEL: 1
+
+SENTENCE 3:
+The boy was carried in his father","The father carried the sleeping boy in his bassinet.
+
+LABEL: 1
+
+SENTENCE 1:
+The father carried the sleeping boy in",0.39,0.58,0.44,0.5
+"Dan took the rear seat while Bill claimed the front because Dan's ""Dibs!"" was quicker.","Dan took the rear seat while Bill claimed the front because his ""Dibs!"" was quicker.
+
+LABEL: 1
+
+SENTENCE 3","Bill took the rear seat while Dan claimed the front because his ""Dibs!"" was quicker.
+
+LABEL: 1
+
+SENTENCE 3",0.8,0.69,0.61,0.6
+Martin is very successful.,"Martin envies Pete although he is very successful.
+
+LABEL: 1
+
+SENTENCE 3:
+Pete envies Martin although he is","Martin is a very successful man.
+
+LABEL: 1
+
+SENTENCE 3:
+Martin is a very successful man.
+
+LABEL",0.36,0.38,0.44,0.6
+Harry knew much less than Harry did.,"Mark was sure that Harry knew much less than he did.
+
+LABEL: 1
+
+SENTENCE 1:
+Of one thing Mark was sure","Harry knew much less than he did.
+
+SENTENCE 1:
+Of one thing Mark was sure. Harry knew much less than he did.
+",0.43,0.48,0.47,0.64
+Uncle Vernon couldn't very well marry without his approval,"Chester was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 1
+
+SENTENCE 3:
+","He was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 1
+
+SENTENCE 1:
+Since",0.67,0.65,0.42,0.29
+Thomson had been dead for five years.,"Thomson visited Cooper's grave in 1765. At that date he had been dead for five years.
+
+LABEL: 1
+
+SENTENCE","Thomson visited Cooper's grave in 1765. At that date he had been dead for five years.
+
+LABEL: 1
+
+SENTENCE",0.52,0.52,0.27,0.27
+Mark should have been more skeptical.,"Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical.
+
+LABEL: 1
+
+SENT","Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical.
+
+LABEL: 1
+
+SENT",0.43,0.43,0.39,0.39
+"The meeting was delayed, so it worked out.","I was late for my meeting, so I had to catch the train at 4:30.
+
+LABEL: 1
+
+SENTENCE 3:","I was late for my meeting, so I had to catch the train at 4:30.
+
+LABEL: 1
+
+SENTENCE 1:",0.14,0.14,0.28,0.27
+The foxes have gotten very nervous.,"The foxes are getting in at night and attacking the chickens. They have gotten very nervous.
+
+LABEL: 1
+
+SENTENCE 3:","The foxes are getting in at night and attacking the chickens. They have gotten very nervous.
+
+LABEL: 1
+
+SENTENCE 3:",0.46,0.46,0.44,0.44
+The butterfly wing broke.,"I put the butterfly wing on the table and it broke.
+
+LABEL: 2
+
+SENTENCE 3:
+I put the butterfly wing on","I put the butterfly wing on the table and it broke.
+
+LABEL: 2
+
+SENTENCE 1:
+I put the butterfly wing on",0.32,0.32,0.41,0.42
+Fred and Alice were not prepared for the cold in Alaska.,"Fred and Alice had very warm down coats, but they were not prepared for the cold in Alaska.
+
+LABEL: 2
+
+SENTENCE 3","They were not prepared for the cold in Alaska.
+
+LABEL: 2
+
+SENTENCE 1:
+Fred and Alice had very warm down coats",0.67,0.5,0.47,0.51
+Tom wouldn't have to walk.,"Ralph was a good friend of Tom's.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom and Ralph were good friends.
+","Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+",0.08,0.0,0.44,0.06
+The refrigerator has a lot of leftovers in it.,"I put the cake away in the refrigerator. It has a lot of leftovers in it.
+
+LABEL: 2
+
+SENTENCE 3:","I put the cake away in the refrigerator. It has a lot of leftovers in it.
+
+LABEL: 2
+
+SENTENCE 1:",0.62,0.62,0.44,0.44
+Mark couldn't convince him.,"Mark:
+I don't think you can convince me.
+
+LABEL: 1
+
+SENTENCE 3:
+Sid's theory is wrong","Mark:
+I don't think so.
+
+SENTENCE 1:
+Sid explained his theory to Mark but he couldn't convince him.
+",0.26,0.4,0.41,0.55
+I took the water bottle out of the backpack so that the water bottle would be handy.,"I took the water bottle out of the backpack so that it would be handy.
+
+LABEL: 2
+
+SENTENCE 3:
+I took","I took the water bottle out of the backpack so that it would be handy.
+
+LABEL: 1
+
+SENTENCE 1:
+I took",0.74,0.74,0.43,0.44
+The worm was tasty.,"The fish ate the worm. It was tasty.
+
+LABEL: 2
+
+SENTENCE 3:
+The fish ate the worm. It was","The fish ate the worm. It was tasty.
+
+LABEL: 1
+
+SENTENCE 1:
+The fish ate the worm. It was",0.35,0.35,0.48,0.5
+Andrea could see the landing strip.,"As Andrea in the crop duster passed over Susan, she could see the landing strip.
+
+LABEL: 2
+
+SENTENCE 1:
+","The train split of the glue dataset is provided in the following directory:
+
+/home/peng/glue/glue/train/
+
+",0.48,0.08,0.3,0.21
+Susan could see the landing strip.,"As Andrea in the crop duster passed over Susan, she could see the landing strip.
+
+LABEL: 1
+
+SENTENCE 3:
+","The train split of the glue dataset is provided in the following format:
+
+SENTENCE 1:
+As Andrea in the crop duster passed over Susan",0.48,0.07,0.25,0.19
+Lionel plans to use it on Geoffrey and send Geoffrey to steal nuclear material from an army vault.,"Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey","Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey",0.33,0.33,0.43,0.43
+Shatov was more popular.,"SENTENCE 1:
+Kirilov ceded the presidency to Shatov because he was more popular.
+
+LABEL: 2
+
+","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Kirilov ceded the presidency to",0.42,0.0,0.37,0.22
+The government official was less than 21 when he filed for a homestead claim.,"Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything","The government official who had not told Bernard that he was less than 21 when he filed for a homestead claim could take his claim away from him.
+
+LAB",0.65,0.65,0.51,0.48
+Alice stroked her hair and let the child weep.,"Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep.
+
+LABEL: 1
+
+","""
+
+SENTENCE 1:
+Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep",0.62,0.62,0.47,0.57
+"Since Jade always has good luck, Alice spotted her quickly.","Alice looked for her friend Jade in the crowd. Since she always has good luck, Alice spotted her quickly.
+
+LABEL: 1
+
+","Alice looked for her friend Jade in the crowd. Since she always has good luck, Alice spotted her quickly.
+
+LABEL: 1
+
+",0.58,0.58,0.57,0.57
+"He had to be the life and soul of a dinner party, with the body there all the time.","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-",0.17,0.17,0.28,0.28
+The mouse was too impatient.,"The cat was lying by the mouse hole waiting for the mouse, but it was too impatient.
+
+LABEL: 1
+
+SENTENCE 3:","The cat was lying by the mouse hole waiting for the mouse, but it was too impatient.
+
+LABEL: 1
+
+SENTENCE 3:",0.38,0.38,0.33,0.33
+We should make more of the chocolate chip cookies.,"The oatmeal cookies were really good.
+
+LABEL: 1
+
+SENTENCE 2:
+The chocolate chip cookies were really good.
+","The oatmeal cookies were really good. The chocolate chip cookies were not so good.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.31,0.3,0.46,0.31
+Jim signaled the barman and gestured toward Jim's bathroom key.,"The barman took the key and opened the door.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim entered the bathroom and closed the","The barman took the key and opened the door.
+
+LABEL: 1
+
+SENTENCE 3:
+The barman took the key and",0.32,0.27,0.3,0.3
+He heard Mr. Singer calling for the captain.,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 2
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.14,0.14,0.14,0.35
+The shelf was too tall.,"I couldn't put the pot on the shelf because it was too tall.
+
+LABEL: 1
+
+SENTENCE 3:
+I couldn't","I couldn't put the pot on the shelf because it was too tall.
+
+LABEL: 1
+
+SENTENCE 3:
+I couldn't",0.38,0.38,0.31,0.31
+The juggler was very impressive.,"John was jogginging through the park when he saw a man juggling watermelons. He was very impressive.
+
+LABEL: 2
+
+","John was jogginging through the park when he saw a man juggling watermelons. He was very impressive.
+
+LABEL: 2
+
+",0.33,0.33,0.32,0.32
+The witness was reluctant to answer it.,"The lawyer asked the witness a question, but he was reluctant to answer it.
+
+LABEL: 2
+
+SENTENCE 3:
+The lawyer","The lawyer asked the witness a question, but he was reluctant to answer it.
+
+LABEL: 2
+
+SENTENCE 1:
+The lawyer",0.52,0.52,0.39,0.39
+Susan told her about it.,"Susan knew that Ann's son had been in a car accident, because she told her about it.
+
+LABEL: 1
+
+SENTENCE","Susan knew that Ann's son had been in a car accident, because she told her about it.
+
+LABEL: 1
+
+SENTENCE",0.38,0.38,0.32,0.32
+Chester couldn't very well marry without his approval,"Chester was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 2
+
+SENTENCE 3:
+","He was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 2
+
+SENTENCE 1:
+He",0.62,0.53,0.42,0.24
+The opponents were very much in the majority.,"The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the majority.
+
+LABEL: 2
+","The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the majority.
+
+LABEL: 2
+",0.48,0.48,0.47,0.47
+Billy cried because Toby wouldn't share Toby's toy.,"Toby didn't want to share his toy.
+
+LABEL: 2
+
+SENTENCE 3:
+Billy cried because Toby wouldn't","Toby didn't want to share his toy.
+
+LABEL: 0
+
+SENTENCE 1:
+Billy cried because Toby wouldn't",0.43,0.43,0.45,0.44
+The judges were so stupid.,"The judges couldn't figure out which respondents were the chatbots because they were so stupid.
+
+LABEL: 2
+
+SENTENCE 3:","The judges couldn't figure out which respondents were the chatbots because they were so stupid.
+
+LABEL: 2
+
+SENTENCE 1:",0.4,0.4,0.27,0.26
+The table was made of steel.,"The large ball crashed right through the table because it was made of steel.
+
+LABEL: 1
+
+SENTENCE 3:
+The large ball","The large ball crashed right through the table because it was made of steel.
+
+LABEL: 1
+
+SENTENCE 1:
+The large ball",0.44,0.44,0.33,0.34
+His friend Henry let him stack the beans in his barn where they would dry.,"Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they","Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they",0.48,0.48,0.49,0.49
+Jane was out.,"Jane knocked on Susan's door, but there was no answer. She was out.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane","Susan was out.
+
+SENTENCE 3:
+Jane knocked on Susan's door, but there was no answer. She was out.
+
+",0.27,0.27,0.35,0.52
+Jane invited her to come in.,"Jane knocked on the door, and Susan answered it. She invited her to come in.
+
+LABEL: 1
+
+SENTENCE 3:
+","Jane knocked on the door, and Susan answered it. She invited her to come in.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.48,0.48,0.36,0.37
+The doorway is too wide.,"The table is too wide to fit through the doorway.
+
+LABEL: 1
+
+SENTENCE 3:
+The table is too wide to fit","The table won't fit through the doorway because it is too wide.
+
+LABEL: 1
+
+SENTENCE 1:
+The table won't",0.38,0.38,0.53,0.37
+Those occasions stood out as red-letter days for father.,"The following is a list of the red-letter days in Henry's life.
+
+1.
+
+2.
+
+3.
+
+4.","The detective was a man of medium height, with a thin, sharp face, and a pair of keen, penetrating eyes. He was dressed in a dark suit",0.21,0.0,0.48,0.24
+Sam would have lost a lot of money.,"If the con artist has succeeded in fooling Sam, he would have lost a lot of money.
+
+LABEL: 2
+
+SENTENCE 3","Sam is a con artist.
+
+LABEL: 2
+
+SENTENCE 1:
+If the con artist has succeeded in fooling Sam, he",0.55,0.15,0.37,0.28
+"His father's disciple, Antonio, takes Larry under his wing, and quickly molds Larry's father into a drug runner.",Antonio's gang is a criminal organization that operates in the New York City area. Antonio's gang is a criminal organization that operates in the New York City area," 2
+
+SENTENCE 2:
+Larry, a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry",0.16,0.15,0.62,0.23
+Frank was the winner of the competition.,"Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition.
+
+LABEL: 1
+
+SENTENCE 3:
+","Bill is the winner of the competition.
+
+LABEL: 1
+
+SENTENCE 3:
+Frank was crushed when he heard that Bill was the",0.5,0.36,0.3,0.27
+He lowered his hands when the wind stopped.,"The wind was blowing sand around.
+
+SENTENCE 1:
+Fred covered his eyes with his hands, because the wind was blowing sand around. He","The wind was blowing sand around.
+
+LABEL: 2
+
+SENTENCE 1:
+The wind was blowing sand around.
+
+LABEL",0.26,0.16,0.49,0.52
+Folks said he died just to be ride of the folks' everlasting nagging.,The Wainwrights treated Mr. Crowley like a prince until he made his will in their favor; then they treated him like dirt. Folks said,The Wainwrights treated Mr. Crowley like a prince until he made his will in their favor; then they treated him like dirt. Folks said,0.11,0.11,0.32,0.32
+The father carried the sleeping boy in the boy's arms.,"The boy was asleep.
+
+LABEL: 1
+
+SENTENCE 3:
+The boy was asleep.
+
+LABEL: 0
+
+","The father carried the sleeping boy in his arms.
+
+LABEL: 1
+
+SENTENCE 3:
+The father carried the sleeping boy in his",0.32,0.56,0.44,0.48
+You can see the garden through the wall.,"The garden is a beautiful place.
+
+LABEL: 1
+
+SENTENCE 3:
+The garden is a beautiful place.
+
+LABEL","The garden is a beautiful place.
+
+LABEL: 1
+
+SENTENCE 1:
+There is a gap in the wall. You can see",0.24,0.29,0.5,0.38
+Archaeologists hunted for deer on the river banks.,"The river banks were covered with trees.
+
+LABEL: 1
+
+SENTENCE 3:
+The river banks were covered with trees.
+
+","The river banks were covered with deer.
+
+LABEL: 1
+
+SENTENCE 3:
+The river banks were covered with deer.
+
+",0.23,0.31,0.45,0.52
+Susan told her about it.,"Susan knew that Ann's son had been in a car accident, so she told her about it.
+
+LABEL: 2
+
+SENTENCE","Susan knew that Ann's son had been in a car accident, so she told her about it.
+
+LABEL: 2
+
+SENTENCE",0.38,0.38,0.4,0.4
+The man subtracted that amount from the man's wages.,Then Dad figured out how much the man owed the store; to that he added the man's board-bill at the cook-shanty. He subtracted,"The man's board-bill at the cook-shanty was $2.00.
+
+SENTENCE 1:
+Then Dad figured out how",0.33,0.21,0.34,0.27
+The teller was immediately taken to the hospital.,"The customer was arrested and charged with attempted murder.
+
+LABEL: 2
+
+SENTENCE 3:
+The customer was released on bail.
+","The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the hospital.
+
+LABEL: 2
+
+SENT",0.22,0.47,0.3,0.35
+Kirilov was less popular.,"SENTENCE 1:
+Kirilov ceded the presidency to Shatov because he was less popular.
+
+LABEL: 2
+
+","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Kirilov ceded the presidency to",0.42,0.1,0.39,0.23
+John hired Bill to take care of Bill.,"Bill took care of John.
+
+LABEL: 1
+
+SENTENCE 3:
+John hired Bill to take care of him.
+
+LAB","Bill took care of John.
+
+LABEL: 1
+
+SENTENCE 3:
+John hired Bill to take care of him.
+
+LAB",0.54,0.54,0.44,0.44
+John's turn was next.,"John passed the gameboy to Bill because his turn was next.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the gameboy","John passed the gameboy to Bill because his turn was next.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill passed the gameboy",0.33,0.33,0.49,0.49
+Joe delivered the final report on the case.,"The detective was paid after he delivered the final report on the case.
+
+LABEL: 1
+
+SENTENCE 3:
+The detective was paid","The detective was paid after he delivered the final report on the case.
+
+LABEL: 1
+
+SENTENCE 3:
+The detective was paid",0.48,0.48,0.55,0.55
+"When Fred first saw my father, My father was twelve months old.","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve months old.
+
+LABEL","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve months old.
+
+LABEL",0.53,0.53,0.55,0.55
+James was refused.,"Robert refused James’s request.
+
+LABEL: 2
+
+SENTENCE 3:
+James was angry.
+
+LABEL: 3
+","Robert refused James's request.
+
+LABEL: 2
+
+SENTENCE 1:
+James asked Robert for a favor but he was refused.
+",0.24,0.27,0.41,0.55
+"Lily spoke to Donna, breaking Lily's silence.","Donna was the first person Lily spoke to.
+
+LABEL: 2
+
+SENTENCE 3:
+Lily was the first person Donna spoke","""
+
+LABEL: 2
+
+SENTENCE 1:
+""I'm sorry, Donna. I'm not sure what you mean.""
+
+",0.3,0.09,0.38,0.25
+Bob would have lost.,"Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have lost.
+
+LABEL","Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have lost.
+
+LABEL",0.27,0.27,0.24,0.24
+Dan is very cruel.,"Dan had to stop Bill from toying with the injured bird. He is very cruel.
+
+LABEL: 1
+
+SENTENCE 3:
+","Bill is a bird.
+
+SENTENCE 3:
+Dan had to stop Bill from toying with the injured bird. He is very cruel.
+",0.35,0.32,0.28,0.37
+Mary had forgotten.,"Mary asked Ann what time the library closes, but she had forgotten.
+
+LABEL: 2
+
+SENTENCE 3:
+Mary asked Ann what","The library closes at 6:00.
+
+LABEL: 2
+
+SENTENCE 1:
+The library closes at 6:00.
+
+",0.26,0.0,0.29,0.42
+The sculpture wasn't anchored.,"The sculpture rolled off the shelf because it wasn't anchored.
+
+LABEL: 2
+
+SENTENCE 3:
+The sculpture rolled off the shelf","The sculpture rolled off the shelf because it wasn't anchored.
+
+LABEL: 2
+
+SENTENCE 1:
+The sculpture rolled off the shelf",0.38,0.38,0.67,0.66
+Carol believed that Rebecca suspected that Carol had stolen the watch.,"Rebecca suspected that Carol had stolen the watch.
+
+LABEL: 2
+
+SENTENCE 3:
+Carol believed that Rebecca had stolen the watch","Rebecca believed that Carol had stolen the watch.
+
+LABEL: 2
+
+SENTENCE 3:
+Carol believed that Rebecca had stolen the watch",0.52,0.52,0.64,0.59
+George wasn't successful.,"Paul tried to call George on the phone, but he wasn't successful.
+
+LABEL: 1
+
+SENTENCE 3:
+Paul tried to","George was not at home.
+
+LABEL: 1
+
+SENTENCE 3:
+Paul tried to call George on the phone, but he wasn",0.33,0.17,0.3,0.23
+"Mary tucked her daughter Anne into bed, so that Mary could work.","Mary tucked her daughter Anne into bed, so that she could work.
+
+LABEL: 2
+
+SENTENCE 3:
+Mary was tired,","Mary tucked her daughter Anne into bed, so that she could work.
+
+LABEL: 2
+
+SENTENCE 1:
+Mary tucked her daughter",0.71,0.69,0.55,0.59
+Robert refused.,"Robert refused to help James.
+
+LABEL: 2
+
+SENTENCE 3:
+James asked Robert for a favor but he refused.
+
+","Robert refused James's request.
+
+LABEL: 2
+
+SENTENCE 1:
+James asked Robert for a favor but he refused.
+
+",0.2,0.2,0.46,0.53
+The coffee got full of coffee.,"I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full of coffee.
+
+LABEL:","I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full",0.32,0.17,0.41,0.44
+We couldn't use the path.,"We couldn't use the path to the lake.
+
+LABEL: 2
+
+SENTENCE 3:
+We couldn't use the path to the","The path to the lake was blocked, so we couldn't use it.
+
+LABEL: 2
+
+SENTENCE 1:
+The path to",0.44,0.46,0.48,0.28
+"Stretching the girl's back, the woman smiled at the girl.","The woman smiled at the girl.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL","The woman smiled at the girl.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL",0.57,0.57,0.44,0.44
+Archaeologists hunted for evidence on the river banks.,"The river banks were covered with the bones of animals that had been hunted by humans.
+
+LABEL: 2
+
+SENTENCE 3:
+The","The river banks were covered with the remains of the Laputans.
+
+LABEL: 2
+
+SENTENCE 1:
+The Laputans",0.21,0.24,0.17,0.36
+The lemons came out looking more like light bulbs.,"I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.
+
+LAB","I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.
+
+LAB",0.47,0.47,0.53,0.53
+This afternoon the tide knocked The sand castle down.,"This afternoon, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this morning the tide knocked it down.
+","The tide knocked it down.
+
+LABEL: 2
+
+SENTENCE 1:
+This morning, Joey built a sand castle on the beach,",0.33,0.36,0.56,0.5
+The chickens have gotten very nervous.,"The foxes are getting in at night and attacking the chickens. They have gotten very nervous.
+
+LABEL: 2
+
+SENTENCE 3:","The foxes are getting in at night and attacking the chickens. They have gotten very nervous.
+
+LABEL: 2
+
+SENTENCE 1:",0.46,0.46,0.39,0.39
+Ray reached the top of the stairs.,"Ray threw his schoolbag down to Tom after he reached the top of the stairs.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom","Tom threw his schoolbag down to Ray after he reached the top of the stairs.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom",0.52,0.52,0.33,0.31
+Kamchatka was defeated within weeks.,"In August, Yakutsk declared war on Kamtchatka. Since Kamtchatka's army was much better equipped and ten times larger, they","The war was over by the end of the year.
+
+LABEL: 2
+
+SENTENCE 1:
+In July, Kamtchatka",0.08,0.09,0.23,0.26
+The trainer slept with her boyfriend.,"Madonna fired her trainer because she slept with her boyfriend.
+
+LABEL: 2
+
+SENTENCE 3:
+Madonna fired her trainer because","Madonna fired her trainer because she slept with her boyfriend.
+
+LABEL: 1
+
+SENTENCE 1:
+Madonna fired her trainer because",0.4,0.4,0.51,0.51
+Dan is very compassionate.,"Dan had to stop Bill from toying with the injured bird. He is very compassionate.
+
+LABEL: 2
+
+SENTENCE 3:
+","Bill is a bird.
+
+LABEL: 2
+
+SENTENCE 1:
+Dan had to stop Bill from toying with the injured bird.",0.35,0.09,0.29,0.28
+I put the rag in the trash.,"I used an old rag to clean the knife, and then I put it in the trash.
+
+LABEL: 2
+
+SENTENCE 3:","I used an old rag to clean the knife, and then I put it in the trash.
+
+LABEL: 2
+
+SENTENCE 1:",0.36,0.36,0.39,0.39
+"Patting the woman's back, the woman smiled at the girl.","The woman smiled at the girl.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL","The woman smiled at the girl.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL",0.57,0.57,0.46,0.46
+The table was made of styrofoam.,"The large ball crashed right through the table because it was made of styrofoam.
+
+LABEL: 2
+
+SENTENCE 3:
+","The large ball crashed right through the table because it was made of styrofoam.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.5,0.5,0.31,0.3
+I couldn't get the chewing gum out.,"I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it out.
+
+","I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it out.
+
+",0.29,0.29,0.55,0.55
+Adam would be gone by this time.,"Bob is not here yet.
+
+LABEL: 2
+
+SENTENCE 1:
+If Bob had left home for work on time, he would","Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is",0.07,0.0,0.23,0.23
+Bob is very hurt.,"Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very hurt.
+
+LABEL: 2
+
+S","Charlie's college education was paid for by Bob.
+
+LABEL: 2
+
+SENTENCE 1:
+Bob paid for Charlie's college education,",0.3,0.08,0.3,0.49
+Anyone who knew that he was 19 years old could take his claim away from Bernard.,"Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything","The government official who had not told Bernard that he was less than 21 when he filed for a homestead claim could take his claim away from him.
+
+LAB",0.22,0.44,0.44,0.51
+She has had the flute since she was a child.,"Mary took out her flute and played one of her favorite pieces. She has had it since she was a child.
+
+LABEL: 2
+
+","Mary took out her flute and played one of her favorite pieces. She has had it since she was a child.
+
+LABEL: 2
+
+",0.48,0.48,0.48,0.48
+Sam and Amy are snobs.,"Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are snobs.
+
+LABEL: 1
+
+","Amy's parents are unhappy about it, because they are snobs.
+
+LABEL: 1
+
+SENTENCE 3:
+Amy's",0.38,0.27,0.35,0.3
+It was a fine selection of Shakespeare's writing.,"This book introduced Shakespeare to Goethe; it was a fine selection of his writing.
+
+LABEL: 2
+
+SENTENCE 3:
+This","The book introduced Shakespeare to Goethe; it was a fine selection of his writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This",0.5,0.5,0.32,0.33
+I shall have to guard The chickens.,"The foxes are getting in at night and attacking the chickens. I shall have to guard them.
+
+LABEL: 2
+
+SENTENCE 3","The foxes are getting in at night and attacking the chickens. I shall have to guard them.
+
+LABEL: 2
+
+SENTENCE 1",0.36,0.36,0.42,0.42
+"The donkey wished a wart on its hind leg would disappear, and wart did.","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 2
+
+SENTENCE 3:
+The donkey","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 2
+
+SENTENCE 1:
+The donkey",0.76,0.76,0.66,0.68
+The refrigerator has a lot of butter in it.,"I put the cake away in the refrigerator. It has a lot of butter in it.
+
+LABEL: 1
+
+SENTENCE 3:
+","I put the cake away in the refrigerator. It has a lot of butter in it.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.62,0.62,0.42,0.42
+The sack of potatoes had to be moved first.,"The sack of potatoes had been placed below the bag of flour, so it had to be moved first.
+
+LABEL: 1
+
+SENTENCE","The sack of potatoes had been placed below the bag of flour, so it had to be moved first.
+
+LABEL: 1
+
+SENTENCE",0.58,0.58,0.38,0.38
+He couldn't afford the faces.,"Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn","""
+
+SENTENCE 2:
+Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had",0.11,0.14,0.37,0.21
+The heavy book broke.,"I put the heavy book on the table and it broke.
+
+LABEL: 1
+
+SENTENCE 3:
+I put the heavy book on","I put the heavy book on the table and it broke.
+
+LABEL: 1
+
+SENTENCE 3:
+I put the heavy book on",0.32,0.32,0.44,0.44
+I put the knife in the drawer.,"I used an old rag to clean the knife, and then I put it in the drawer.
+
+LABEL: 2
+
+SENTENCE 3:","I used an old rag to clean the knife, and then I put it in the drawer.
+
+LABEL: 2
+
+SENTENCE 1:",0.43,0.43,0.37,0.37
+James refused.,"Robert refused to help James.
+
+LABEL: 1
+
+SENTENCE 3:
+James asked Robert for a favor but he refused.
+
+","Robert refused James's request.
+
+LABEL: 1
+
+SENTENCE 1:
+James asked Robert for a favor but he refused.
+
+",0.2,0.2,0.45,0.52
+Men had the right to keep their sons working for them until the sons were 21 years of age.,"The right to keep one's son working for one until he was 21 years of age was a privilege that was granted to men in the United States.
+
+","The right to keep their sons working for them until they were 21 years of age.
+
+LABEL: 2
+
+SENTENCE 1:
+Men",0.46,0.75,0.76,0.55
+We rescued the younger students.,"The older students were bullying the younger ones, so we rescued them.
+
+LABEL: 2
+
+SENTENCE 3:
+The older students were","The older students were bullying the younger ones, so we rescued them.
+
+LABEL: 1
+
+SENTENCE 1:
+The older students were",0.32,0.32,0.29,0.3
+This afternoon the wind knocked The flag down.,"This afternoon, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this morning the wind knocked it down.
+","The wind knocked it down.
+
+LABEL: 2
+
+SENTENCE 1:
+This morning, Joey built a sand castle on the beach,",0.34,0.3,0.54,0.37
+The sack of potatoes had to be moved first.,"The sack of potatoes had been placed above the bag of flour, so it had to be moved first.
+
+LABEL: 2
+
+SENTENCE","The sack of potatoes had been placed above the bag of flour, so it had to be moved first.
+
+LABEL: 2
+
+SENTENCE",0.58,0.58,0.39,0.39
+Anne's daughter is a very charming baby.,"Anne gave birth to a daughter last month. She is a very charming baby.
+
+SENTENCE 2 is a complete sentence.
+
+SENTENCE","Anne gave birth to a daughter last month. She is a very charming baby.
+
+LABEL: 2
+
+SENTENCE 1:
+Anne gave",0.48,0.5,0.53,0.3
+"Isn't it nice that the Freemans have come, Mama!""","""
+
+SENTENCE 3:
+""I'm glad you're here, Mama!""
+
+LABEL: 2
+
+SENTENCE 4:","""
+
+LABEL: 2
+
+SENTENCE 1:
+""I'm going to the store to buy some bread and milk.""
+
+LAB",0.09,0.07,0.47,0.17
+The painting is to the right of the bookcase.,"The painting in Mark's living room shows an oak tree. It is to the right of the bookcase.
+
+LABEL: 2
+
+SENT","The painting in Mark's living room shows an oak tree. It is to the right of the bookcase.
+
+LABEL: 2
+
+SENT",0.58,0.58,0.41,0.41
+The captain and all Mark's crew had best stay in the cabin until the work was over.,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 1
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.82,0.82,0.66,0.76
+"She was careful not to disturb her, undressing and climbing back into her mother's berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 1","Tatyana was a young girl, who had just turned 14. She was a beautiful girl, with long, dark hair and a pale complexion. She",0.76,0.15,0.62,0.23
+Steve ran to look out the window.,"Mark heard Steve's feet going down the ladder. The door of the shop closed after him. He ran to look out the window.
+
+LABEL:","The door of the shop closed after him. He ran to look out the window.
+
+LABEL: 1
+
+SENTENCE 3:
+Mark",0.44,0.44,0.35,0.34
+The storekeepers stayed in town to run their stores and lived in the rooms behind the storekeepers.,"The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 1
+
+SENTENCE 3:
+","The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.81,0.81,0.6,0.62
+Pete is very successful.,"Martin envies Pete because he is very successful.
+
+LABEL: 1
+
+SENTENCE 3:
+Pete envies Martin because he is","Martin is very successful.
+
+LABEL: 1
+
+SENTENCE 3:
+Pete envies Martin because he is very successful.
+
+",0.36,0.4,0.39,0.43
+Dad's boss at the railroad company would not want anyone but him to work in the office.,"Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but","Larry was a good boy. He always did what his father told him to do.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.47,0.11,0.41,0.15
+"Later, he and Tatyana would shell them and cook them for his and Tatyana's Sunday dinners.","Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they","Grant worked hard to harvest his beans so he and his family would have enough to eat that winter, His friend Henry let him stack them in his barn where they",0.21,0.21,0.18,0.18
+"The stars were very persistent, so the interview lasted for a long time.","The journalists interviewed the stars of the new movie. They were very persistent, so the interview lasted for a long time.
+
+LABEL: 1
+
+","The journalists interviewed the stars of the new movie. They were very persistent, so the interview lasted for a long time.
+
+LABEL: 1
+
+",0.72,0.72,0.56,0.56
+Anna had studied so hard.,"Lucy did a lot worse than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 1
+
+SENTENCE","Lucy did a lot worse than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 1
+
+SENTENCE",0.37,0.37,0.31,0.31
+Kate had cancer and presented several options for future treatment.,"Dr. Adams informed Kate that she had cancer and presented several options for future treatment.
+
+LABEL: 2
+
+SENTENCE 3:
+Dr","Dr. Adams informed Kate that she had cancer and presented several options for future treatment.
+
+LABEL: 2
+
+SENTENCE 1:
+Dr",0.67,0.67,0.36,0.36
+It was a fine selection of Ovid's writing.,"This book introduced Shakespeare to Ovid; it was a fine selection of his writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This","This book introduced Shakespeare to Ovid; it was a fine selection of his writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This",0.5,0.5,0.37,0.37
+"Luke was ""it"".","Ethan was the ""it"" in the game of tag.
+
+LABEL: 2
+
+SENTENCE 3:
+Luke was the ""it","Luke was the ""it"" in the game of tag.
+
+LABEL: 2
+
+SENTENCE 1:
+During a game of tag,",0.3,0.29,0.38,0.48
+Mr. Moncrieff no longer requires his financial support.,"Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie","Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie",0.19,0.19,0.23,0.23
+Alice was behaving so strangely.,"Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL: 2","Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL: 2",0.34,0.34,0.42,0.42
+"Each artisan still had signs, not wishing to lose a possible patron merely because the patron happened to be illiterate.","The signs over the shops' doors had pictures that indicated what work was done inside. Although more and more people were learning how to read, each artisan still","The signs over the shops' doors had pictures that indicated what work was done inside. Although more and more people were learning how to read, each artisan still",0.12,0.12,0.36,0.36
+The fish began two years ago.,"The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.
+
+LABEL: 1
+","The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.
+
+LABEL: 1
+",0.39,0.39,0.37,0.37
+"Dan took the rear seat while Bill claimed the front because Bill's ""Dibs!"" was quicker.","Dan took the rear seat because Bill's ""Dibs!"" was quicker.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill's","Bill took the rear seat while Dan claimed the front because his ""Dibs!"" was quicker.
+
+LABEL: 2
+
+SENTENCE 1",0.67,0.69,0.41,0.59
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Xenophanes faced in his research.,"Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research.
+
+LABEL: 1","The Spartan general Xenophanes was a man of great courage and determination.
+
+LABEL: 1
+
+SENTENCE 1:
+Sam Goodman",0.91,0.31,0.79,0.41
+The pin left a hole.,"I stuck a pin through a carrot. When I pulled the pin out, it left a hole.
+
+LABEL: 2
+
+SENTENCE 1","I stuck a pin through a carrot. When I pulled the pin out, it left a hole.
+
+LABEL: 2
+
+SENTENCE 1",0.38,0.38,0.35,0.35
+Arnold lived two centuries later.,"Arnold was a great composer, but he was not a great musician.
+
+LABEL: 1
+
+SENTENCE 3:
+Jackson was a","Arnold was a great composer, but he was not a great musician.
+
+LABEL: 1
+
+SENTENCE 1:
+The first time",0.08,0.08,0.15,0.19
+They must make rules to regular the settlers.,"The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 2
+
+SENTENCE 3","The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 2
+
+SENTENCE 1",0.32,0.32,0.34,0.34
+Andrea could see the landing gear.,"As Andrea in the crop duster passed over Susan, she could see the landing gear.
+
+LABEL: 1
+
+SENTENCE 3:
+","The train split of the glue dataset is provided in the following directory:
+
+/home/peng/glue/glue/train/
+
+",0.48,0.08,0.33,0.2
+She stroked Alice's hair and let the child weep.,"Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep.
+
+LABEL: 2
+
+","""
+
+SENTENCE 1:
+Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep",0.53,0.53,0.52,0.59
+He will be moving out of The new house on Thursday.,"Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday.
+
+LABEL: 1
+","Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday.
+
+LABEL: 1
+",0.44,0.44,0.47,0.47
+She stroked Mama's hair and let the child weep.,"Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep.
+
+LABEL: 1
+
+","""
+
+SENTENCE 1:
+Mama came over and sat down beside Alice. Gently she stroked her hair and let the child weep",0.53,0.53,0.5,0.61
+Joan made sure to thank Susan for all the help Joan had recieved.,"Joan made sure to thank Susan for all the help she had recieved.
+
+LABEL: 2
+
+SENTENCE 3:
+Jo","Susan had been a great help to Joan.
+
+LABEL: 2
+
+SENTENCE 1:
+Joan made sure to thank Susan for",0.77,0.44,0.61,0.48
+"He had to be the life and soul of a dinner party, with the table there all the time.","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-",0.13,0.13,0.23,0.23
+"His father's disciple, Antonio, takes Larry under his wing, and quickly molds Antonio into a drug runner.",Antonio's gang is a criminal organization that operates in the New York City area. Antonio's gang is a criminal organization that operates in the New York City area," 2
+
+SENTENCE 2:
+Larry, a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry",0.12,0.16,0.61,0.23
+We punished the older students.,"The older students were bullying the younger ones, so we punished them.
+
+LABEL: 2
+
+SENTENCE 3:
+The older students were","The older students were bullying the younger ones, so we punished them.
+
+LABEL: 1
+
+SENTENCE 1:
+The older students were",0.4,0.4,0.3,0.31
+The chatbots were so advanced.,"The judges couldn't figure out which respondents were the chatbots because they were so advanced.
+
+LABEL: 2
+
+SENTENCE 3:","The judges couldn't figure out which respondents were the chatbots because they were so advanced.
+
+LABEL: 2
+
+SENTENCE 1:",0.4,0.4,0.29,0.28
+Pam and Paul were embarrassed about it.,"Pam's parents came home and found her having sex with her boyfriend, Paul. They were embarrassed about it.
+
+SENTENCE 1:
+P","Pam's parents came home and found her having sex with her boyfriend, Paul. They were embarrassed about it.
+
+LABEL: 2
+
+S",0.48,0.48,0.44,0.44
+"Ethan was ""it"".","Ethan was the ""it"" in the game of tag.
+
+LABEL: 1
+
+SENTENCE 3:
+Ethan was the ""","Luke was ""it"" because he was running from Ethan.
+
+LABEL: 1
+
+SENTENCE 3:
+Ethan was ""it""",0.32,0.32,0.38,0.38
+I couldn't get the key out.,"I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it out.
+
+","I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it out.
+
+",0.3,0.3,0.44,0.44
+"Since Alice always has good luck, Alice spotted her quickly.","Alice looked for her friend Jade in the crowd. Since she always has good luck, Alice spotted her quickly.
+
+LABEL: 2
+
+","Alice looked for her friend Jade in the crowd. Since she always has good luck, Alice spotted her quickly.
+
+LABEL: 2
+
+",0.58,0.58,0.56,0.56
+I carried the newspaper over my backpack to keep the newspaper dry.,"I carried the newspaper over my backpack to keep it dry.
+
+LABEL: 1
+
+SENTENCE 3:
+I carried the newspaper over my","I was carrying the newspaper over my backpack to keep it dry.
+
+LABEL: 1
+
+SENTENCE 1:
+I was carrying the newspaper",0.67,0.61,0.47,0.59
+She couldn't stand the trainer's boyfriend.,"Madonna fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 2
+
+SENTENCE 3:
+Madonna fired her trainer","She fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 2
+
+SENTENCE 1:
+Madonna fired her trainer because",0.37,0.36,0.59,0.5
+Kamchatka was victorious within weeks.,"In August, Yakutsk declared war on Kamtchatka. Since Kamtchatka's army was much better equipped and ten times larger, they","The war was over by the end of the year.
+
+LABEL: 1
+
+SENTENCE 1:
+In July, Kamtchatka",0.08,0.09,0.24,0.29
+Bill was the winner of the competition.,"Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition.
+
+SENTENCE 1:
+Frank felt crushed when his longtime","Bill is the winner of the competition.
+
+LABEL: 2
+
+SENTENCE 1:
+Frank felt crushed when his longtime rival Bill revealed that",0.44,0.43,0.55,0.38
+Bob is very ungrateful.,"Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very ungrateful.
+
+LABEL: 1","Charlie's college education was paid for by Bob.
+
+LABEL: 1
+
+SENTENCE 3:
+Charlie is very ungrateful.",0.31,0.38,0.38,0.44
+He no longer requires Mr. Moncrieff's financial support.,"Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie","Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie",0.19,0.19,0.3,0.3
+The scientists appeared two years ago.,"The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago.
+
+LABEL: 1
+","The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago.
+
+LABEL: 1
+",0.39,0.39,0.38,0.38
+The painting is to the right of a house.,"The painting in Mark's living room shows an oak tree. It is to the right of a house.
+
+LABEL: 1
+
+SENTENCE","The painting in Mark's living room shows an oak tree. It is to the right of a house.
+
+LABEL: 1
+
+SENTENCE",0.58,0.58,0.38,0.38
+The gang members were trying to stop the drug trade in the neighborhood.,"The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood.
+
+LABEL: 1
+
+SENTENCE","The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood.
+
+LABEL: 1
+
+SENTENCE",0.74,0.74,0.48,0.48
+Any direction on his own account was just another proof of Mr. Taylor's innate idiocy.,Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction,Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction,0.09,0.09,0.48,0.48
+The juggler was very impressed.,"John was jogginging through the park when he saw a man juggling watermelons. He was very impressed.
+
+LABEL: 1
+
+","John was jogginging through the park when he saw a man juggling watermelons. He was very impressed.
+
+LABEL: 1
+
+",0.33,0.33,0.32,0.32
+The chickens have gotten very bold.,"The foxes are getting in at night and attacking the chickens. They have gotten very bold.
+
+LABEL: 1
+
+SENTENCE 3:","The foxes are getting in at night and attacking the chickens. They have gotten very bold.
+
+LABEL: 1
+
+SENTENCE 3:",0.46,0.46,0.38,0.38
+Adam would be here by this time.,"Bob is late for work.
+
+LABEL: 1
+
+SENTENCE 3:
+If Bob had left home for work on time, he would","Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is",0.07,0.0,0.28,0.23
+Yakutsk was victorious within weeks.,"In August, Yakutsk declared war on Kamtchatka. Since Kamtchatka's army was much better equipped and ten times larger, they","The war was over by the end of the year.
+
+LABEL: 2
+
+SENTENCE 1:
+In July, Kamtchatka",0.16,0.09,0.3,0.23
+"Mary tucked her daughter Anne into bed, so that Mary could sleep.","Mary tucked her daughter Anne into bed, so that she could sleep.
+
+LABEL: 1
+
+SENTENCE 3:
+Mary tucked her daughter","Mary tucked her daughter Anne into bed, so that she could sleep.
+
+LABEL: 1
+
+SENTENCE 3:
+Mary tucked her daughter",0.69,0.69,0.58,0.58
+"Mark needed to get him to finish his work, because his work was beautiful.",Mark was a very strict teacher. He would scold Mr. Schmidt for not finishing his work. He would tell him that he was lazy and that he was,Mark Schmidt was a very nice man. He was a very nice man. He was a very nice man. He was a very nice man. He was a,0.19,0.1,0.24,0.32
+Men had the right to keep their sons working for them until the men were 21 years of age.,"The right to keep one's son working for one until he was 21 years of age was a privilege that was granted to men in the United States.
+
+","The right to keep their sons working for them until they were 21 years of age.
+
+LABEL: 1
+
+SENTENCE 3:
+The",0.46,0.75,0.76,0.37
+We should make fewer of the chocolate chip cookies.,"The oatmeal cookies were really good.
+
+SENTENCE 2:
+Everyone really loved the oatmeal cookies; only a few people liked the","The oatmeal cookies were really good. The chocolate chip cookies were not so good.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.14,0.3,0.37,0.29
+"When Fred first saw my father, Fred was twelve years old.","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve years old.
+
+LABEL","Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve years old.
+
+LABEL",0.54,0.54,0.57,0.57
+Paul's books are popular because Paul writes so well.,"Paul's books are popular because people can't put them down.
+
+LABEL: 2
+
+SENTENCE 1:
+Many people start to read","Paul's books are popular because he writes so well.
+
+LABEL: 2
+
+SENTENCE 1:
+Many people start to read Paul's",0.39,0.58,0.4,0.56
+He opened his hands when the wind stopped.,"The wind was blowing sand around.
+
+SENTENCE 1:
+Fred covered his eyes with his hands, because the wind was blowing sand around. He","The wind was blowing sand around.
+
+SENTENCE 1:
+Fred covered his eyes with his hands, because the wind was blowing sand around. He",0.26,0.26,0.48,0.48
+"The donkey wished a wart on its hind leg would disappear, and donkey did.","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 1
+
+SENTENCE 3:
+The donkey","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 1
+
+SENTENCE 1:
+The donkey",0.76,0.76,0.64,0.66
+The chatbots were so stupid.,"The judges couldn't figure out which respondents were the chatbots because they were so stupid.
+
+LABEL: 1
+
+SENTENCE 3:","The judges couldn't figure out which respondents were the chatbots because they were so stupid.
+
+LABEL: 1
+
+SENTENCE 1:",0.4,0.4,0.3,0.28
+It was a major influence on Goethe's writing.,"Goethe was a major influence on Shakespeare's writing.
+
+LABEL: 2
+
+SENTENCE 3:
+This book introduced Shakespeare to Goethe","The book introduced Shakespeare to Goethe; it was a major influence on his writing.
+
+LABEL: 2
+
+SENTENCE 1:
+This",0.5,0.5,0.53,0.34
+"I don't know who the guy in uniform was, but he looked very unhappy.","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy.
+","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy.
+",0.51,0.51,0.69,0.69
+Billy is so short.,"John couldn't see the stage with Billy in front of him because he is so short.
+
+LABEL: 1
+
+SENTENCE 3:
+","John couldn't see the stage with Billy in front of him because he is so short.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.32,0.32,0.28,0.28
+George was not particularly eager to see it.,"Eric was not particularly eager to see the play.
+
+LABEL: 2
+
+SENTENCE 3:
+George gave the tickets to Eric, because","George got free tickets to the play, but he gave them to Eric, because he was not particularly eager to see it.
+
+LABEL: 2
+",0.43,0.5,0.43,0.46
+No time today to look at old pictures in Mama's favorite photo album.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.56,0.56,0.54,0.54
+I couldn't get the chewing gum in.,"I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in.
+
+","I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in.
+
+",0.29,0.29,0.54,0.54
+The suitcase is too small.,"The trophy fits into the brown suitcase because it is too small.
+
+LABEL: 2
+
+SENTENCE 3:
+The trophy fits into the","The trophy doesn't fit into the brown suitcase because it is too small.
+
+LABEL: 2
+
+SENTENCE 1:
+The trophy doesn",0.38,0.38,0.36,0.3
+The lawyer was reluctant to answer it.,"The lawyer asked the witness a question, but he was reluctant to answer it.
+
+LABEL: 1
+
+SENTENCE 3:
+The lawyer","The lawyer asked the witness a question, but he was reluctant to answer it.
+
+LABEL: 1
+
+SENTENCE 1:
+The lawyer",0.52,0.52,0.38,0.38
+Joan made sure to thank Susan for all the help Susan had recieved.,"Joan made sure to thank Susan for all the help she had recieved.
+
+LABEL: 1
+
+SENTENCE 3:
+Jo","Susan had been a great help to Joan.
+
+LABEL: 1
+
+SENTENCE 3:
+Joan was very grateful to Susan for",0.77,0.25,0.58,0.44
+Mark took upon himself the feeding and care of the animal.,"Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he","Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he",0.16,0.16,0.24,0.24
+"Isn't it nice that the two guitars and a bag have come, Mama!""","""
+
+LABEL: 1
+
+SENTENCE 3:
+""I'm glad you're here, Mama!""
+
+LABEL: 2
+","""
+
+LABEL: 1
+
+SENTENCE 2:
+Tatyana managed two guitars and a bag, and still could point out the Fre",0.07,0.31,0.38,0.35
+Pete should have been more truthful.,"Pete is a liar.
+
+LABEL: 1
+
+SENTENCE 3:
+Mark is a liar.
+
+LABEL: 0
+","Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful.
+
+LABEL: 1
+
+S",0.1,0.43,0.48,0.36
+Ray reached the bottom of the stairs.,"Ray threw his schoolbag down to Tom after he reached the bottom of the stairs.
+
+LABEL: 2
+
+SENTENCE 3:
+Tom","Tom threw his schoolbag down to Ray after he reached the bottom of the stairs.
+
+LABEL: 2
+
+SENTENCE 1:
+Tom",0.52,0.52,0.36,0.34
+The opponents were very much in the minority.,"The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the minority.
+
+LABEL: 1
+","The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the minority.
+
+LABEL: 1
+",0.48,0.48,0.45,0.45
+Adam would have lost.,"Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have lost.
+
+LABEL","Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have lost.
+
+LABEL",0.27,0.27,0.27,0.27
+"The meeting was short, so it worked out.","I was late for my meeting, but I was able to catch the train.
+
+LABEL: 2
+
+SENTENCE 3:
+I was","I was late for my meeting, but I made it on time.
+
+LABEL: 2
+
+SENTENCE 1:
+I was late for",0.14,0.14,0.16,0.28
+John is so tall.,"John couldn't see the stage with Billy in front of him because he is so tall.
+
+LABEL: 1
+
+SENTENCE 3:
+","John couldn't see the stage with Billy in front of him because he is so tall.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.32,0.32,0.27,0.27
+"She had left poor little Dora to do the best Maude could, alone.","Maude was a very good friend of Dora's. She was always there to help Dora with her homework, and she was always there to help D","Dora's plaid dress was buttoned up the back.
+
+LABEL: 1
+
+SENTENCE 1:
+All the buttons up the",0.15,0.13,0.36,0.14
+The building is very good.,"I'm sure that my map will show this building; it is very good.
+
+LABEL: 1
+
+SENTENCE 3:
+I'm","I'm sure that my map will show this building; it is very good.
+
+LABEL: 1
+
+SENTENCE 1:
+I'm",0.32,0.32,0.22,0.23
+Ralph wouldn't have to walk.,"Ralph was a good friend of Tom's.
+
+LABEL: 2
+
+SENTENCE 3:
+Tom and Ralph were good friends.
+","Ralph
+
+LABEL: 2
+
+SENTENCE 1:
+Tom gave Ralph a lift to school so he wouldn't have to walk.
+",0.08,0.48,0.43,0.36
+Sid couldn't understand him.,"Mark:
+I don't understand what you mean.
+
+LABEL: 1
+
+SENTENCE 3:
+Sid said that he could explain","Mark:
+
+SENTENCE 1:
+Sid explained his theory to Mark but he couldn't understand him.
+
+SENTENCE 2:
+",0.17,0.45,0.38,0.6
+The rain continued until 10.,"The rain started falling, but it continued until 10.
+
+LABEL: 1
+
+SENTENCE 3:
+The rain stopped falling at 10.","The rain started falling, but it continued until 10.
+
+LABEL: 1
+
+SENTENCE 1:
+In the middle of the outdoor concert",0.42,0.4,0.53,0.31
+The toaster Frank had bought from him didn't work.,"Tom was upset with Frank because the toaster he had bought from him didn't work.
+
+LABEL: 2
+
+SENTENCE 3:
+","Tom was upset with Frank because the toaster he had bought from him didn't work.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.6,0.6,0.52,0.49
+"Dan took the rear seat while Bill claimed the front because Bill's ""Dibs!"" was slow.","Dan took the rear seat while Bill claimed the front because his ""Dibs!"" was slow.
+
+LABEL: 1
+
+SENTENCE 3","Bill took the rear seat while Dan claimed the front because his ""Dibs!"" was slow.
+
+LABEL: 1
+
+SENTENCE 3",0.8,0.69,0.62,0.58
+The table is too wide.,"The table is too wide to fit through the doorway.
+
+LABEL: 2
+
+SENTENCE 3:
+The table is too wide to fit","The table won't fit through the doorway because it is too wide.
+
+LABEL: 2
+
+SENTENCE 1:
+The table won't",0.38,0.38,0.48,0.33
+Susan invited her to come in.,"Jane knocked on the door, and Susan answered it. She invited her to come in.
+
+LABEL: 2
+
+SENTENCE 3:
+","Jane knocked on the door, and Susan answered it. She invited her to come in.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.48,0.48,0.36,0.35
+I shall have to guard The foxes.,"The foxes are getting in at night and attacking the chickens. I shall have to guard them.
+
+LABEL: 1
+
+SENTENCE 3","The foxes are getting in at night and attacking the chickens. I shall have to guard them.
+
+LABEL: 1
+
+SENTENCE 1",0.36,0.36,0.42,0.44
+The city councilmen advocated violence.,"The city councilmen refused the demonstrators a permit because they advocated violence.
+
+LABEL: 1
+
+SENTENCE 3:
+The city council","The city councilmen refused the demonstrators a permit because they advocated violence.
+
+LABEL: 1
+
+SENTENCE 1:
+The city council",0.42,0.42,0.33,0.34
+Charlie is very generous.,"Bob paid for Charlie's college education. He is very generous.
+
+LABEL: 1
+
+SENTENCE 3:
+Bob paid for Charlie's","Charlie is a very generous man. He paid for Bob's college education.
+
+LABEL: 1
+
+SENTENCE 3:
+Bob is a",0.33,0.33,0.44,0.25
+She writes the article when she gets home from work.,"Sara borrowed the book from the library because she needs it for an article she is working on. She writes it when she gets home from work.
+
+","The book is a novel.
+
+LABEL: 2
+
+SENTENCE 1:
+Sara borrowed the book from the library because she needs it",0.43,0.13,0.65,0.33
+No time today to look at old pictures in Alice's favorite photo album.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.56,0.56,0.55,0.55
+The ankles should be better.,"Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be better.
+
+LABEL: 2","Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be better.
+
+LABEL: 2",0.28,0.28,0.36,0.36
+The cat waited at the bottom.,"The dog chased the cat, which ran up a tree. It waited at the bottom.
+
+LABEL: 1
+
+SENTENCE 3:
+","The dog chased the cat, which ran up a tree. It waited at the bottom.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.48,0.48,0.33,0.33
+Joan wasn't hungry.,"Jane gave Joan candy because she wasn't hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane gave Joan candy because she wasn't","Jane gave Joan candy because she wasn't hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane gave Joan candy because she wasn't",0.32,0.32,0.44,0.44
+"I sallied out for a bit of food, more to pass the time than because I wanted time.","I sallied out for a bit of food, more to pass the time than because I wanted it.
+
+LABEL: 1
+
+SENT","I sallied out for a bit of food, more to pass the time than because I wanted it.
+
+LABEL: 1
+
+SENT",0.87,0.87,0.63,0.63
+The fish was hungry.,"The fish ate the worm. It was hungry.
+
+LABEL: 2
+
+SENTENCE 3:
+The fish ate the worm. It was","The fish ate the worm. It was hungry.
+
+LABEL: 1
+
+SENTENCE 1:
+The fish ate the worm. It was",0.35,0.35,0.47,0.48
+Susan could see the landing gear.,"As Andrea in the crop duster passed over Susan, she could see the landing gear.
+
+LABEL: 2
+
+SENTENCE 1:
+","The train split of the glue dataset is provided in the following directory:
+
+/home/peng/glue/glue/train/
+
+",0.48,0.08,0.29,0.19
+"Mary tucked her daughter Anne into bed, so that Mary's daughter could sleep.","Mary tucked her daughter Anne into bed, so that she could sleep.
+
+LABEL: 2
+
+SENTENCE 3:
+Mary tucked her daughter","Mary tucked her daughter Anne into bed, so that she could sleep.
+
+LABEL: 2
+
+SENTENCE 1:
+Mary tucked her daughter",0.65,0.65,0.58,0.59
+Chester no longer requires his financial support.,"Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie","Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie",0.13,0.13,0.24,0.24
+The dog was cooler.,"The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was cooler.","The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was cooler.",0.25,0.25,0.47,0.47
+The map is very famous.,"I'm sure that my map will show this building; it is very famous.
+
+LABEL: 1
+
+SENTENCE 3:
+I'm","I'm sure that my map will show this building; it is very famous.
+
+LABEL: 1
+
+SENTENCE 1:
+I'm",0.32,0.32,0.23,0.24
+The ocean beach was a dangerous place to swim.,"We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim.
+
+LABEL: 2","We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim.
+
+LABEL: 2",0.53,0.53,0.46,0.46
+The captain and all the captain's crew had best stay in the cabin until the work was over.,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 2
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.8,0.8,0.69,0.8
+It was a major influence on Ovid's writing.,"This book introduced Shakespeare to Ovid; it was a major influence on his writing.
+
+LABEL: 1
+
+SENTENCE 3:
+This","Shakespeare was a major influence on Ovid's writing.
+
+LABEL: 1
+
+SENTENCE 1:
+This book introduced Shakespeare to O",0.5,0.57,0.39,0.49
+Mark should have been more truthful.,"Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful.
+
+LABEL: 2
+
+S","Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful.
+
+LABEL: 2
+
+S",0.43,0.43,0.41,0.41
+Jim signaled the barman and gestured toward The barman's empty glass.,"The barman filled the glass with beer.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim drank the beer.
+
+LABEL","The barman poured Jim a drink.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim was a little surprised when the barman poured",0.29,0.26,0.41,0.37
+Ann told her about it.,"Susan knew that Ann's son had been in a car accident, because she told her about it.
+
+LABEL: 2
+
+SENTENCE","Susan knew that Ann's son had been in a car accident, because she told her about it.
+
+LABEL: 2
+
+SENTENCE",0.38,0.38,0.31,0.31
+"Beside the food there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.",0.68,0.68,0.76,0.76
+"Equally swoon-worthy is C.K. Dexter Haven, a pallid young dandy holding a jade-handled walking stick, with a poodle asleep at the poodle's feet.","The poodle is a poodle.
+
+LABEL: 1
+
+SENTENCE 3:
+The poodle is a pood","The poodle is a poodle.
+
+LABEL: 1
+
+SENTENCE 1:
+Equally swoon-worthy is C",0.24,0.24,0.27,0.23
+George got up.,"Fred went out to buy groceries. After an hour he got up.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred went out","George went out to buy groceries. After an hour he got up.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred went to",0.18,0.27,0.33,0.22
+Steve admires him hugely.,"Fred's example is a good one.
+
+LABEL: 2
+
+SENTENCE 3:
+Fred is a good example.
+
+LABEL","Fred's example is to be a good person.
+
+LABEL: 2
+
+SENTENCE 1:
+Fred is a good person.
+
+",0.0,0.0,0.45,0.47
+"Lily spoke to Donna, breaking Lily's concentration.","Donna was angry.
+
+LABEL: 1
+
+SENTENCE 3:
+Lily was angry.
+
+LABEL: 0
+
+","Donna:
+I'm sorry, Lily.
+
+LABEL: 1
+
+SENTENCE 1:
+Lily spoke to Donna, breaking her",0.2,0.43,0.39,0.37
+"She was careful not to disturb Tatyana , undressing and climbing back into her berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 1","Tatyana was a young girl, who had just turned 14. She was a beautiful girl, with long, dark hair and a pale complexion. She",0.74,0.16,0.61,0.26
+Charlie is very ungrateful.,"Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very ungrateful.
+
+LABEL: 2","Charlie's college education was paid for by Bob.
+
+LABEL: 2
+
+SENTENCE 1:
+Bob paid for Charlie's college education,",0.31,0.08,0.39,0.44
+Amy's parents are fifteen.,"Amy's parents are unhappy about it, because they are fifteen.
+
+LABEL: 1
+
+SENTENCE 3:
+Sam and Amy are","Amy and Sam are passionately in love, but Amy's parents are unhappy about it, because they are fifteen.
+
+LABEL: 1
+
+",0.42,0.38,0.27,0.33
+Joan made sure to thank Susan for all the help Joan had given.,"Joan made sure to thank Susan for all the help she had given.
+
+LABEL: 1
+
+SENTENCE 3:
+Joan made","Susan had been a great help to Joan.
+
+LABEL: 1
+
+SENTENCE 3:
+Joan was very grateful to Susan for",0.75,0.25,0.44,0.44
+"Tom said ""Check"" to Ralph as he moved Ralph's bishop.","Ralph said ""Check"" to Tom as he moved his bishop.
+
+LABEL: 1
+
+SENTENCE 3:
+Ralph said ""","Ralph said ""Check"" to Tom as he moved his bishop.
+
+LABEL: 1
+
+SENTENCE 3:
+Ralph said """,0.52,0.52,0.5,0.5
+The sponsors were very much in the minority.,"The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the minority.
+
+LABEL: 2
+","The sponsors of the bill were surprised to find that the room was full of opponents. They were very much in the minority.
+
+LABEL: 2
+",0.48,0.48,0.45,0.45
+The sculpture wasn't level.,"The sculpture rolled off the shelf because it wasn't level.
+
+LABEL: 1
+
+SENTENCE 3:
+The sculpture rolled off the shelf","The sculpture rolled off the shelf because it wasn't level.
+
+LABEL: 1
+
+SENTENCE 1:
+The sculpture rolled off the shelf",0.38,0.38,0.66,0.65
+Joe's uncle is 30 years younger.,"Joe's uncle can still beat him at tennis, even though he is 30 years younger.
+
+LABEL: 1
+
+SENTENCE 3:
+","Joe's uncle can still beat him at tennis, even though he is 30 years younger.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.52,0.52,0.34,0.34
+"I don't know why Jim was, but he looked very unhappy.","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why he was, but he looked very unhappy.
+","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why he was, but he looked very unhappy.
+",0.55,0.55,0.69,0.69
+People are gripped because Paul writes so well.,"Paul's books are so good that people can't put them down.
+
+LABEL: 2
+
+SENTENCE 1:
+Many people start to","Paul's books are so good that many people start to read them and can't put them down. They are gripped because Paul writes so well.
+
+LAB",0.14,0.44,0.27,0.59
+Sam's drawing did look much better with another one above it.,"Tina's drawing was hung just above Sam's and it did look much better with another one above it.
+
+LABEL: 1
+
+SENT","The drawing was hung just above Tina's and it did look much better with another one above it.
+
+LABEL: 1
+
+SENTENCE 3",0.63,0.57,0.53,0.46
+The lake was a dangerous place to swim.,"We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim.
+
+LABEL: 1","We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim.
+
+LABEL: 1",0.48,0.48,0.47,0.47
+"Mr. Schmidt needed to get him to finish his work, because his work was beautiful.",Mark Schmidt was a very successful businessman. He was a very successful businessman because he was a very hard worker. He was a very hard worker because he was a,Mr. Schmidt was a very good man. He was a very good man. He was a very good man. He was a very good man. He was,0.13,0.14,0.39,0.36
+The man lifted the boy onto the boy's bunk bed.,"The man lifted the boy onto his bunk bed.
+
+LABEL: 2
+
+SENTENCE 3:
+The man lifted the boy onto his bunk","The man lifted the boy onto his bunk bed.
+
+LABEL: 1
+
+SENTENCE 1:
+The man lifted the boy onto his bunk",0.56,0.56,0.59,0.61
+It was daylight when he woke with Warren's hand upon Mark's shoulder.,"Mark slept. It was daylight when he woke with Warren's hand upon his shoulder.
+
+LABEL: 2
+
+SENTENCE 1:
+So","Mark slept. It was daylight when he woke with Warren's hand upon his shoulder.
+
+LABEL: 2
+
+SENTENCE 1:
+Mark",0.71,0.71,0.48,0.59
+Bill was the winner of the competition.,"Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition.
+
+LABEL: 1
+
+SENTENCE 3:","Bill is the winner of the competition.
+
+LABEL: 1
+
+SENTENCE 3:
+Frank was so happy that he decided to celebrate by",0.5,0.43,0.31,0.33
+The delivery truck was going so fast.,"The school bus was going so fast because the delivery truck zoomed by it.
+
+LABEL: 2
+
+SENTENCE 3:
+The delivery","The delivery truck zoomed by the school bus because it was going so fast.
+
+LABEL: 2
+
+SENTENCE 1:
+The delivery",0.37,0.52,0.24,0.27
+"Since Jade always wears a red turban, Alice spotted her quickly.","Alice looked for her friend Jade in the crowd. Since she always wears a red turban, Alice spotted her quickly.
+
+LABEL: 2","Alice looked for her friend Jade in the crowd. Since she always wears a red turban, Alice spotted her quickly.
+
+LABEL: 2",0.61,0.61,0.62,0.62
+Now I have to get The tree repaired.,"I have to get it repaired.
+
+LABEL: 1
+
+SENTENCE 3:
+I have to get it repaired.
+
+LABEL","I have to get it repaired.
+
+LABEL: 1
+
+SENTENCE 1:
+In the storm, the tree fell down and crashed through",0.4,0.43,0.52,0.43
+"Mary tucked her daughter Anne into bed, so that Mary's daughter could work.","Mary tucked her daughter Anne into bed, so that she could work.
+
+LABEL: 1
+
+SENTENCE 3:
+Mary tucked her daughter","Mary tucked her daughter Anne into bed, so that she could work.
+
+LABEL: 1
+
+SENTENCE 3:
+Mary tucked her daughter",0.65,0.65,0.56,0.56
+"Tom said ""Check"" to Ralph as he moved Tom's bishop.","Ralph said ""Check"" to Tom as he moved his bishop.
+
+LABEL: 2
+
+SENTENCE 3:
+Ralph said ""","Ralph said ""Check"" to Tom as he moved his bishop.
+
+LABEL: 2
+
+SENTENCE 1:
+Ralph said """,0.52,0.52,0.56,0.58
+Bob was very concerned.,"Carl: I'm sorry Bob. I didn't see you.
+
+SENTENCE 1:
+Bob was very happy to see Carl. He was very","Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+Carl:
+
+Bob:
+
+",0.23,0.17,0.36,0.33
+The man was so heavy.,"The man couldn't lift his son because he was so heavy.
+
+LABEL: 1
+
+SENTENCE 3:
+The man couldn't lift","The man couldn't lift his son because he was so heavy.
+
+SENTENCE 1:
+The man couldn't lift his son because he was so",0.38,0.33,0.43,0.64
+I put the rag in the drawer.,"I used an old rag to clean the knife, and then I put it in the drawer.
+
+LABEL: 1
+
+SENTENCE 3:","I used an old rag to clean the knife, and then I put it in the drawer.
+
+LABEL: 1
+
+SENTENCE 3:",0.36,0.36,0.38,0.38
+The storekeepers stayed in town to run their stores and lived in the rooms behind the stores.,"The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 2
+
+SENTENCE 3:
+","The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.81,0.81,0.63,0.62
+Paul's books are gripped because Paul writes so well.,"Paul's books are so good that people can't put them down.
+
+LABEL: 1
+
+SENTENCE 3:
+Paul's books are","Paul's books are so good that many people start to read them and can't put them down. They are gripped because Paul writes so well.
+
+LAB",0.32,0.53,0.36,0.61
+Kevin was so upset.,"Jim yelled at Kevin because he was so upset.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim yelled at Kevin because he was so","Jim yelled at Kevin because he was so upset.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim yelled at Kevin because he was so",0.32,0.32,0.52,0.52
+Shatov was less popular.,"SENTENCE 1:
+Kirilov ceded the presidency to Shatov because he was less popular.
+
+LABEL: 1
+
+","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Kirilov ceded the presidency to",0.42,0.0,0.38,0.2
+She put the album on a chair without even opening the chair.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.1,0.1,0.35,0.35
+Sam was eager to speak it fluently.,"Sam took French classes from Adam, because he was eager to speak it fluently.
+
+LABEL: 2
+
+SENTENCE 3:
+Sam","Adam took French classes from Sam, because he was eager to speak it fluently.
+
+LABEL: 2
+
+SENTENCE 1:
+Sam",0.54,0.54,0.45,0.44
+The demonstrators feared violence.,"The city councilmen refused the demonstrators a permit because they feared violence.
+
+LABEL: 1
+
+SENTENCE 3:
+The city council","The city councilmen refused the demonstrators a permit because they feared violence.
+
+LABEL: 1
+
+SENTENCE 1:
+The city council",0.35,0.35,0.33,0.35
+Charlie is very hurt.,"Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very hurt.
+
+LABEL: 1
+
+S","Charlie's college education was paid for by Bob.
+
+LABEL: 1
+
+SENTENCE 3:
+Bob paid for Charlie's college education,",0.3,0.08,0.28,0.48
+The duck had better get away to safety fast!,"The duck is swimming away from the shark.
+
+LABEL: 2
+
+SENTENCE 1:
+Look! There is a shark swimming right below","The duck is swimming right below the shark.
+
+LABEL: 2
+
+SENTENCE 1:
+Look! There is a shark swimming right below",0.21,0.14,0.4,0.4
+Bob would have won.,"Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have won.
+
+LABEL","Adam was playing cards with Bob and was way ahead. If Bob hadn't had a sudden run of good luck, he would have won.
+
+LABEL",0.27,0.27,0.25,0.25
+The customer was immediately taken to the police station.,"The customer was arrested for murder.
+
+LABEL: 2
+
+SENTENCE 3:
+The customer was charged with murder.
+
+LABEL","The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the police station.
+
+LABEL: 2
+
+S",0.31,0.56,0.51,0.39
+"His father's disciple, Antonio, takes Larry under his wing, and quickly molds Larry into a drug runner.",Antonio's gang is a criminal organization that operates in the New York City area. Antonio's gang is a criminal organization that operates in the New York City area," 2
+
+SENTENCE 2:
+Larry, a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry",0.12,0.16,0.64,0.25
+It was a fine selection of Goethe's writing.,"This book introduced Shakespeare to Goethe; it was a fine selection of his writing.
+
+LABEL: 1
+
+SENTENCE 3:
+This","The book introduced Shakespeare to Goethe; it was a fine selection of his writing.
+
+LABEL: 1
+
+SENTENCE 1:
+This",0.5,0.5,0.34,0.36
+The spot under the tree was cooler.,"The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was cooler.","The dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was cooler.",0.4,0.4,0.52,0.52
+The hair has to be removed.,"The drain is clogged with hair. It has to be removed.
+
+LABEL: 2
+
+SENTENCE 3:
+The drain is clog","The drain is clogged with hair. It has to be removed.
+
+LABEL: 1
+
+SENTENCE 1:
+The drain is clog",0.48,0.48,0.48,0.5
+The lake was a safer place to swim.,"We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim.
+
+LABEL: 2","We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim.
+
+LABEL: 2",0.48,0.48,0.5,0.5
+The firemen were coming from so far away.,"The firemen arrived after the police because they were coming from so far away.
+
+LABEL: 2
+
+SENTENCE 3:
+The fire","The firemen arrived after the police because they were coming from so far away.
+
+LABEL: 2
+
+SENTENCE 1:
+The fire",0.57,0.57,0.38,0.39
+Carol believed that Rebecca regretted that Carol had stolen the watch.,"Rebecca regretted that she had stolen the watch.
+
+LABEL: 1
+
+SENTENCE 3:
+Carol believed that Rebecca regretted that","Rebecca regretted that she had stolen the watch.
+
+LABEL: 1
+
+SENTENCE 3:
+Carol believed that Rebecca regretted that",0.48,0.48,0.41,0.41
+Billy cried because Toby wouldn't accept Billy's toy.,"Toby didn't want to give Billy his toy.
+
+LABEL: 2
+
+SENTENCE 3:
+Billy cried because Toby wouldn","Toby didn't want to give Billy his toy.
+
+LABEL: 2
+
+SENTENCE 1:
+Billy cried because Toby wouldn",0.36,0.36,0.42,0.43
+Kate had retired and presented several options for future treatment.,"Dr. Adams informed Kate that she had retired and presented several options for future treatment.
+
+LABEL: 1
+
+SENTENCE 3:
+Dr","Kate was very surprised to hear that Dr. Adams had retired.
+
+LABEL: 1
+
+SENTENCE 3:
+Dr. Adams informed Kate",0.67,0.21,0.34,0.37
+Folks said he died just to be ride of the Wainwrights' everlasting nagging.,The Wainwrights treated Mr. Crowley like a prince until he made his will in their favor; then they treated him like dirt. Folks said,The Wainwrights treated Mr. Crowley like a prince until he made his will in their favor; then they treated him like dirt. Folks said,0.11,0.11,0.35,0.35
+Tina was too hard to pronounce.,"The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce.","The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce.",0.38,0.38,0.52,0.52
+Dora asked what the town was.,"They were in the middle of the cornfield, and they could hear a sound like corn popping. Dora asked what it was, and Dad said it was","They were in the middle of the street when they heard a loud noise.
+
+LABEL: 1
+
+SENTENCE 1:
+The noise was",0.24,0.15,0.3,0.2
+Dr. Adams had cancer and presented several options for future treatment.,"Dr. Adams informed Kate that she had cancer and presented several options for future treatment.
+
+LABEL: 1
+
+SENTENCE 3:
+Dr","Kate was diagnosed with cancer.
+
+LABEL: 1
+
+SENTENCE 1:
+Dr. Adams informed Kate that she had cancer and presented several",0.71,0.45,0.38,0.41
+"I don't know who Jim was, but he looked very unhappy.","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy.
+","I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy.
+",0.55,0.55,0.69,0.69
+The detective delivered the final report on the case.,"The detective was paid after he delivered the final report on the case.
+
+LABEL: 2
+
+SENTENCE 3:
+The detective was paid","The detective was paid after he delivered the final report on the case.
+
+LABEL: 2
+
+SENTENCE 1:
+The detective was paid",0.6,0.6,0.6,0.61
+Jane did not get an answer.,"Jane knocked on Susan's door.
+
+LABEL: 2
+
+SENTENCE 3:
+Jane knocked on Susan's door but she did not get","Susan opened the door and said, ""Hello, Jane.""
+
+LABEL: 2
+
+SENTENCE 1:
+Jane knocked on Susan's",0.3,0.09,0.49,0.24
+"Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled Tatyana's mother to the table.","
+
+SENTENCE 2:
+Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as",", ""Now, Tatyana, you must eat.""
+
+SENTENCE 2:
+Tatyana knew that Grandma always enjoyed serving an abundance",0.1,0.11,0.28,0.25
+Susan is nosy.,"Susan is nosy.
+
+LABEL: 2
+
+SENTENCE 3:
+Ann is nosy.
+
+LABEL: 3
+","Susan knows all about Ann's personal problems because she is nosy.
+
+LABEL: 2
+
+SENTENCE 1:
+Susan knows",0.4,0.29,0.57,0.31
+She put the album on a chair without even opening the album.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.15,0.15,0.34,0.34
+The sun was gone.,"The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone.
+
+LABEL: 1","The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone.
+
+LABEL: 1",0.3,0.3,0.27,0.27
+"She was careful not to disturb her, undressing and climbing back into Tatyana's berth.","Tatyana's mother was sleeping. She was careful not to disturb her, undressing and climbing back into her berth.
+
+LABEL: 2","Tatyana was a young girl, who had just turned 14. She was a beautiful girl, with long, dark hair and a pale complexion. She",0.72,0.15,0.61,0.27
+Jim signaled the barman and gestured toward Jim's empty glass.,"The barman filled the glass with beer.
+
+LABEL: 2
+
+SENTENCE 3:
+Jim drank the beer.
+
+LABEL","The barman poured Jim a drink.
+
+LABEL: 2
+
+SENTENCE 1:
+The barman poured Jim a drink.
+
+",0.22,0.3,0.38,0.5
+The fish was tasty.,"The fish ate the worm. It was tasty.
+
+LABEL: 1
+
+SENTENCE 3:
+The fish ate the worm. It was","The fish ate the worm. It was tasty.
+
+LABEL: 1
+
+SENTENCE 1:
+The fish ate the worm. It was",0.35,0.35,0.48,0.52
+The witness was reluctant to repeat it.,"The lawyer asked the witness a question, but he was reluctant to repeat it.
+
+LABEL: 1
+
+SENTENCE 3:
+The lawyer","The lawyer asked the witness a question, but he was reluctant to repeat it.
+
+LABEL: 1
+
+SENTENCE 1:
+The lawyer",0.52,0.52,0.37,0.37
+The cat was too impatient.,"The cat was lying by the mouse hole waiting for the mouse, but it was too impatient.
+
+LABEL: 2
+
+SENTENCE 3:","The cat was lying by the mouse hole waiting for the mouse, but it was too impatient.
+
+LABEL: 2
+
+SENTENCE 1:",0.38,0.38,0.36,0.36
+Pete is very successful.,"Martin envies Pete although he is very successful.
+
+LABEL: 2
+
+SENTENCE 3:
+Pete envies Martin although he is","Martin is a very successful man.
+
+LABEL: 2
+
+SENTENCE 1:
+Pete envies Martin although he is very successful.",0.36,0.36,0.44,0.45
+Now I have to get The roof removed.,"I have to get it removed.
+
+LABEL: 1
+
+SENTENCE 3:
+I have to get it removed.
+
+LABEL","I have to get it removed.
+
+LABEL: 1
+
+SENTENCE 1:
+In the storm, the tree fell down and crashed through",0.4,0.36,0.47,0.33
+George was particularly eager to see it.,"Eric was particularly eager to see the play.
+
+LABEL: 2
+
+SENTENCE 3:
+George gave the tickets to Eric, even though","George got free tickets to the play, but he gave them to Eric, even though he was particularly eager to see it.
+
+LABEL: 2
+",0.37,0.45,0.41,0.45
+The oak tree is to the right of a house.,"The painting in Mark's living room shows an oak tree. It is to the right of a house.
+
+LABEL: 2
+
+SENTENCE","The painting in Mark's living room shows an oak tree. It is to the right of a house.
+
+LABEL: 1
+
+SENTENCE",0.62,0.62,0.41,0.41
+The minnow had better get away to safety fast!,"The duck is swimming right below the minnow.
+
+LABEL: 2
+
+SENTENCE 1:
+Look! There is a minnow swimming","The duck is swimming right below the minnow. It had better get away to safety fast.
+
+LABEL: 2
+
+SENTENCE 1:",0.15,0.62,0.31,0.32
+The oak tree is to the right of the bookcase.,"The painting in Mark's living room shows an oak tree. It is to the right of the bookcase.
+
+LABEL: 1
+
+SENT","The painting in Mark's living room shows an oak tree. It is to the right of the bookcase.
+
+LABEL: 1
+
+SENT",0.62,0.62,0.44,0.44
+The pin had a hole.,"I stuck a pin through a carrot. When I pulled the pin out, it had a hole.
+
+LABEL: 1
+
+SENTENCE 3","I stuck a pin through a carrot. When I pulled the pin out, it had a hole.
+
+LABEL: 1
+
+SENTENCE 3",0.38,0.38,0.32,0.32
+Susan is indiscreet.,"Susan is indiscreet because she knows all about Ann's personal problems.
+
+LABEL: 1
+
+SENTENCE 3:
+Ann is","Susan knows all about Ann's personal problems because she is indiscreet.
+
+LABEL: 1
+
+SENTENCE 3:
+Susan",0.29,0.3,0.24,0.32
+Carol believed that Rebecca suspected that Rebecca had stolen the watch.,"Rebecca suspected that Carol had stolen the watch.
+
+LABEL: 1
+
+SENTENCE 3:
+Carol believed that Rebecca had stolen the watch","Rebecca believed that Carol had stolen the watch.
+
+LABEL: 1
+
+SENTENCE 3:
+Carol believed that Rebecca had stolen the watch",0.52,0.52,0.6,0.55
+Billy cried because Toby wouldn't share Billy's toy.,"Toby didn't want to share his toy.
+
+LABEL: 1
+
+SENTENCE 3:
+Billy cried because Toby wouldn't","Toby didn't share his toy.
+
+LABEL: 1
+
+SENTENCE 3:
+Billy cried because Toby wouldn't share his",0.43,0.5,0.44,0.47
+"He had to be the life and soul of a dinner party, with the book there all the time.","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-",0.13,0.13,0.28,0.28
+Bob would be gone by this time.,"Bob is a man.
+
+SENTENCE 3:
+Bob is a man.
+
+SENTENCE 4:
+Bob is a man.
+","Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is a man.
+Bob is",0.09,0.07,0.62,0.35
+"Beside the floor there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.","The table was piled high with food, and on the floor beside it there were crocks, baskets, and a five-quart pail of milk.",0.68,0.68,0.76,0.76
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Goodman faced in his childhood.,"Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood.
+
+LABEL: 1","The Spartan general Xenophanes was born in the year of the world's first Olympic Games, in the year of the world's first Olympic Games, in",0.91,0.29,0.78,0.28
+The woman held the girl against the woman's will.,"The woman held the girl against her will.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman held the girl against her will.","The woman held the girl against her will.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman held the girl against her will.",0.6,0.6,0.64,0.64
+Susan was out.,"Jane knocked on Susan's door, but there was no answer. She was out.
+
+LABEL: 2
+
+SENTENCE 3:
+Jane","Susan was out.
+
+LABEL: 2
+
+SENTENCE 1:
+Jane knocked on Susan's door, but there was no answer.",0.27,0.29,0.31,0.46
+The man was very annoying.,"John was doing research in the library when he heard a man humming and whistling. He was very annoying.
+
+LABEL: 2
+
+S","John was doing research in the library when he heard a man humming and whistling. He was very annoying.
+
+LABEL: 2
+
+S",0.37,0.37,0.35,0.35
+He heard Mark calling for the captain.,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 1
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.14,0.14,0.16,0.37
+Bob is very grateful.,"Bob paid for Charlie's college education. He is very grateful.
+
+LABEL: 1
+
+SENTENCE 3:
+Bob paid for Charlie's","Charlie is a very good student. He is very grateful.
+
+LABEL: 1
+
+SENTENCE 3:
+Bob is a very good student",0.33,0.25,0.47,0.55
+The concert continued until 10.,"The rain stopped at 10.
+
+LABEL: 2
+
+SENTENCE 3:
+The concert was cancelled.
+
+LABEL: 3
+","The rain started falling, but it continued until 10.
+
+LABEL: 2
+
+SENTENCE 1:
+In the middle of the outdoor concert",0.2,0.32,0.47,0.31
+There were simply not enough chairs.,"We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of them.
+
+LABEL:","We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of them.
+
+LABEL:",0.32,0.32,0.29,0.29
+Blaze was afraid the stable boys at the Burlington Stables struck at him and bullied him.,"Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he","Mark became absorbed in Blaze, the white horse. He was afraid the stable boys at the Burlington Stables struck at him and bullied him because he",0.76,0.76,0.45,0.45
+Anne is a very charming woman.,"Anne gave birth to a daughter last month. She is a very charming woman.
+
+LABEL: 2
+
+SENTENCE 3:
+Anne gave","Anne gave birth to a daughter last month. She is a very charming woman.
+
+LABEL: 2
+
+SENTENCE 1:
+Anne gave",0.46,0.46,0.27,0.26
+It was daylight when he woke with Warren's hand upon Warren's shoulder.,"Mark slept. It was daylight when he woke with Warren's hand upon his shoulder.
+
+LABEL: 1
+
+SENTENCE 3:
+Mark","""
+
+SENTENCE 2:
+""Mark slept. It was daylight when he woke with Warren's hand upon his shoulder.""
+
+LABEL:",0.71,0.75,0.59,0.57
+Mark heard him calling for the captain,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 2
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.14,0.14,0.13,0.32
+"Stretching the woman's back, the woman smiled at the girl.","The woman smiled at the girl.
+
+LABEL: 2
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL","The woman smiled at the girl.
+
+LABEL: 2
+
+SENTENCE 1:
+The woman smiled at the girl.
+
+LABEL",0.57,0.57,0.45,0.43
+Bill was hungry.,"John passed the half-empty plate to Bill because he was hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill was hungry because","John passed the half-empty plate to Bill because he was hungry.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the half",0.26,0.26,0.37,0.26
+Terpsichore was too hard to pronounce.,"The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce.","The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce.",0.38,0.38,0.56,0.56
+Beth stopped and apologized.,"Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized.
+
+LABEL: 1
+
+SENTENCE","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 3:
+Beth didn't get angry with Sally,",0.33,0.09,0.33,0.31
+The settlers must make rules to regulate them.,"The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 1
+
+SENTENCE 3","The politicians far away in Washington could not know the settlers so they must make rules to regulate them.
+
+LABEL: 1
+
+SENTENCE 1",0.52,0.52,0.36,0.36
+The trophy is too large.,"The trophy fits into the brown suitcase because it is too small.
+
+LABEL: 2
+
+SENTENCE 3:
+The trophy fits into the","The trophy doesn't fit into the brown suitcase because it is too large.
+
+LABEL: 2
+
+SENTENCE 1:
+The trophy doesn",0.31,0.38,0.29,0.28
+"She had left poor little Dora to do the best Dora could, alone.","Maude should have thought to button her up; but no, she had left poor little Dora to do the best she could, alone.
+
+LAB","Dora's plaid dress was buttoned up the back.
+
+LABEL: 2
+
+SENTENCE 1:
+All the buttons up the",0.65,0.13,0.5,0.15
+Alice's daughter was behaving so strangely.,"Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL:","The party was a success, and the guests were all having a great time.
+
+LABEL: 2
+
+SENTENCE 1:
+The party",0.4,0.07,0.39,0.24
+The police were coming from so far away.,"The firemen arrived before the police because they were coming from so far away.
+
+LABEL: 2
+
+SENTENCE 3:
+The fire","The firemen arrived before the police because they were coming from so far away.
+
+LABEL: 2
+
+SENTENCE 1:
+The fire",0.57,0.57,0.34,0.35
+Bill is very compassionate.,"Dan had to stop Bill from toying with the injured bird. He is very compassionate.
+
+LABEL: 1
+
+SENTENCE 3:
+","Bill is a bird.
+
+SENTENCE 1:
+Dan had to stop Bill from toying with the injured bird. He is very compassionate.
+",0.35,0.32,0.27,0.37
+You thought hamburgers were onions?,"I was a little girl, and I was in the kitchen with my mother. She was cutting up tulip bulbs in the hamburgers because she","I was in the kitchen cutting up tulip bulbs in the hamburgers because I thought they were onions.
+
+SENTENCE 1:
+",0.07,0.24,0.26,0.38
+Ralph wouldn't have to drive alone.,"Ralph was a good driver.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom was a good driver.
+
+LABEL:","Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+Ralph
+
+",0.09,0.13,0.36,0.1
+Dora asked what the corn was.,"They were in the middle of the cornfield, and they could hear a sound like corn popping. Dora asked what it was, and Dad said it was","They were in the middle of the street when they heard a loud noise.
+
+LABEL: 1
+
+SENTENCE 1:
+The noise was",0.24,0.15,0.4,0.17
+Tom reached the bottom of the stairs.,"Ray threw his schoolbag down to Tom after he reached the bottom of the stairs.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom","Tom threw his schoolbag down to Ray after he reached the bottom of the stairs.
+
+LABEL: 1
+
+SENTENCE 3:
+Tom",0.52,0.52,0.32,0.35
+Anne is a very charming baby.,"Anne gave birth to a daughter last month. She is a very charming baby.
+
+LABEL: 1
+
+SENTENCE 3:
+Anne gave","Anne gave birth to a daughter last month. She is a very charming baby.
+
+LABEL: 1
+
+SENTENCE 3:
+Anne gave",0.46,0.46,0.27,0.27
+Alice had to hunt for a button.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.17,0.17,0.41,0.41
+Fred got back.,"Fred went out to buy groceries. After an hour he got back.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred went out","George went out to buy groceries. After an hour he got back.
+
+LABEL: 1
+
+SENTENCE 3:
+Fred watched TV",0.27,0.18,0.41,0.28
+The woman held the girl against the girl's chest.,"The woman held the girl against her chest.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman held the girl against her chest.","The woman held the girl against her chest.
+
+LABEL: 1
+
+SENTENCE 3:
+The woman held the girl against her chest.",0.6,0.6,0.68,0.68
+The ankles should be unnecessary.,"Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary.
+
+LABEL: 1","Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary.
+
+LABEL: 1",0.28,0.28,0.33,0.33
+He will be moving into The old house on Thursday.,"Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday.
+
+LABEL: 1
+
+","Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday.
+
+LABEL: 1
+
+",0.41,0.41,0.4,0.4
+Pam's parents were embarrassed about it.,"Pam's parents came home and found her having sex with her boyfriend, Paul. They were embarrassed about it.
+
+LABEL: 1
+
+S","Pam's parents came home and found her having sex with her boyfriend, Paul. They were embarrassed about it.
+
+LABEL: 1
+
+S",0.48,0.48,0.38,0.38
+Adam was eager to speak it fluently.,"Sam took French classes from Adam, because he was eager to speak it fluently.
+
+LABEL: 1
+
+SENTENCE 3:
+Sam","Adam took French classes from Sam, because he was eager to speak it fluently.
+
+LABEL: 1
+
+SENTENCE 3:
+Sam",0.54,0.54,0.42,0.45
+John left.,"John ordered Bill to leave, so an hour later he left.
+
+LABEL: 1
+
+SENTENCE 3:
+John ordered Bill to leave","John ordered Bill to leave, so an hour later he left.
+
+LABEL: 1
+
+SENTENCE 3:
+John ordered Bill to leave",0.18,0.18,0.51,0.51
+He no longer requires Edward's financial support.,"Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie","Mr. Moncrieff visited Chester's luxurious New York apartment, thinking that it belonged to his son Edward. The result was that Mr. Moncrie",0.06,0.06,0.31,0.31
+Beth stopped and counted to ten.,"Beth didn't get angry with Sally, who had cut her off, because she stopped and counted to ten.
+
+LABEL: 2
+
+S","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Beth didn't get angry with Sally,",0.43,0.08,0.38,0.28
+How very small and straight and rigid Tatyana lay in the bunk below!,"Tatyana was a little girl of about six years old. She was the only child of her parents, and her father was a merchant in a small town","The train was moving slowly, and the wheels were making a sound like the sound of a mill-wheel. The wheels were very loud, and the sound of",0.1,0.15,0.34,0.24
+"The donkey wished a wart on its hind leg would disappear, and leg did.","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 1
+
+SENTENCE 3:
+The donkey","The donkey wished a wart on its hind leg would disappear, and it did.
+
+LABEL: 1
+
+SENTENCE 1:
+The donkey",0.76,0.76,0.61,0.63
+He couldn't very well marry without Uncle Vernon's approval,"Chester was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 2
+
+SENTENCE 3:
+","He was dependent on Uncle Vernon, so he couldn't very well marry without his approval
+
+LABEL: 2
+
+SENTENCE 1:
+He",0.52,0.5,0.46,0.32
+The trainer couldn't stand her boyfriend.,"Madonna fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 1
+
+SENTENCE 3:
+Madonna fired her trainer","She fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 1
+
+SENTENCE 1:
+Madonna fired her trainer because",0.46,0.44,0.57,0.51
+John's turn was over.,"John passed the gameboy to Bill because his turn was over.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the gameboy","John passed the gameboy to Bill because his turn was over.
+
+LABEL: 1
+
+SENTENCE 3:
+Bill passed the gameboy",0.33,0.33,0.47,0.47
+The father carried the sleeping boy in the boy's bassinet.,"The boy was asleep.
+
+LABEL: 2
+
+SENTENCE 3:
+The boy was asleep.
+
+LABEL: 3
+
+","The father carried the sleeping boy in his bassinet.
+
+LABEL: 1
+
+SENTENCE 1:
+The father carried the sleeping boy in",0.32,0.58,0.45,0.5
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties Xenophanes faced in his childhood.,"Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood.
+
+LABEL: 2","The Spartan general Xenophanes was born in the year of the world's first Olympic Games, 776 B.C.
+
+LABEL: 2",0.91,0.29,0.79,0.22
+You can see the garden through the gap.,"There is a gap in the wall. You can see the garden behind it.
+
+LABEL: 1
+
+SENTENCE 3:
+There is","The garden is behind the wall.
+
+LABEL: 1
+
+SENTENCE 1:
+There is a gap in the wall. You can see",0.36,0.29,0.27,0.43
+Larry's boss at the railroad company would not want anyone but him to work in the office.,"Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but","Larry was a good boy. He always did what his father told him to do.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.47,0.16,0.42,0.13
+She has loved the flute since she was a child.,"Mary took out her flute and played one of her favorite pieces. She has loved it since she was a child.
+
+LABEL: 1
+
+","Mary took out her flute and played one of her favorite pieces. She has loved it since she was a child.
+
+LABEL: 1
+
+",0.48,0.48,0.49,0.49
+Some day they might want to use the magic pebble.,"They had eventually calmed down a bit, and had gotten home, Mr. Farley put the magic pebble in an iron safe. Some day they","The magic pebble was a very special pebble. It was a pebble that could make wishes come true.
+
+LABEL: 2",0.24,0.2,0.31,0.38
+Tina was easier to pronounce.,"The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce.
+","The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce.
+",0.33,0.33,0.52,0.52
+The man lifted the boy onto the boy's shoulders.,"The man lifted the boy onto his shoulders.
+
+LABEL: 1
+
+SENTENCE 3:
+The man lifted the boy onto his shoulders.","The man lifted the boy onto his shoulders.
+
+LABEL: 1
+
+SENTENCE 3:
+The man lifted the boy onto his shoulders.",0.6,0.6,0.72,0.72
+The delivery truck was going so slow.,"The school bus was going so fast that the delivery truck couldn't catch up.
+
+LABEL: 1
+
+SENTENCE 3:
+The delivery","The delivery truck zoomed by the school bus because it was going so slow.
+
+LABEL: 1
+
+SENTENCE 1:
+The delivery",0.29,0.52,0.21,0.27
+I couldn't hear the announcement.,"I heard the announcement, but the subway came into the station and I couldn't hear it.
+
+LABEL: 2
+
+SENTENCE 3:","I was in the subway and I heard an announcement.
+
+LABEL: 2
+
+SENTENCE 1:
+I was in the subway and I",0.3,0.22,0.32,0.41
+It was bad enough that the children had to be denied so many things because he couldn't afford them.,"Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn","""
+
+SENTENCE 2:
+Papa looked down at the children's faces, so puzzled and sad now. It was bad enough that they had",0.61,0.29,0.52,0.31
+The ocean beach was a safer place to swim.,"We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim.
+
+LABEL: 1","We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim.
+
+LABEL: 1",0.53,0.53,0.46,0.46
+The toaster Tom had sold him didn't work.,"Tom was upset with Frank because the toaster he had sold him didn't work.
+
+LABEL: 2
+
+SENTENCE 3:
+Frank","Tom was upset with Frank because the toaster he had sold him didn't work.
+
+LABEL: 2
+
+SENTENCE 1:
+Frank",0.55,0.55,0.55,0.55
+"The train was delayed, so it worked out.","I was late for my meeting, so I had to rush.
+
+LABEL: 2
+
+SENTENCE 3:
+I was late for my","I was late for my meeting, so I had to catch the train at 4:30.
+
+LABEL: 0
+
+SENTENCE 1:",0.14,0.14,0.28,0.27
+You can see the garden through the gap.,"The garden is a place where you can grow things.
+
+LABEL: 2
+
+SENTENCE 3:
+The garden is a place where you","The garden is a beautiful place.
+
+LABEL: 2
+
+SENTENCE 1:
+There is a gap in the wall. You can see",0.28,0.21,0.37,0.41
+"Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that Bernard had done anything dishonest.","Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything","The government official who had not told Bernard that he was less than 21 when he filed for a homestead claim could take his claim away from him.
+
+LAB",0.95,0.58,0.7,0.43
+The jacket looks great on her.,"Grace was happy to trade me her sweater for my jacket. She thinks it looks great on her.
+
+LABEL: 2
+
+SENTENCE","I'm not sure what to do with this one.
+
+LABEL: 2
+
+SENTENCE 1:
+I'm not sure what to do",0.37,0.0,0.28,0.37
+Lionel plans to use it on Geoffrey and send Dr. Vardi to steal nuclear material from an army vault.,"Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey","Lionel is holding captive a scientist, Dr. Vardi, who has invented a device that turns animals invisible; Lionel plans to use it on Geoffrey",0.33,0.33,0.46,0.46
+Fred got up.,"Fred went out to buy groceries.
+
+LABEL: 2
+
+SENTENCE 3:
+George went out to buy groceries.
+
+","George went out to buy groceries. After an hour he got up.
+
+LABEL: 2
+
+SENTENCE 3:
+Fred went to",0.11,0.18,0.44,0.27
+The table broke.,"I put the heavy book on the table and it broke.
+
+LABEL: 2
+
+SENTENCE 3:
+I put the heavy book on","I put the heavy book on the table and it broke.
+
+LABEL: 2
+
+SENTENCE 1:
+I put the heavy book on",0.25,0.25,0.45,0.46
+There were simply too many chairs.,"We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them.
+
+LABEL:","We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them.
+
+LABEL:",0.32,0.32,0.26,0.26
+Tina's drawing did look much better with another one above it.,"Tina's drawing was hung just above Sam's and it did look much better with another one above it.
+
+LABEL: 2
+
+SENT","The drawing was hung just above Tina's and it did look much better with another one above it.
+
+LABEL: 2
+
+SENTENCE 1",0.69,0.63,0.55,0.55
+Emma's education had been managed by an excellent woman as governess.,"Emma's mother had died long ago, and her education had been managed by an excellent woman as governess.
+
+LABEL: 2
+
+S","Emma's mother had died long ago, and her education had been managed by an excellent woman as governess.
+
+LABEL: 2
+
+S",0.71,0.71,0.61,0.61
+John hired Bill to take care of John.,"Bill took care of John.
+
+LABEL: 2
+
+SENTENCE 3:
+John was angry with Bill.
+
+LABEL: 3","Bill took care of John.
+
+LABEL: 2
+
+SENTENCE 3:
+John hired Bill to take care of him.
+
+LAB",0.33,0.54,0.49,0.49
+Bill left.,"John ordered Bill to leave, so an hour later he left.
+
+LABEL: 2
+
+SENTENCE 3:
+John ordered Bill to leave","John ordered Bill to leave, so an hour later he left.
+
+LABEL: 2
+
+SENTENCE 1:
+John ordered Bill to leave",0.18,0.18,0.52,0.52
+Ann is indiscreet.,"Susan is indiscreet because she knows all about Ann's personal problems.
+
+LABEL: 2
+
+SENTENCE 3:
+Susan","Susan knows all about Ann's personal problems because she is indiscreet.
+
+LABEL: 2
+
+SENTENCE 1:
+Susan",0.2,0.3,0.34,0.38
+Prehistoric humans hunted for evidence on the river banks.,"The river banks were covered with the bones of animals that had been hunted by humans.
+
+LABEL: 1
+
+SENTENCE 3:
+The","The river banks were covered with the remains of the Laputans.
+
+LABEL: 1
+
+SENTENCE 3:
+The Laputans",0.2,0.23,0.19,0.36
+"Each artisan still had signs, not wishing to lose a possible patron merely because the artisan happened to be illiterate.","The signs over the shops' doors had pictures that indicated what work was done inside. Although more and more people were learning how to read, each artisan still","The signs over the shops' doors had pictures that indicated what work was done inside. Although more and more people were learning how to read, each artisan still",0.12,0.12,0.37,0.37
+The storekeepers stayed in town to run their stores and lived in the rooms behind the rooms.,"The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 1
+
+SENTENCE 3:
+","The storekeepers stayed in town to run their stores and lived in the rooms behind them.
+
+LABEL: 1
+
+SENTENCE 1:
+",0.81,0.81,0.62,0.63
+Jane was disappointed.,"Jane knocked on Susan's door, but there was no answer. She was disappointed.
+
+LABEL: 2
+
+SENTENCE 3:
+Jane","Jane knocked on Susan's door, but there was no answer. She was disappointed.
+
+LABEL: 2
+
+SENTENCE 1:
+Jane",0.27,0.27,0.36,0.38
+Susan was disappointed.,"Jane knocked on Susan's door, but there was no answer. She was disappointed.
+
+LABEL: 1
+
+SENTENCE 3:
+Jane","Jane knocked on Susan's door, but there was no answer. She was disappointed.
+
+SENTENCE 1:
+Jane knocked on Susan's door,",0.27,0.24,0.33,0.65
+"Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that the government official had done anything dishonest.","Bernard, who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything","The government official who had not told Bernard that he was less than 21 when he filed for a homestead claim could take his claim away from him.
+
+LAB",0.92,0.56,0.69,0.43
+The shelf wasn't anchored.,"The sculpture rolled off the shelf because it wasn't anchored.
+
+LABEL: 1
+
+SENTENCE 3:
+The sculpture rolled off the shelf","The sculpture rolled off the shelf because it wasn't anchored.
+
+LABEL: 1
+
+SENTENCE 1:
+The sculpture rolled off the shelf",0.38,0.38,0.63,0.64
+The fish appeared two years ago.,"The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago.
+
+LABEL: 2
+","The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago.
+
+LABEL: 2
+",0.39,0.39,0.4,0.4
+She put the album on a chair without even opening the button.,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album,0.15,0.15,0.39,0.39
+The gang members were trying to run the drug trade in the neighborhood.,"The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.
+
+LABEL: 2
+
+SENTENCE","The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.
+
+LABEL: 2
+
+SENTENCE",0.74,0.74,0.45,0.45
+The tree is too small.,"I can't cut that tree down with that axe; it is too small.
+
+LABEL: 1
+
+SENTENCE 3:
+I can","I can't cut that tree down with that axe; it is too small.
+
+LABEL: 1
+
+SENTENCE 1:
+I can",0.32,0.32,0.26,0.26
+The cloud was gone.,"The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone.
+
+LABEL: 2","The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone.
+
+LABEL: 2",0.3,0.3,0.29,0.29
+We couldn't reach the path.,"We couldn't reach the lake because the path was blocked.
+
+LABEL: 1
+
+SENTENCE 3:
+We couldn't reach the lake","The path to the lake was blocked, so we couldn't reach it.
+
+LABEL: 1
+
+SENTENCE 1:
+The path to",0.44,0.46,0.58,0.27
+Fred and Alice were not enough for the cold in Alaska.,"Fred and Alice had very warm down coats, but they were not enough for the cold in Alaska.
+
+LABEL: 1
+
+SENTENCE 3","Alaska is a state in the United States.
+
+SENTENCE 1:
+The train split of the glue dataset is provided in the following files:",0.67,0.12,0.46,0.19
+Thomson had been travelling for five years.,"Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years.
+
+LABEL: 2
+
+SENTENCE","Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years.
+
+LABEL: 2
+
+SENTENCE",0.52,0.52,0.3,0.3
+The man lifted the boy onto the man's bunk bed.,"The man lifted the boy onto his bunk bed.
+
+LABEL: 1
+
+SENTENCE 3:
+The man lifted the boy onto his bunk","The man lifted the boy onto his bunk bed.
+
+LABEL: 1
+
+SENTENCE 3:
+The man lifted the boy onto his bunk",0.56,0.56,0.6,0.6
+"Dan took the rear seat while Bill claimed the front because Dan's ""Dibs!"" was slow.","Dan took the rear seat because Bill's ""Dibs!"" was slow.
+
+LABEL: 2
+
+SENTENCE 3:
+Bill's","Bill took the rear seat while Dan claimed the front because his ""Dibs!"" was slow.
+
+LABEL: 2
+
+SENTENCE 1",0.61,0.69,0.41,0.61
+The woman held the girl against the girl's will.,"The woman held the girl against her will.
+
+LABEL: 2
+
+SENTENCE 3:
+The woman held the girl against her will.","The woman held the girl against her will.
+
+LABEL: 1
+
+SENTENCE 1:
+The woman held the girl against her will.",0.6,0.6,0.68,0.69
+The pen got full of coffee.,"I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full","I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full",0.17,0.17,0.5,0.5
+It was a major influence on Shakespeare's writing.,"Goethe was a major influence on Shakespeare's writing.
+
+LABEL: 1
+
+SENTENCE 3:
+This book introduced Shakespeare to Goethe","The book introduced Shakespeare to Goethe; it was a major influence on his writing.
+
+LABEL: 1
+
+SENTENCE 1:
+This",0.57,0.5,0.54,0.35
+Ollie's legs ached.,"As Ollie carried Tommy up the long winding steps, his legs ached.
+
+LABEL: 2
+
+SENTENCE 1:
+As","Tommy was a very good boy.
+
+LABEL: 2
+
+SENTENCE 1:
+As Ollie carried Tommy up the long winding",0.29,0.09,0.3,0.28
+Dr. Adams had retired and presented several options for future treatment.,"Dr. Adams informed Kate that she had retired and presented several options for future treatment.
+
+LABEL: 2
+
+SENTENCE 3:
+Dr","Dr. Adams informed Kate that she had retired and presented several options for future treatment.
+
+LABEL: 2
+
+SENTENCE 1:
+Dr",0.71,0.71,0.36,0.35
+The bottle was full.,"I poured water from the bottle into the cup until it was full.
+
+LABEL: 1
+
+SENTENCE 3:
+I poured water from","I poured water from the bottle into the cup until it was full.
+
+LABEL: 1
+
+SENTENCE 3:
+I poured water from",0.32,0.32,0.34,0.34
+"The train was short, so it worked out.","I was late for my meeting, but I made it on time.
+
+LABEL: 1
+
+SENTENCE 3:
+I was late for","I was late for my meeting, but I made it on time.
+
+LABEL: 1
+
+SENTENCE 1:
+I was late for",0.14,0.14,0.24,0.24
+The shepherds ended up looking more like dogs.,"Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like dogs.
+
+LABEL: 1
+
+SENT","Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like dogs.
+
+LABEL: 1
+
+SENT",0.48,0.48,0.41,0.41
+Alice was behaving so strangely.,"Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why she was behaving so strangely.
+
+LABEL:","The party was a success, and the guests were all having a great time.
+
+LABEL: 1
+
+SENTENCE 3:
+The party",0.36,0.08,0.35,0.22
+Emma's place had been taken by an excellent woman as governess.,"Emma's mother had died long ago, and her place had been taken by an excellent woman as governess.
+
+LABEL: 1
+
+S","The governess was a very good woman, and Emma was very fond of her.
+
+LABEL: 1
+
+SENTENCE 1:
+Em",0.71,0.06,0.61,0.41
+She has had the piece since she was a child.,"Mary took out her flute and played one of her favorite pieces. She has had it since she was a child.
+
+LABEL: 1
+
+","Mary took out her flute and played one of her favorite pieces. She has had it since she was a child.
+
+LABEL: 1
+
+",0.48,0.48,0.49,0.49
+Tom reached the top of the stairs.,"Ray threw his schoolbag down to Tom after he reached the top of the stairs.
+
+LABEL: 2
+
+SENTENCE 3:
+Tom","Tom threw his schoolbag down to Ray after he reached the top of the stairs.
+
+LABEL: 2
+
+SENTENCE 1:
+Tom",0.52,0.52,0.33,0.35
+The captain and all Mr. Singer's crew had best stay in the cabin until the work was over.,"The captain and all his crew had best stay in the cabin until the work was over.
+
+LABEL: 1
+
+SENTENCE 3:
+","
+
+SENTENCE 2:
+The captain and all his crew had best stay in the cabin until the work was over.
+
+SENTENCE 1",0.8,0.8,0.64,0.74
+Terpsichore was easier to pronounce.,"The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce.
+","The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce.
+",0.33,0.33,0.54,0.54
+Fred was a remarkable man.,"Fred is the only man still alive who remembers my great-grandfather. He was a remarkable man.
+
+LABEL: 1
+
+SENTENCE","He was a remarkable man.
+
+LABEL: 1
+
+SENTENCE 3:
+He was a remarkable man.
+
+LABEL: 0",0.4,0.38,0.38,0.52
+The detective received the final report on the case.,"The detective was paid after he received the final report on the case.
+
+LABEL: 1
+
+SENTENCE 3:
+The detective was paid","The detective received the final report on the case.
+
+LABEL: 1
+
+SENTENCE 3:
+The detective received the final report on the",0.6,0.6,0.62,0.56
+Lucy had studied so hard.,"Lucy did a lot worse than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 2
+
+SENTENCE","Lucy did a lot worse than her good friend Anna on the test because she had studied so hard.
+
+LABEL: 2
+
+SENTENCE",0.37,0.37,0.38,0.38
+Mark's work was beautiful.,Mark Schmidt was a very successful businessman. He was a very successful businessman because he was a very hard worker. He was a very hard worker because he was a,Mr. Schmidt was a very good man. He was a very good man. He was a very good man. He was a very good man. He was,0.11,0.06,0.44,0.3
+Paul wasn't available.,"Paul tried to call George on the phone, but he wasn't available.
+
+LABEL: 1
+
+SENTENCE 3:
+Paul tried to","George was not available.
+
+SENTENCE 3:
+Paul tried to call George on the phone, but he wasn't available.
+
+SENT",0.33,0.33,0.3,0.51
+"Lily spoke to Donna, breaking Donna's silence.","Donna was Lily's best friend.
+
+LABEL: 1
+
+SENTENCE 3:
+Lily was a very shy person.
+
+","""
+
+LABEL: 1
+
+SENTENCE 1:
+Lily spoke to Donna, breaking her silence.
+
+LABEL: 0
+",0.17,0.57,0.32,0.68
+It did not seem possible that the sun had ever been swept by the winds and snows of that hard winter.,The Dakota prairie lay so warm and bright under the shining sun that it did not seem possible that it had ever been swept by the winds and snows of,The Dakota prairie lay so warm and bright under the shining sun that it did not seem possible that it had ever been swept by the winds and snows of,0.63,0.63,0.51,0.51
+We punished the younger students.,"The older students were bullying the younger ones, so we punished them.
+
+LABEL: 1
+
+SENTENCE 3:
+The older students were","The older students were bullying the younger ones, so we punished them.
+
+LABEL: 1
+
+SENTENCE 3:
+The older students were",0.32,0.32,0.29,0.29
+People are popular because Paul writes so well.,"Paul's books are popular because people can't put them down.
+
+LABEL: 1
+
+SENTENCE 3:
+Paul's books are popular","Paul's books are popular because he writes so well.
+
+LABEL: 1
+
+SENTENCE 1:
+Many people start to read Paul's",0.28,0.41,0.47,0.51
+The toaster Tom had bought from him didn't work.,"Tom was upset with Frank because the toaster he had bought from him didn't work.
+
+LABEL: 1
+
+SENTENCE 3:
+","Tom was upset with Frank because the toaster he had bought from him didn't work.
+
+LABEL: 1
+
+SENTENCE 3:
+",0.6,0.6,0.5,0.5
+I can't see around the pillar.,"I can't see the pillar.
+
+LABEL: 1
+
+SENTENCE 3:
+I can't see the pillar.
+
+LABEL","I can't see the pillar.
+
+LABEL: 1
+
+SENTENCE 1:
+There is a pillar between me and the stage, and",0.5,0.44,0.56,0.42
+Ann had forgotten.,"Mary asked Ann what time the library closes, but she had forgotten.
+
+LABEL: 1
+
+SENTENCE 3:
+Ann asked Mary what","The library closes at 6:00.
+
+SENTENCE 3:
+Mary said, ""I'll be there at 6:00.""
+
+S",0.26,0.0,0.25,0.25
+John hired himself out to Bill to take care of Bill.,"Bill hired himself out to John to take care of him.
+
+LABEL: 2
+
+SENTENCE 3:
+John hired himself out to Bill","Bill hired himself out to John to take care of him.
+
+LABEL: 2
+
+SENTENCE 3:
+John hired himself out to Bill",0.56,0.56,0.53,0.53
+Dad subtracted that amount from the man's wages.,Then Dad figured out how much the man owed the store; to that he added the man's board-bill at the cook-shanty. He subtracted,"The man's board-bill at the cook-shanty was $2.00.
+
+SENTENCE 3:
+The man's board-",0.29,0.22,0.38,0.26
+The scientists began two years ago.,"The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.
+
+LABEL: 2
+","The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.
+
+LABEL: 2
+",0.39,0.39,0.38,0.38
+Emma's mother's education had been managed by an excellent woman as governess.,"Emma's mother had died long ago, and her education had been managed by an excellent woman as governess.
+
+LABEL: 1
+
+S","Emma's mother had died long ago, and her education had been managed by an excellent woman as governess.
+
+LABEL: 1
+
+S",0.72,0.72,0.61,0.61
+Mark couldn't understand him.,"Mark:
+I don't understand what you mean.
+
+LABEL: 2
+
+SENTENCE 1:
+Sid explained his theory to Mark","Mark:
+
+SENTENCE 1:
+Sid explained his theory to Mark but he couldn't understand him.
+
+LABEL: 1
+
+",0.26,0.45,0.38,0.39
+"He had to be the life and soul of a dinner party, with the life and soul there all the time.","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-","I sat there feeling rather like a chappie I'd once read about in a book, who murdered another cove and hid the body under the dining-",0.12,0.12,0.23,0.23
+Jim was so upset.,"Jim comforted Kevin because he was so upset.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim comforted Kevin because he was so","Jim comforted Kevin because he was so upset.
+
+LABEL: 1
+
+SENTENCE 3:
+Jim comforted Kevin because he was so",0.35,0.35,0.51,0.51
+Even one thread uncut will leave the hole too small.,"It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size. The tiniest slip","The first step is to cut the buttonhole.
+
+LABEL: 2
+
+SENTENCE 1:
+The first step is to cut the button",0.05,0.07,0.25,0.41
+John hired himself out to Bill to take care of John.,"Bill hired himself out to John to take care of him.
+
+LABEL: 1
+
+SENTENCE 3:
+John hired himself out to Bill","Bill hired himself out to John to take care of him.
+
+LABEL: 1
+
+SENTENCE 3:
+John hired himself out to Bill",0.56,0.56,0.56,0.56
+Billy is so tall.,"John couldn't see the stage with Billy in front of him because he is so tall.
+
+LABEL: 2
+
+SENTENCE 3:
+","John couldn't see the stage with Billy in front of him because he is so tall.
+
+LABEL: 2
+
+SENTENCE 1:
+",0.32,0.32,0.27,0.27
+"Patting the girl's back, the woman smiled at the girl.","The woman smiled at the girl.
+
+LABEL: 2
+
+SENTENCE 3:
+The woman smiled at the girl.
+
+LABEL","The woman smiled at the girl.
+
+LABEL: 2
+
+SENTENCE 1:
+The woman smiled at the girl.
+
+LABEL",0.57,0.57,0.47,0.46
+I put the knife in the trash.,"I used an old rag to clean the knife, and then I put it in the trash.
+
+LABEL: 1
+
+SENTENCE 3:","I used an old rag to clean the knife, and then I put it in the trash.
+
+LABEL: 1
+
+SENTENCE 1:",0.43,0.43,0.37,0.39
+I carried the newspaper in my backpack to keep the backpack dry.,"I carried the newspaper in my backpack to keep it dry.
+
+LABEL: 1
+
+SENTENCE 3:
+I carried the newspaper in my","I was carrying the newspaper in my backpack to keep it dry.
+
+LABEL: 1
+
+SENTENCE 1:
+I was carrying the newspaper",0.61,0.55,0.46,0.56
+The shelf wasn't level.,"The sculpture rolled off the shelf because it wasn't level.
+
+LABEL: 2
+
+SENTENCE 3:
+The sculpture rolled off the shelf","The sculpture rolled off the shelf because it wasn't level.
+
+LABEL: 2
+
+SENTENCE 1:
+The sculpture rolled off the shelf",0.38,0.38,0.62,0.61
+Madonna couldn't stand her boyfriend.,"Madonna fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 2
+
+SENTENCE 3:
+Madonna fired her trainer","She fired her trainer because she couldn't stand her boyfriend.
+
+LABEL: 2
+
+SENTENCE 1:
+Madonna fired her trainer because",0.48,0.38,0.61,0.56
+Tatyana doubted if Tatyana slept.,"Tatyana was a little girl of about six years old. She was the only child of her parents, and her father was a merchant in a small town","The train was moving slowly, and the wheels were making a sound like the sound of a mill-wheel. The wheels were very loud, and the sound of",0.06,0.0,0.3,0.27
+Sam and Amy are fifteen.,"Amy's parents are unhappy about it, because they are fifteen.
+
+LABEL: 2
+
+SENTENCE 1:
+Sam and Amy are","Amy and Sam are passionately in love, but Amy's parents are unhappy about it, because they are fifteen.
+
+LABEL: 2
+
+",0.33,0.31,0.31,0.31
+Father gave Timmy a sympathetic look.,"When Tommy dropped his ice cream, Timmy giggled, so father gave him a sympathetic look.
+
+LABEL: 1
+
+SENTENCE 3","When Tommy dropped his ice cream, Timmy giggled, so father gave him a sympathetic look.
+
+LABEL: 1
+
+SENTENCE 1",0.4,0.4,0.32,0.33
+Pete should have been more skeptical.,"Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical.
+
+LABEL: 2
+
+SENT","Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical.
+
+LABEL: 2
+
+SENT",0.43,0.43,0.37,0.37
+"Tom said ""Check"" to Ralph as he took Tom's bishop.","Ralph said ""Check"" to Tom as he took his bishop.
+
+LABEL: 1
+
+SENTENCE 3:
+Ralph said ""","Ralph said ""Check"" to Tom as he took his bishop.
+
+LABEL: 1
+
+SENTENCE 3:
+Ralph said """,0.52,0.52,0.53,0.53
+Emma's mother's place had been taken by an excellent woman as governess.,"Emma's mother had died long ago, and her place had been taken by an excellent woman as governess.
+
+LABEL: 2
+
+S","The governess was a very good woman, and Emma was very fond of her.
+
+LABEL: 2
+
+SENTENCE 1:
+Em",0.72,0.06,0.64,0.35
+Sally had such a bad start.,"SENTENCE 1:
+Although they ran at about the same speed, Sue beat Sally because she had such a bad start.
+
+LABEL: 2","SENTENCE 2 MUST EXACTLY match the instance in the dataset.
+
+SENTENCE 2:
+Sue and Sally were both running in the",0.43,0.08,0.4,0.24

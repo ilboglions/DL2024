@@ -6,4 +6,4 @@
 #SBATCH --time=100:00:00
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 
-deepspeed --num_gpus=4 src/train.py --config results/config_opt.toml
+deepspeed --num_gpus=4 src/train.py --config configs/opt.toml

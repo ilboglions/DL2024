@@ -8,4 +8,4 @@
 #SBATCH --mem-per-cpu=4096
 #SBATCH --output="results/time_travel/OLMo_7b/logs.txt"
 
-python src/eval_contamination.py --config results/config_contamination.toml
+python src/eval_contamination.py --config configs/contamination.toml
