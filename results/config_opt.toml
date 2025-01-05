@@ -2,7 +2,8 @@
 model_name='opt'
 model_size='350m'
 cache_dir='models'
-answer_tokens = [' Yes', ' No']
+answer_tokens=[' Yes', ' No']
+prompt='{premise}Question: {hypothesis} Yes or No?'
 
 [model.training]
 output_dir='./results/opt350m'

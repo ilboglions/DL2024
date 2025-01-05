@@ -170,3 +170,4 @@ models/*
 wandb/*
 *.out
 *results/checkpoint-*
+dependencies/
