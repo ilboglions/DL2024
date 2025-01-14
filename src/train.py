@@ -14,7 +14,7 @@ def main(config, local_rank):
 
     timestamp = datetime.now().strftime("%d_%m_%Y_%H:%M:%S")
 
-    if local_rank <= 0:
+    if local_rank <= 0 and config['model']['training']['report_to'] == 'wandb':
         wandb.init(
             project='DeepLearning',  
             name=f"{config['model']['model_name']}_{config['model']['model_size']}_{config['dataset']['train']['dataset_name']}_{config['model']['training']['seed']}_{timestamp}"
